@@ -1,0 +1,3 @@
+# transly settings for this example. The folder and the base locale come from l10n.yaml.
+# These words are the same in some languages on purpose ("Total" in French and Spanish).
+ignore_untranslated: [color, total, productDescription, notificationsSetting, notificationsTitle, appVersion]

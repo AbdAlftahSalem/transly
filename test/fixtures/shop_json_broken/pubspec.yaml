@@ -1,0 +1,4 @@
+name: shop_json_broken
+publish_to: none
+environment:
+  sdk: ^3.0.0

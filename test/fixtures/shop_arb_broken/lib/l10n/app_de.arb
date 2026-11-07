@@ -1,0 +1,393 @@
+{
+  "@@locale": "de",
+  "appTitle": "Souq-Shop",
+  "@appTitle": {
+    "description": "The app name shown in the app bar and the task switcher"
+  },
+  "tagline": "Alles was Sie brauchen, schnell geliefert",
+  "onboardingTitle1": "Entdecken Sie Tausende von Produkten",
+  "onboardingBody1": "Durchsuchen Sie kuratierte Sammlungen vertrauenswürdiger Verkäufer.",
+  "onboardingTitle2": "Schnelle und sichere Lieferung",
+  "onboardingBody2": "Verfolgen Sie jede Bestellung vom Lager bis zu Ihrer Haustür.",
+  "onboardingTitle3": "Bezahlen Sie so, wie Sie möchten",
+  "onboardingBody3": "Karten, Geldbörsen oder Nachnahme.",
+  "signOut": "Abmelden",
+  "signIn": "anmelden",
+  "signUp": "Melden Sie sich an",
+  "signOut": "Abmelden",
+  "email": "E-Mail-Adresse",
+  "password": "Passwort",
+  "forgotPassword": "Passwort vergessen?",
+  "resetPassword": "Passwort zurücksetzen",
+  "createAccount": "Benutzerkonto erstellen",
+  "alreadyHaveAccount": "Sie haben bereits ein Konto?",
+  "noAccount": "Sie haben noch kein Konto?",
+  "continueWithGoogle": "Weiter mit Google",
+  "continueWithApple": "Weiter mit Apple",
+  "termsAgreement": "Wenn Sie fortfahren, stimmen Sie unseren Bedingungen zu",
+  "welcomeBack": "Willkommen zurück, {name}!",
+  "@welcomeBack": {
+    "description": "Shown on the sign-in screen when a returning user opens the app",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Sara"
+      }
+    }
+  },
+  "navHome": "Heim",
+  "navCategories": "Kategorien",
+  "navCart": "Warenkorb",
+  "navOrders": "Bestellungen",
+  "navProfile": "Profil",
+  "homeGreeting": "Schön dich zu sehen, {name}",
+  "@homeGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Sara"
+      }
+    }
+  },
+  "searchHint": "Nach Produkten suchen",
+  "featured": "Hervorgehoben",
+  "newArrivals": "Neuzugänge",
+  "bestSellers": "Bestseller",
+  "seeAll": "Alle anzeigen",
+  "flashSaleEndsIn": "Der Flash-Sale endet in {hours}h {minutes}m",
+  "@flashSaleEndsIn": {
+    "description": "Countdown on the home banner",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "freeShippingOver": "Kostenloser Versand für Bestellungen über {amount}",
+  "@freeShippingOver": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "categoryElectronics": "Elektronik",
+  "categoryFashion": "Mode",
+  "categoryHomeKitchen": "Haus & Küche",
+  "categoryBeauty": "Schönheit",
+  "categorySports": "Sport",
+  "categoryToys": "Spielzeug",
+  "categoryBooks": "Bücher",
+  "categoryGrocery": "Lebensmittelgeschäft",
+  "categoryGarden": "Garten",
+  "categoryAutomotive": "Automobil",
+  "categoryHealth": "Gesundheit",
+  "categoryPets": "Haustiere",
+  "categoryMusic": "Musik",
+  "categoryOfficeSupplies": "Bürobedarf",
+  "categoryJewelry": "Schmuck",
+  "categoryBabyCare": "Babypflege",
+  "addToCart": "In den Warenkorb legen",
+  "buyNow": "Jetzt kaufen",
+  "inStock": "Auf Lager",
+  "outOfStock": "Ausverkauft",
+  "onlyLeft": "{count, plural, =1{Nur noch 1 auf Lager} other{Nur noch {count} auf Lager}}",
+  "@onlyLeft": {
+    "description": "Stock warning on the product page",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reviewsCount": "{count, plural, =0{Noch keine Bewertungen} =1{1 Rezension} other{{count} Bewertungen}}",
+  "@reviewsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ratingOutOfFive": "Mit {rating} von 5 bewertet",
+  "@ratingOutOfFive": {
+    "placeholders": {
+      "rating": {
+        "type": "String"
+      }
+    }
+  },
+  "productDescription": "Beschreibung",
+  "specifications": "Spezifikationen",
+  "size": "Größe",
+  "color": "Farbe",
+  "quantity": "Menge",
+  "shareProduct": "Teilen Sie dieses Produkt",
+  "priceWithDiscount": "{price} statt {oldPrice}",
+  "@priceWithDiscount": {
+    "description": "Price line when a product is on sale",
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "oldPrice": {
+        "type": "String"
+      }
+    }
+  },
+  "cartTitle": "Warenkorb",
+  "cartEmpty": "Ihr Warenkorb ist leer",
+  "cartItems": "{count, plural, =0{Keine Artikel} =1{1 Artikel} other{{count} Artikel}}",
+  "@cartItems": {
+    "description": "Number of items in the cart, in the cart tab badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "subtotal": "Zwischensumme",
+  "shipping": "Versand",
+  "tax": "Steuer",
+  "total": "Gesamt",
+  "removeItem": "Artikel entfernen",
+  "undo": "Rückgängig machen",
+  "applyCoupon": "Gutschein anwenden",
+  "couponApplied": "Gutschein {code} angewendet",
+  "@couponApplied": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "proceedToCheckout": "Gehen Sie zur Kasse",
+  "checkoutTitle": "Kasse",
+  "shippingAddress": "Lieferadresse",
+  "paymentMethod": "Zahlungsart",
+  "cardNumber": "Kartennummer",
+  "expiryDate": "Verfallsdatum",
+  "securityCode": "Sicherheitscode",
+  "placeOrder": "Bestellung aufgeben",
+  "orderPlaced": "Ihre Bestellung wurde aufgegeben",
+  "orderNumber": "Bestellnummer {number}",
+  "@orderNumber": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "estimatedDelivery": "Voraussichtliche Lieferung: {date}",
+  "@estimatedDelivery": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cashOnDelivery": "Nachnahme",
+  "addNewAddress": "Fügen Sie eine neue Adresse hinzu",
+  "deliveryInstructions": "Lieferanweisungen",
+  "paymentFailed": "Die Zahlung ist fehlgeschlagen. Bitte versuchen Sie es mit einer anderen Karte",
+  "ordersTitle": "Meine Bestellungen",
+  "noOrders": "Sie haben noch keine Bestellungen",
+  "orderStatusPending": "Ausstehend",
+  "orderStatusShipped": "Ausgeliefert",
+  "orderStatusDelivered": "Geliefert",
+  "orderStatusCancelled": "Abgesagt",
+  "trackOrder": "Bestellung verfolgen",
+  "orderPlacedOn": "Platziert am {date}",
+  "@orderPlacedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "itemsInOrder": "{count, plural, =1{1 Artikel in dieser Bestellung} other{{count} Artikel in dieser Bestellung}}",
+  "@itemsInOrder": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reorder": "Bestellen Sie erneut",
+  "profileTitle": "Mein Profil",
+  "editProfile": "Profil bearbeiten",
+  "fullName": "Vollständiger Name",
+  "phoneNumber": "Telefonnummer",
+  "addresses": "Gespeicherte Adressen",
+  "wishlist": "Wunschliste",
+  "wishlistCount": "{count, plural, =0{Ihre Wunschliste ist leer} =1{1 gespeicherter Artikel} other{{count} Artikel gespeichert}}",
+  "@wishlistCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "memberSince": "Mitglied seit {year}",
+  "@memberSince": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      }
+    }
+  },
+  "inviteFriends": "Freunde einladen",
+  "inviteReward": "Erhalten Sie {amount} für jeden Freund, der beitritt",
+  "@inviteReward": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsTitle": "Einstellungen",
+  "language": "Sprache",
+  "darkMode": "Dunkler Modus",
+  "notificationsSetting": "Benachrichtigungen",
+  "pushNotifications": "Push-Benachrichtigungen",
+  "emailNotifications": "E-Mail-Benachrichtigungen",
+  "currency": "Währung",
+  "privacyPolicy": "Datenschutzrichtlinie",
+  "termsOfService": "Nutzungsbedingungen",
+  "helpCenter": "Hilfecenter",
+  "contactUs": "Kontaktieren Sie uns",
+  "rateApp": "Bewerten Sie die App",
+  "appVersion": "Version {version}",
+  "@appVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteAccount": "Mein Konto löschen",
+  "notificationsTitle": "Benachrichtigungen",
+  "noNotifications": "Noch keine Benachrichtigungen",
+  "markAllRead": "Alle als gelesen markieren",
+  "newMessagesFrom": "{count, plural, =1{1 neue Nachricht von {name}} other{{count} neue Nachrichten von {name}}}",
+  "@newMessagesFrom": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String",
+        "example": "Sara"
+      }
+    }
+  },
+  "priceDropAlert": "Der Preis von {product} ist gerade gesunken",
+  "@priceDropAlert": {
+    "placeholders": {
+      "product": {
+        "type": "String"
+      }
+    }
+  },
+  "orderShippedNotice": "Bestellung {orderId} ist unterwegs",
+  "@orderShippedNotice": {
+    "placeholders": {
+      "orderId": {
+        "type": "String"
+      }
+    }
+  },
+  "errorGeneric": "Etwas ist schief gelaufen",
+  "errorNetwork": "Keine Internetverbindung",
+  "errorTimeout": "Bei der Anfrage ist eine Zeitüberschreitung aufgetreten",
+  "errorServer": "Unser Server hat Probleme",
+  "errorInvalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+  "errorPasswordTooShort": "Das Passwort muss mindestens {min} Zeichen lang sein",
+  "@errorPasswordTooShort": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "errorRequiredField": "Dieses Feld ist erforderlich",
+  "errorPaymentDeclined": "Ihre Zahlung wurde abgelehnt",
+  "retry": "Versuchen Sie es erneut",
+  "sessionExpired": "Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an",
+  "ok": "OK",
+  "cancel": "Stornieren",
+  "save": "Speichern",
+  "delete": "Löschen",
+  "edit": "Bearbeiten",
+  "close": "Schließen",
+  "confirm": "Bestätigen",
+  "yes": "Ja",
+  "no": "NEIN",
+  "loading": "Laden…",
+  "done": "Erledigt",
+  "back": "Zurück",
+  "next": "Nächste",
+  "skip": "Überspringen",
+  "genderGreeting": "{gender, select, male{Willkommen, Herr {name}} female{Willkommen, Frau {name}} other{Willkommen, {name}}}",
+  "@genderGreeting": {
+    "description": "Greeting that depends on the user's gender",
+    "placeholders": {
+      "gender": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String",
+        "example": "Sara"
+      }
+    }
+  },
+  "itemsSelected": "{count, plural, =0{Nichts ausgewählt} =1{1 ausgewählt} other{{count} ausgewählt}}",
+  "@itemsSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "daysLeft": "{count, plural, =1{Noch 1 Tag übrig} other{Noch {count} Tage übrig}}",
+  "@daysLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "minutesAgo": "{count, plural, =0{Soeben} =1{Vor 1 Minute} other{Vor {count} Minuten}}",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "followers": "{count, plural, =1{1 Follower} other{{count} Follower}}",
+  "@followers": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lastSeen": "Zuletzt gesehen {time}",
+  "@lastSeen": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "monday": "Montag",
+  "tuesday": "Dienstag",
+  "wednesday": "Mittwoch",
+  "thursday": "Donnerstag",
+  "friday": "Freitag",
+  "saturday": "Samstag",
+  "sunday": "Sonntag"
+}

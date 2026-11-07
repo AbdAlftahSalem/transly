@@ -1,0 +1,5 @@
+# transly settings for this example: Arabic is the source language.
+dir: assets/translations
+base: ar
+# Words that are the same in some languages on purpose.
+ignore_untranslated: [cart.total, product.color, product.productDescription, settings.notificationsSetting, notifications.notificationsTitle, settings.appVersion]

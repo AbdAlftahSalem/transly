@@ -1,0 +1,245 @@
+{
+  "app": {
+    "appTitle": "Souq Shop",
+    "tagline": "Everything you need, delivered fast"
+  },
+  "onboarding": {
+    "onboardingTitle1": "Discover thousands of products",
+    "onboardingBody1": "Browse curated collections from trusted sellers.",
+    "onboardingTitle2": "Fast and safe delivery",
+    "onboardingBody2": "Track every order from the warehouse to your door.",
+    "onboardingTitle3": "Pay the way you like",
+    "onboardingBody3": "Cards, wallets or cash on delivery."
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "signOut": "Sign out",
+    "email": "Email address",
+    "password": "Password",
+    "forgotPassword": "Forgot your password?",
+    "resetPassword": "Reset password",
+    "createAccount": "Create account",
+    "alreadyHaveAccount": "Already have an account?",
+    "noAccount": "Don't have an account?",
+    "continueWithGoogle": "Continue with Google",
+    "continueWithApple": "Continue with Apple",
+    "termsAgreement": "By continuing you agree to our terms",
+    "welcomeBack": "Welcome back, {name}!"
+  },
+  "nav": {
+    "navHome": "Home",
+    "navCategories": "Categories",
+    "navCart": "Cart",
+    "navOrders": "Orders",
+    "navProfile": "Profile"
+  },
+  "home": {
+    "homeGreeting": "Good to see you, {name}",
+    "searchHint": "Search for products",
+    "featured": "Featured",
+    "newArrivals": "New arrivals",
+    "bestSellers": "Best sellers",
+    "seeAll": "See all",
+    "flashSaleEndsIn": "Flash sale ends in {hours}h {minutes}m",
+    "freeShippingOver": "Free shipping on orders over {amount}"
+  },
+  "categories": {
+    "categoryElectronics": "Electronics",
+    "categoryFashion": "Fashion",
+    "categoryHomeKitchen": "Home & kitchen",
+    "categoryBeauty": "Beauty",
+    "categorySports": "Sports",
+    "categoryToys": "Toys",
+    "categoryBooks": "Books",
+    "categoryGrocery": "Grocery",
+    "categoryGarden": "Garden",
+    "categoryAutomotive": "Automotive",
+    "categoryHealth": "Health",
+    "categoryPets": "Pets",
+    "categoryMusic": "Music",
+    "categoryOfficeSupplies": "Office supplies",
+    "categoryJewelry": "Jewelry",
+    "categoryBabyCare": "Baby care"
+  },
+  "product": {
+    "addToCart": "Add to cart",
+    "buyNow": "Buy now",
+    "inStock": "In stock",
+    "outOfStock": "Out of stock",
+    "onlyLeft": {
+      "one": "Only 1 left in stock",
+      "other": "Only {} left in stock"
+    },
+    "reviewsCount": {
+      "zero": "No reviews yet",
+      "one": "1 review",
+      "other": "{} reviews"
+    },
+    "ratingOutOfFive": "Rated {rating} out of 5",
+    "productDescription": "Description",
+    "specifications": "Specifications",
+    "size": "Size",
+    "color": "Color",
+    "quantity": "Quantity",
+    "shareProduct": "Share this product",
+    "priceWithDiscount": "{price} instead of {oldPrice}"
+  },
+  "cart": {
+    "cartTitle": "Shopping cart",
+    "cartEmpty": "Your cart is empty",
+    "cartItems": {
+      "zero": "No items",
+      "one": "1 item",
+      "other": "{} items"
+    },
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "tax": "Tax",
+    "total": "Total",
+    "removeItem": "Remove item",
+    "undo": "Undo",
+    "applyCoupon": "Apply coupon",
+    "couponApplied": "Coupon {code} applied",
+    "proceedToCheckout": "Proceed to checkout"
+  },
+  "checkout": {
+    "checkoutTitle": "Checkout",
+    "shippingAddress": "Shipping address",
+    "paymentMethod": "Payment method",
+    "cardNumber": "Card number",
+    "expiryDate": "Expiry date",
+    "placeOrder": "Place order",
+    "orderPlaced": "Your order has been placed",
+    "orderNumber": "Order number {number}",
+    "estimatedDelivery": "Estimated delivery: {date}",
+    "cashOnDelivery": "Cash on delivery",
+    "addNewAddress": "Add a new address",
+    "deliveryInstructions": "Delivery instructions",
+    "paymentFailed": "Payment failed, please try another card"
+  },
+  "orders": {
+    "ordersTitle": "My orders",
+    "noOrders": "You have no orders yet",
+    "orderStatusPending": "Pending",
+    "orderStatusShipped": "Shipped",
+    "orderStatusDelivered": "Delivered",
+    "orderStatusCancelled": "Cancelled",
+    "trackOrder": "Track order",
+    "orderPlacedOn": "Placed on {date}",
+    "itemsInOrder": {
+      "one": "1 item in this order",
+      "other": "{} items in this order"
+    },
+    "reorder": "Order again"
+  },
+  "profile": {
+    "profileTitle": "My profile",
+    "editProfile": "Edit profile",
+    "fullName": "Full name",
+    "phoneNumber": "Phone number",
+    "addresses": "Saved addresses",
+    "wishlist": "Wishlist",
+    "wishlistCount": {
+      "zero": "Your wishlist is empty",
+      "one": "1 saved item",
+      "other": "{} saved items"
+    },
+    "memberSince": "Member since {year}",
+    "inviteFriends": "Invite friends",
+    "inviteReward": "Get {amount} for every friend who joins"
+  },
+  "settings": {
+    "settingsTitle": "Settings",
+    "language": "Language",
+    "darkMode": "Dark mode",
+    "notificationsSetting": "Notifications",
+    "pushNotifications": "Push notifications",
+    "emailNotifications": "Email notifications",
+    "currency": "Currency",
+    "privacyPolicy": "Privacy policy",
+    "termsOfService": "Terms of service",
+    "helpCenter": "Help center",
+    "contactUs": "Contact us",
+    "rateApp": "Rate the app",
+    "appVersion": "Version {version}",
+    "deleteAccount": "Delete my account"
+  },
+  "notifications": {
+    "notificationsTitle": "Notifications",
+    "noNotifications": "No notifications yet",
+    "markAllRead": "Mark all as read",
+    "newMessagesFrom": {
+      "one": "1 new message from {name}",
+      "other": "{} new messages from {name}"
+    },
+    "priceDropAlert": "The price of {product} just dropped",
+    "orderShippedNotice": "Order {orderId} is on its way"
+  },
+  "errors": {
+    "errorGeneric": "Something went wrong",
+    "errorNetwork": "No internet connection",
+    "errorTimeout": "The request timed out",
+    "errorServer": "Our server is having trouble",
+    "errorInvalidEmail": "Please enter a valid email address",
+    "errorPasswordTooShort": "Password must be at least {min} characters",
+    "errorRequiredField": "This field is required",
+    "errorPaymentDeclined": "Your payment was declined",
+    "retry": "Try again",
+    "sessionExpired": "Your session has expired, please sign in again"
+  },
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "loading": "Loading…",
+    "done": "Done",
+    "back": "Back",
+    "next": "Next",
+    "skip": "Skip"
+  },
+  "misc": {
+    "genderGreeting": {
+      "male": "Welcome, Mr. {name}",
+      "female": "Welcome, Ms. {name}",
+      "other": "Welcome, {name}"
+    },
+    "itemsSelected": {
+      "zero": "Nothing selected",
+      "one": "1 selected",
+      "other": "{} selected"
+    },
+    "daysLeft": {
+      "one": "1 day left",
+      "other": "{} days left"
+    },
+    "minutesAgo": {
+      "zero": "Just now",
+      "one": "1 minute ago",
+      "other": "{} minutes ago"
+    },
+    "followers": {
+      "one": "1 follower",
+      "other": "{} followers"
+    },
+    "lastSeen": "Last seen {time}"
+  },
+  "days": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "promo": {
+    "old": "Old promo"
+  }
+}

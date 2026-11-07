@@ -1,0 +1,393 @@
+{
+  "@@locale": "es",
+  "appTitle": "Tienda Zoco",
+  "@appTitle": {
+    "description": "The app name shown in the app bar and the task switcher"
+  },
+  "tagline": "Todo lo que necesitas, entregado rápidamente",
+  "onboardingTitle1": "Descubre miles de productos",
+  "onboardingBody1": "Explore colecciones seleccionadas de vendedores confiables.",
+  "onboardingTitle2": "Entrega rápida y segura",
+  "onboardingBody2": "Realice un seguimiento de cada pedido desde el almacén hasta su puerta.",
+  "onboardingTitle3": "Paga como quieras",
+  "onboardingBody3": "Tarjetas, carteras o contra reembolso.",
+  "signIn": "Iniciar sesión",
+  "signUp": "Inscribirse",
+  "signOut": "desconectar",
+  "email": "Dirección de correo electrónico",
+  "password": "Contraseña",
+  "forgotPassword": "¿Olvidaste tu contraseña?",
+  "resetPassword": "Restablecer contraseña",
+  "createAccount": "Crear una cuenta",
+  "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+  "noAccount": "¿No tienes una cuenta?",
+  "continueWithGoogle": "Continuar con Google",
+  "continueWithApple": "Continuar con Apple",
+  "termsAgreement": "Al continuar aceptas nuestros términos",
+  "welcomeBack": "¡Bienvenido de nuevo, {nombre}!",
+  "@welcomeBack": {
+    "description": "Shown on the sign-in screen when a returning user opens the app",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Sara"
+      }
+    }
+  },
+  "navHome": "Hogar",
+  "navCategories": "Categorías",
+  "navCart": "Carro",
+  "navOrders": "Órdenes",
+  "navProfile": "Perfil",
+  "homeGreeting": "Qué bueno verte, {name}",
+  "@homeGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Sara"
+      }
+    }
+  },
+  "searchHint": "Buscar productos",
+  "featured": "Presentado",
+  "newArrivals": "Recién llegados",
+  "bestSellers": "Los más vendidos",
+  "seeAll": "Ver todo",
+  "flashSaleEndsIn": "La venta flash finaliza en {hours}h {minutes}m",
+  "@flashSaleEndsIn": {
+    "description": "Countdown on the home banner",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "freeShippingOver": "Envío gratuito en pedidos superiores a {amount}",
+  "@freeShippingOver": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "categoryElectronics": "Electrónica",
+  "categoryFashion": "Moda",
+  "categoryHomeKitchen": "Hogar y cocina",
+  "categoryBeauty": "Belleza",
+  "categorySports": "Deportes",
+  "categoryToys": "juguetes",
+  "categoryBooks": "Libros",
+  "categoryGrocery": "Tienda de comestibles",
+  "categoryGarden": "Jardín",
+  "categoryAutomotive": "Automotor",
+  "categoryHealth": "Salud",
+  "categoryPets": "Mascotas",
+  "categoryMusic": "Música",
+  "categoryOfficeSupplies": "Material de oficina",
+  "categoryJewelry": "Joyas",
+  "categoryBabyCare": "cuidado del bebe",
+  "addToCart": "Añadir a la cesta",
+  "buyNow": "Comprar ahora",
+  "inStock": "En stock",
+  "outOfStock": "Agotado",
+  "onlyLeft": "{count, plural, =1{Solo queda 1 en stock} other{Solo queda {count} en stock}}",
+  "@onlyLeft": {
+    "description": "Stock warning on the product page",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reviewsCount": "{count, plural, =0{Aún no hay reseñas} =1{1 reseña} other{{count} reseñas}}",
+  "@reviewsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ratingOutOfFive": "Calificación {rating} de 5",
+  "@ratingOutOfFive": {
+    "placeholders": {
+      "rating": {
+        "type": "String"
+      }
+    }
+  },
+  "productDescription": "Descripción",
+  "specifications": "Presupuesto",
+  "size": "Tamaño",
+  "color": "Color",
+  "quantity": "Cantidad",
+  "shareProduct": "Comparte este producto",
+  "priceWithDiscount": "{price} en lugar de {oldPrice}",
+  "@priceWithDiscount": {
+    "description": "Price line when a product is on sale",
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "oldPrice": {
+        "type": "String"
+      }
+    }
+  },
+  "cartTitle": "Carro de la compra",
+  "cartEmpty": "Tu carrito está vacío",
+  "cartItems": "{count, plural, =0{Sin artículos} =1{1 artículo}}",
+  "@cartItems": {
+    "description": "Number of items in the cart, in the cart tab badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "subtotal": "Total parcial",
+  "shipping": "Envío",
+  "tax": "Impuesto",
+  "total": "Total",
+  "removeItem": "Quitar elemento",
+  "undo": "Deshacer",
+  "applyCoupon": "Aplicar cupón",
+  "couponApplied": "Cupón {code} aplicado",
+  "@couponApplied": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "proceedToCheckout": "Pasar por la caja",
+  "checkoutTitle": "Verificar",
+  "shippingAddress": "Dirección de envío",
+  "paymentMethod": "Método de pago",
+  "cardNumber": "Número de tarjeta",
+  "expiryDate": "Fecha de caducidad",
+  "securityCode": "código de seguridad",
+  "placeOrder": "Realizar pedido",
+  "orderPlaced": "Tu pedido ha sido realizado",
+  "orderNumber": "Número de pedido {number}",
+  "@orderNumber": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "estimatedDelivery": "Entrega estimada: {date}",
+  "@estimatedDelivery": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cashOnDelivery": "Contra reembolso",
+  "addNewAddress": "Agregar una nueva dirección",
+  "deliveryInstructions": "Instrucciones de entrega",
+  "paymentFailed": "Error en el pago, intente con otra tarjeta",
+  "ordersTitle": "mis pedidos",
+  "noOrders": "Aún no tienes pedidos",
+  "orderStatusPending": "Pendiente",
+  "orderStatusShipped": "Enviado",
+  "orderStatusDelivered": "Entregado",
+  "orderStatusCancelled": "Cancelado",
+  "trackOrder": "Seguimiento del pedido",
+  "orderPlacedOn": "Colocado en {date}",
+  "@orderPlacedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "itemsInOrder": "{count, plural, =1{1 artículo en este orden} other{{count} artículos en este orden}}",
+  "@itemsInOrder": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reorder": "Ordene nuevamente",
+  "profileTitle": "mi perfil",
+  "editProfile": "Editar perfil",
+  "fullName": "nombre completo",
+  "phoneNumber": "Número de teléfono",
+  "addresses": "Direcciones guardadas",
+  "wishlist": "Lista de deseos",
+  "wishlistCount": "{count, plural, =0{Tu lista de deseos está vacía} =1{1 artículo guardado} other{{count} elementos guardados}}",
+  "@wishlistCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "memberSince": "Miembro desde {year}",
+  "@memberSince": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      }
+    }
+  },
+  "inviteFriends": "invitar amigos",
+  "inviteReward": "Obtén {amount} por cada amigo que se una",
+  "@inviteReward": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsTitle": "Ajustes",
+  "language": "Idioma",
+  "darkMode": "modo oscuro",
+  "notificationsSetting": "Notificaciones",
+  "pushNotifications": "Notificaciones push",
+  "emailNotifications": "Notificaciones por correo electrónico",
+  "currency": "Divisa",
+  "privacyPolicy": "Política de privacidad",
+  "termsOfService": "Términos de servicio",
+  "helpCenter": "Centro de ayuda",
+  "contactUs": "Contáctenos",
+  "rateApp": "Califica la aplicación",
+  "appVersion": "Versión {version}",
+  "@appVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteAccount": "eliminar mi cuenta",
+  "notificationsTitle": "Notificaciones",
+  "noNotifications": "Aún no hay notificaciones",
+  "markAllRead": "Marcar todo como leído",
+  "newMessagesFrom": "{count, plural, =1{1 mensaje nuevo de {name}} other{{count} mensajes nuevos de {name}}}",
+  "@newMessagesFrom": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String",
+        "example": "Sara"
+      }
+    }
+  },
+  "priceDropAlert": "El precio de {product} acaba de bajar",
+  "@priceDropAlert": {
+    "placeholders": {
+      "product": {
+        "type": "String"
+      }
+    }
+  },
+  "orderShippedNotice": "El pedido {orderId} está en camino",
+  "@orderShippedNotice": {
+    "placeholders": {
+      "orderId": {
+        "type": "String"
+      }
+    }
+  },
+  "errorGeneric": "algo salió mal",
+  "errorNetwork": "Sin conexión a internet",
+  "errorTimeout": "La solicitud expiró",
+  "errorServer": "Nuestro servidor está teniendo problemas",
+  "errorInvalidEmail": "Por favor, introduce una dirección de correo electrónico válida",
+  "errorPasswordTooShort": "La contraseña debe tener al menos {min} caracteres",
+  "@errorPasswordTooShort": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "errorRequiredField": "Este campo es obligatorio",
+  "errorPaymentDeclined": "Su pago fue rechazado",
+  "retry": "Intentar otra vez",
+  "sessionExpired": "Su sesión ha caducado, inicie sesión nuevamente",
+  "ok": "DE ACUERDO",
+  "cancel": "Cancelar",
+  "save": "Ahorrar",
+  "delete": "Borrar",
+  "edit": "Editar",
+  "close": "Cerca",
+  "confirm": "Confirmar",
+  "yes": "Sí",
+  "no": "No",
+  "loading": "Cargando…",
+  "done": "Hecho",
+  "back": "Atrás",
+  "next": "Próximo",
+  "skip": "Saltar",
+  "genderGreeting": "{gender, select, male{Bienvenido, Sr. {name}} female{Bienvenida, Sra. {name}} other{Bienvenido, {name}}}",
+  "@genderGreeting": {
+    "description": "Greeting that depends on the user's gender",
+    "placeholders": {
+      "gender": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String",
+        "example": "Sara"
+      }
+    }
+  },
+  "itemsSelected": "{count, plural, =0{Nada seleccionado} =1{1 seleccionado} other{{count} seleccionado}}",
+  "@itemsSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "daysLeft": "{count, plural, =1{1 día restante} other{Quedan {count} días}}",
+  "@daysLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "minutesAgo": "{count, plural, =0{En este momento} =1{Hace 1 minuto} other{Hace {count} minutos}}",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "followers": "{count, plural, =1{1 seguidor} other{{count} seguidores}}",
+  "@followers": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lastSeen": "Visto por última vez {time}",
+  "@lastSeen": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "monday": "Lunes",
+  "tuesday": "Martes",
+  "wednesday": "Miércoles",
+  "thursday": "Jueves",
+  "friday": "Viernes",
+  "saturday": "Sábado",
+  "sunday": "Domingo",
+  "legacyBanner": "Oferta antigua"
+}

@@ -1,0 +1,392 @@
+{
+  "@@locale": "ar",
+  "appTitle": "متجر سوق",
+  "@appTitle": {
+    "description": "The app name shown in the app bar and the task switcher"
+  },
+  "tagline": "كل ما تحتاجه، يتم تسليمه بسرعة",
+  "onboardingTitle1": "اكتشف آلاف المنتجات",
+  "onboardingBody1": "تصفح المجموعات المنسقة من البائعين الموثوقين.",
+  "onboardingTitle2": "تسليم سريع وآمن",
+  "onboardingBody2": "تتبع كل طلب من المستودع إلى باب منزلك.",
+  "onboardingTitle3": "ادفع بالطريقة التي تريدها",
+  "onboardingBody3": "البطاقات والمحافظ أو الدفع نقدًا عند التسليم.",
+  "signIn": "تسجيل الدخول",
+  "signUp": "اشتراك",
+  "signOut": "تسجيل الخروج",
+  "email": "عنوان البريد الإلكتروني",
+  "password": "كلمة المرور",
+  "forgotPassword": "نسيت كلمة السر؟",
+  "resetPassword": "إعادة تعيين كلمة المرور",
+  "createAccount": "إنشاء حساب",
+  "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
+  "noAccount": "ليس لديك حساب؟",
+  "continueWithGoogle": "تواصل مع جوجل",
+  "continueWithApple": "تواصل مع أبل",
+  "termsAgreement": "من خلال الاستمرار فإنك توافق على شروطنا",
+  "welcomeBack": "مرحبًا بك مرة أخرى، {name}!",
+  "@welcomeBack": {
+    "description": "Shown on the sign-in screen when a returning user opens the app",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Sara"
+      }
+    }
+  },
+  "navHome": "بيت",
+  "navCategories": "فئات",
+  "navCart": "عربة",
+  "navOrders": "طلبات",
+  "navProfile": "حساب تعريفي",
+  "homeGreeting": "يسعدني رؤيتك، {name}",
+  "@homeGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Sara"
+      }
+    }
+  },
+  "searchHint": "البحث عن المنتجات",
+  "featured": "مميز",
+  "newArrivals": "الوافدون الجدد",
+  "bestSellers": "الأكثر مبيعا",
+  "seeAll": "شاهد الكل",
+  "flashSaleEndsIn": "ينتهي العرض السريع خلال {hours} ساعة و{minutes} دقيقة",
+  "@flashSaleEndsIn": {
+    "description": "Countdown on the home banner",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "freeShippingOver": "شحن مجاني للطلبات التي تزيد عن {amount}",
+  "@freeShippingOver": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "categoryElectronics": "إلكترونيات",
+  "categoryFashion": "موضة",
+  "categoryHomeKitchen": "المنزل والمطبخ",
+  "categoryBeauty": "جمال",
+  "categorySports": "الرياضة",
+  "categoryToys": "ألعاب",
+  "categoryBooks": "كتب",
+  "categoryGrocery": "خضروات",
+  "categoryGarden": "حديقة",
+  "categoryAutomotive": "السيارات",
+  "categoryHealth": "صحة",
+  "categoryPets": "حيوانات أليفة",
+  "categoryMusic": "موسيقى",
+  "categoryOfficeSupplies": "اللوازم المكتبية",
+  "categoryJewelry": "مجوهرات",
+  "categoryBabyCare": "رعاية الطفل",
+  "addToCart": "أضف إلى السلة",
+  "buyNow": "اشتري الآن",
+  "inStock": "في الأوراق المالية",
+  "outOfStock": "إنتهى من المخزن",
+  "onlyLeft": "{count, plural, =1{تبقى 1 فقط في المخزون} other{تبقى في المخزون {count} فقط}}",
+  "@onlyLeft": {
+    "description": "Stock warning on the product page",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reviewsCount": "{count, plural, =0{لا توجد تعليقات حتى الآن} =1{1 مراجعة} other{{count} تعليق}}",
+  "@reviewsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ratingOutOfFive": "تم التقييم بـ {rating} من أصل 5",
+  "@ratingOutOfFive": {
+    "placeholders": {
+      "rating": {
+        "type": "String"
+      }
+    }
+  },
+  "productDescription": "وصف",
+  "specifications": "تحديد",
+  "size": "مقاس",
+  "color": "لون",
+  "quantity": "كمية",
+  "shareProduct": "شارك هذا المنتج",
+  "priceWithDiscount": "{price} بدلاً من {oldPrice}",
+  "@priceWithDiscount": {
+    "description": "Price line when a product is on sale",
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "oldPrice": {
+        "type": "String"
+      }
+    }
+  },
+  "cartTitle": "عربة التسوق",
+  "cartEmpty": "سلة التسوق الخاصة بك فارغة",
+  "cartItems": "{count, plural, =0{لا توجد عناصر} =1{1 عنصر} other{{count} عنصر}}",
+  "@cartItems": {
+    "description": "Number of items in the cart, in the cart tab badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "subtotal": "المجموع الفرعي",
+  "shipping": "شحن",
+  "tax": "ضريبة",
+  "total": "المجموع",
+  "removeItem": "إزالة العنصر",
+  "undo": "تراجع",
+  "applyCoupon": "تطبيق القسيمة",
+  "couponApplied": "تم تطبيق القسيمة {code}.",
+  "@couponApplied": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "proceedToCheckout": "الشروع في الخروج",
+  "checkoutTitle": "الدفع",
+  "shippingAddress": "عنوان الشحن",
+  "paymentMethod": "طريقة الدفع",
+  "cardNumber": "رقم البطاقة",
+  "expiryDate": "تاريخ انتهاء الصلاحية",
+  "securityCode": "رمز الأمان",
+  "placeOrder": "وضع النظام",
+  "orderPlaced": "لقد تم وضع طلبك",
+  "orderNumber": "رقم الطلب {number}",
+  "@orderNumber": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "estimatedDelivery": "التسليم المقدر: {date}",
+  "@estimatedDelivery": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cashOnDelivery": "نقدا عند التسليم",
+  "addNewAddress": "أضف عنوانًا جديدًا",
+  "deliveryInstructions": "تعليمات التسليم",
+  "paymentFailed": "فشل الدفع، يرجى تجربة بطاقة أخرى",
+  "ordersTitle": "أوامري",
+  "noOrders": "ليس لديك أي أوامر حتى الآن",
+  "orderStatusPending": "قيد الانتظار",
+  "orderStatusShipped": "تم الشحن",
+  "orderStatusDelivered": "تم التوصيل",
+  "orderStatusCancelled": "تم الإلغاء",
+  "trackOrder": "تتبع الطلب",
+  "orderPlacedOn": "تم وضعه في {date}",
+  "@orderPlacedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "itemsInOrder": "{count, plural, =1{1 عنصر في هذا الترتيب} other{{count} عنصر بهذا الترتيب}}",
+  "@itemsInOrder": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reorder": "اطلب مرة أخرى",
+  "profileTitle": "ملفي الشخصي",
+  "editProfile": "تحرير الملف الشخصي",
+  "fullName": "الاسم الكامل",
+  "phoneNumber": "رقم التليفون",
+  "addresses": "العناوين المحفوظة",
+  "wishlist": "TODO: Wishlist",
+  "wishlistCount": "{count, plural, =0{قائمة أمنياتك فارغة} =1{تم حفظ عنصر واحد} other{{count} العناصر المحفوظة}}",
+  "@wishlistCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "memberSince": "عضو منذ {year}",
+  "@memberSince": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      }
+    }
+  },
+  "inviteFriends": "دعوة الأصدقاء",
+  "inviteReward": "احصل على {amount} مقابل كل صديق ينضم",
+  "@inviteReward": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsTitle": "Settings",
+  "language": "لغة",
+  "darkMode": "الوضع المظلم",
+  "notificationsSetting": "إشعارات",
+  "pushNotifications": "دفع الإخطارات",
+  "emailNotifications": "إشعارات البريد الإلكتروني",
+  "currency": "عملة",
+  "privacyPolicy": "سياسة الخصوصية",
+  "termsOfService": "شروط الخدمة",
+  "helpCenter": "Help center",
+  "contactUs": "",
+  "rateApp": "قيم التطبيق",
+  "appVersion": "الإصدار {version}",
+  "@appVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteAccount": "حذف حسابي",
+  "notificationsTitle": "إشعارات",
+  "noNotifications": "لا توجد إخطارات حتى الآن",
+  "markAllRead": "وضع علامة على الكل كمقروءة",
+  "newMessagesFrom": "{count, plural, =1{رسالة واحدة جديدة من {name}} other{{count} رسائل جديدة من {name}}}",
+  "@newMessagesFrom": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String",
+        "example": "Sara"
+      }
+    }
+  },
+  "priceDropAlert": "انخفض سعر {product} للتو",
+  "@priceDropAlert": {
+    "placeholders": {
+      "product": {
+        "type": "String"
+      }
+    }
+  },
+  "orderShippedNotice": "الطلب {orderId} في طريقه",
+  "@orderShippedNotice": {
+    "placeholders": {
+      "orderId": {
+        "type": "String"
+      }
+    }
+  },
+  "errorGeneric": "حدث خطأ ما",
+  "errorNetwork": "لا يوجد اتصال بالإنترنت",
+  "errorTimeout": "انتهت مهلة الطلب",
+  "errorServer": "الخادم الخاص بنا يواجه مشكلة",
+  "errorInvalidEmail": "يرجى إدخال عنوان بريد إلكتروني صالح",
+  "errorPasswordTooShort": "يجب أن تتكون كلمة المرور من {min} حرفًا على الأقل",
+  "@errorPasswordTooShort": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "errorRequiredField": "هذه الخانة مطلوبه",
+  "errorPaymentDeclined": "تم رفض دفعتك",
+  "retry": "حاول ثانية",
+  "sessionExpired": "لقد انتهت جلستك، يرجى تسجيل الدخول مرة أخرى",
+  "ok": "نعم",
+  "cancel": "يلغي",
+  "save": "يحفظ",
+  "delete": "يمسح",
+  "edit": "يحرر",
+  "close": "يغلق",
+  "confirm": "يتأكد",
+  "yes": "نعم",
+  "no": "لا",
+  "loading": "تحميل…",
+  "done": "منتهي",
+  "back": "خلف",
+  "next": "التالي",
+  "skip": "يتخطى",
+  "genderGreeting": "{gender, select, male{مرحبًا بك سيد {name}} female{مرحبًا بك، سيدة {name}} other{مرحبًا، {name}}}",
+  "@genderGreeting": {
+    "description": "Greeting that depends on the user's gender",
+    "placeholders": {
+      "gender": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String",
+        "example": "Sara"
+      }
+    }
+  },
+  "itemsSelected": "{count, plural, =0{لم يتم تحديد أي شيء} =1{تم تحديد 1} other{تم تحديد {count}.}}",
+  "@itemsSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "daysLeft": "{count, plural, =1{بقي يوم واحد} other{متبقي {count} يوم}}",
+  "@daysLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "minutesAgo": "{count, plural, =0{الآن} =1{منذ دقيقة واحدة} other{منذ {count} دقيقة}}",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "followers": "{count, plural, =1{1 متابع} other{{count} متابع}}",
+  "@followers": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lastSeen": "آخر ظهور {time}",
+  "@lastSeen": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "monday": "الاثنين",
+  "tuesday": "يوم الثلاثاء",
+  "wednesday": "الأربعاء",
+  "thursday": "يوم الخميس",
+  "friday": "جمعة",
+  "saturday": "السبت",
+  "sunday": "الأحد"
+}

@@ -1,0 +1,243 @@
+{
+  "app": {
+    "appTitle": "Tienda Zoco",
+    "tagline": "Todo lo que necesitas, entregado rápidamente",
+  },
+  "onboarding": {
+    "onboardingTitle1": "Descubre miles de productos",
+    "onboardingBody1": "Explore colecciones seleccionadas de vendedores confiables.",
+    "onboardingTitle2": "Entrega rápida y segura",
+    "onboardingBody2": "Realice un seguimiento de cada pedido desde el almacén hasta su puerta.",
+    "onboardingTitle3": "Paga como quieras",
+    "onboardingBody3": "Tarjetas, carteras o contra reembolso."
+  },
+  "auth": {
+    "signIn": "Iniciar sesión",
+    "signUp": "Inscribirse",
+    "signOut": "desconectar",
+    "email": "Dirección de correo electrónico",
+    "password": "Contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "resetPassword": "Restablecer contraseña",
+    "createAccount": "Crear una cuenta",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+    "noAccount": "¿No tienes una cuenta?",
+    "continueWithGoogle": "Continuar con Google",
+    "continueWithApple": "Continuar con Apple",
+    "termsAgreement": "Al continuar aceptas nuestros términos",
+    "welcomeBack": "¡Bienvenido de nuevo, {name}!"
+  },
+  "nav": {
+    "navHome": "Hogar",
+    "navCategories": "Categorías",
+    "navCart": "Carro",
+    "navOrders": "Órdenes",
+    "navProfile": "Perfil"
+  },
+  "home": {
+    "homeGreeting": "Qué bueno verte, {name}",
+    "searchHint": "Buscar productos",
+    "featured": "Presentado",
+    "newArrivals": "Recién llegados",
+    "bestSellers": "Los más vendidos",
+    "seeAll": "Ver todo",
+    "flashSaleEndsIn": "La venta flash finaliza en {hours}h {minutes}m",
+    "freeShippingOver": "Envío gratuito en pedidos superiores a {amount}"
+  },
+  "categories": {
+    "categoryElectronics": "Electrónica",
+    "categoryFashion": "Moda",
+    "categoryHomeKitchen": "Hogar y cocina",
+    "categoryBeauty": "Belleza",
+    "categorySports": "Deportes",
+    "categoryToys": "juguetes",
+    "categoryBooks": "Libros",
+    "categoryGrocery": "Tienda de comestibles",
+    "categoryGarden": "Jardín",
+    "categoryAutomotive": "Automotor",
+    "categoryHealth": "Salud",
+    "categoryPets": "Mascotas",
+    "categoryMusic": "Música",
+    "categoryOfficeSupplies": "Material de oficina",
+    "categoryJewelry": "Joyas",
+    "categoryBabyCare": "cuidado del bebe"
+  },
+  "product": {
+    "addToCart": "Añadir a la cesta",
+    "buyNow": "Comprar ahora",
+    "inStock": "En stock",
+    "outOfStock": "Agotado",
+    "onlyLeft": {
+      "one": "Solo queda 1 en stock",
+      "other": "Solo queda {} en stock"
+    },
+    "reviewsCount": {
+      "zero": "Aún no hay reseñas",
+      "one": "1 reseña",
+      "other": "{} reseñas"
+    },
+    "ratingOutOfFive": "Calificación {rating} de 5",
+    "productDescription": "Descripción",
+    "specifications": "Presupuesto",
+    "size": "Tamaño",
+    "color": "Color",
+    "quantity": "Cantidad",
+    "shareProduct": "Comparte este producto",
+    "priceWithDiscount": "{price} en lugar de {oldPrice}"
+  },
+  "cart": {
+    "cartTitle": "Carro de la compra",
+    "cartEmpty": "Tu carrito está vacío",
+    "cartItems": {
+      "zero": "Sin artículos",
+      "one": "1 artículo",
+      "other": "{} artículos"
+    },
+    "subtotal": "Total parcial",
+    "shipping": "Envío",
+    "tax": "Impuesto",
+    "total": "Total",
+    "removeItem": "Quitar elemento",
+    "undo": "Deshacer",
+    "applyCoupon": "Aplicar cupón",
+    "couponApplied": "Cupón {code} aplicado",
+    "proceedToCheckout": "Pasar por la caja"
+  },
+  "checkout": {
+    "checkoutTitle": "Verificar",
+    "shippingAddress": "Dirección de envío",
+    "paymentMethod": "Método de pago",
+    "cardNumber": "Número de tarjeta",
+    "expiryDate": "Fecha de caducidad",
+    "securityCode": "código de seguridad",
+    "placeOrder": "Realizar pedido",
+    "orderPlaced": "Tu pedido ha sido realizado",
+    "orderNumber": "Número de pedido {number}",
+    "estimatedDelivery": "Entrega estimada: {date}",
+    "cashOnDelivery": "Contra reembolso",
+    "addNewAddress": "Agregar una nueva dirección",
+    "deliveryInstructions": "Instrucciones de entrega",
+    "paymentFailed": "Error en el pago, intente con otra tarjeta"
+  },
+  "orders": {
+    "ordersTitle": "mis pedidos",
+    "noOrders": "Aún no tienes pedidos",
+    "orderStatusPending": "Pendiente",
+    "orderStatusShipped": "Enviado",
+    "orderStatusDelivered": "Entregado",
+    "orderStatusCancelled": "Cancelado",
+    "trackOrder": "Seguimiento del pedido",
+    "orderPlacedOn": "Colocado en {date}",
+    "itemsInOrder": {
+      "one": "1 artículo en este orden",
+      "other": "{} artículos en este orden"
+    },
+    "reorder": "Ordene nuevamente"
+  },
+  "profile": {
+    "profileTitle": "mi perfil",
+    "editProfile": "Editar perfil",
+    "fullName": "nombre completo",
+    "phoneNumber": "Número de teléfono",
+    "addresses": "Direcciones guardadas",
+    "wishlist": "Lista de deseos",
+    "wishlistCount": {
+      "zero": "Tu lista de deseos está vacía",
+      "one": "1 artículo guardado",
+      "other": "{} elementos guardados"
+    },
+    "memberSince": "Miembro desde {year}",
+    "inviteFriends": "invitar amigos",
+    "inviteReward": "Obtén {amount} por cada amigo que se una"
+  },
+  "settings": {
+    "settingsTitle": "Ajustes",
+    "language": "Idioma",
+    "darkMode": "modo oscuro",
+    "notificationsSetting": "Notificaciones",
+    "pushNotifications": "Notificaciones push",
+    "emailNotifications": "Notificaciones por correo electrónico",
+    "currency": "Divisa",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio",
+    "helpCenter": "Centro de ayuda",
+    "contactUs": "Contáctenos",
+    "rateApp": "Califica la aplicación",
+    "appVersion": "Versión {version}",
+    "deleteAccount": "eliminar mi cuenta"
+  },
+  "notifications": {
+    "notificationsTitle": "Notificaciones",
+    "noNotifications": "Aún no hay notificaciones",
+    "markAllRead": "Marcar todo como leído",
+    "newMessagesFrom": {
+      "one": "1 mensaje nuevo de {name}",
+      "other": "{} mensajes nuevos de {name}"
+    },
+    "priceDropAlert": "El precio de {product} acaba de bajar",
+    "orderShippedNotice": "El pedido {orderId} está en camino"
+  },
+  "errors": {
+    "errorGeneric": "algo salió mal",
+    "errorNetwork": "Sin conexión a internet",
+    "errorTimeout": "La solicitud expiró",
+    "errorServer": "Nuestro servidor está teniendo problemas",
+    "errorInvalidEmail": "Por favor, introduce una dirección de correo electrónico válida",
+    "errorPasswordTooShort": "La contraseña debe tener al menos {min} caracteres",
+    "errorRequiredField": "Este campo es obligatorio",
+    "errorPaymentDeclined": "Su pago fue rechazado",
+    "retry": "Intentar otra vez",
+    "sessionExpired": "Su sesión ha caducado, inicie sesión nuevamente"
+  },
+  "common": {
+    "ok": "DE ACUERDO",
+    "cancel": "Cancelar",
+    "save": "Ahorrar",
+    "delete": "Borrar",
+    "edit": "Editar",
+    "close": "Cerca",
+    "confirm": "Confirmar",
+    "yes": "Sí",
+    "no": "No",
+    "loading": "Cargando…",
+    "done": "Hecho",
+    "back": "Atrás",
+    "next": "Próximo",
+    "skip": "Saltar"
+  },
+  "misc": {
+    "genderGreeting": {
+      "male": "Bienvenido, Sr. {name}",
+      "female": "Bienvenida, Sra. {name}",
+      "other": "Bienvenido, {name}"
+    },
+    "itemsSelected": {
+      "zero": "Nada seleccionado",
+      "one": "1 seleccionado",
+      "other": "{} seleccionado"
+    },
+    "daysLeft": {
+      "one": "1 día restante",
+      "other": "Quedan {} días"
+    },
+    "minutesAgo": {
+      "zero": "En este momento",
+      "one": "Hace 1 minuto",
+      "other": "Hace {} minutos"
+    },
+    "followers": {
+      "one": "1 seguidor",
+      "other": "{} seguidores"
+    },
+    "lastSeen": "Visto por última vez {time}"
+  },
+  "days": {
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves",
+    "friday": "Viernes",
+    "saturday": "Sábado",
+    "sunday": "Domingo"
+  }
+}
