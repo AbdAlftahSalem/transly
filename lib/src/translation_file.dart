@@ -49,6 +49,7 @@ class TranslationFile {
     required this.nested,
     required this.indent,
     required this.endsWithNewline,
+    required this.lineEnding,
   });
 
   /// Reads and parses the file at [path].
@@ -126,6 +127,7 @@ class TranslationFile {
       nested: nested,
       indent: indentMatch?.group(1) ?? '  ',
       endsWithNewline: source.isEmpty || source.endsWith('\n'),
+      lineEnding: source.contains('\r\n') ? '\r\n' : '\n',
     );
   }
 
@@ -173,6 +175,9 @@ class TranslationFile {
 
   /// Whether the file ends with a line break.
   final bool endsWithNewline;
+
+  /// `\r\n` when the file uses Windows line endings, else `\n`.
+  final String lineEnding;
 
   /// Whether the file parsed as a JSON object.
   bool get isValid => error == null;

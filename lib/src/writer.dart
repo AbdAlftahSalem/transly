@@ -83,9 +83,10 @@ class FilePlan {
 }
 
 /// Encodes [value] like the source file: same indent, a trailing line break.
-String encodeJson(Object? value, {String indent = '  ', bool trailingNewline = true}) {
-  final text = JsonEncoder.withIndent(indent).convert(value);
-  return trailingNewline ? '$text\n' : text;
+String encodeJson(Object? value, {String indent = '  ', bool trailingNewline = true, String lineEnding = '\n'}) {
+  var text = JsonEncoder.withIndent(indent).convert(value);
+  if (trailingNewline) text = '$text\n';
+  return lineEnding == '\n' ? text : text.replaceAll('\n', lineEnding);
 }
 
 /// Plans `fix` for [target]: every base key in base order, existing values
@@ -102,6 +103,7 @@ FilePlan planFix(
   Map<String, Map<String, Object?>> metadataExtra = const {},
   String? indent,
   bool? trailingNewline,
+  String? lineEnding,
 }) {
   if (!target.isValid) throw StateError('${target.fileName} is not valid JSON; fix it by hand first');
   if (target.duplicates.isNotEmpty) {
@@ -169,8 +171,10 @@ FilePlan planFix(
     final nested = target.entries.isEmpty ? base.nested : target.nested;
     out = nested ? unflatten(ordered) : {for (final e in ordered) e.key.join('.'): e.value};
   }
-  final after =
-      encodeJson(out, indent: indent ?? target.indent, trailingNewline: trailingNewline ?? target.endsWithNewline);
+  final after = encodeJson(out,
+      indent: indent ?? target.indent,
+      trailingNewline: trailingNewline ?? target.endsWithNewline,
+      lineEnding: lineEnding ?? target.lineEnding);
   return FilePlan(
       path: target.path, before: target.source, after: after, added: added, removed: removed, updated: updated);
 }
@@ -186,7 +190,12 @@ FilePlan planNewLocale(TranslationFile base, String locale,
   final seed = base.format == TranslationFormat.arb ? '{"@@locale": ${jsonEncode(locale)}}' : '{}';
   final target = TranslationFile.parse(path, seed, format: base.format);
   final plan = planFix(base, target,
-      fill: fill, overrides: overrides, metadataExtra: metadataExtra, indent: base.indent, trailingNewline: true);
+      fill: fill,
+      overrides: overrides,
+      metadataExtra: metadataExtra,
+      indent: base.indent,
+      trailingNewline: true,
+      lineEnding: base.lineEnding);
   return FilePlan(path: path, before: '', after: plan.after, added: plan.added, created: true);
 }
 

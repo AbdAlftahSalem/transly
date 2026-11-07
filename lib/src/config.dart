@@ -224,10 +224,10 @@ class TranslyProject {
   Iterable<TranslationFile> get targets => files.where((f) => !identical(f, base));
 
   /// The folder relative to the root, for display.
-  String get relativeDir => p.relative(dir, from: root);
+  String get relativeDir => _posix(p.relative(dir, from: root));
 
   /// A path relative to the root, for display.
-  String relative(String path) => p.relative(path, from: root);
+  String relative(String path) => _posix(p.relative(path, from: root));
 
   /// The file for [locale], or null.
   TranslationFile? fileFor(String locale) {
@@ -356,6 +356,8 @@ class TranslyProject {
     });
   }
 }
+
+String _posix(String path) => path.replaceAll(r'\', '/');
 
 /// Matches keys against patterns with `*` and `?` wildcards.
 class KeyMatcher {

@@ -119,6 +119,15 @@ void main() {
       expect(planFix(base, de).after, '{\n    "a": "Ah",\n    "b": "TODO: B"\n}\n');
     });
 
+    test('Windows line endings are kept', () {
+      final base = TranslationFile.parse('a/en.json', '{\r\n  "a": "A",\r\n  "b": "B"\r\n}\r\n');
+      final de = TranslationFile.parse('a/de.json', '{\r\n  "a": "Ah"\r\n}\r\n');
+      expect(planFix(base, de).after, '{\r\n  "a": "Ah",\r\n  "b": "TODO: B"\r\n}\r\n');
+      final complete = TranslationFile.parse('a/de.json', '{\r\n  "a": "Ah",\r\n  "b": "Be"\r\n}\r\n');
+      expect(planFix(base, complete).changed, isFalse);
+      expect(planNewLocale(base, 'fr').after, contains('\r\n'));
+    });
+
     test('non-string values survive', () {
       final base = TranslationFile.parse('a/en.json', '{"list": ["a", "b"], "n": 3, "t": "T"}');
       final de = TranslationFile.parse('a/de.json', '{"t": "Te"}');

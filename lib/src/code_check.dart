@@ -359,7 +359,7 @@ String? _display(TranslationFile base, List<DartSource> sources) {
   if (sources.isEmpty) return base.path;
   final first = sources.first;
   final root = first.path.substring(0, first.path.length - first.displayPath.length);
-  return p.isWithin(root, base.path) ? p.relative(base.path, from: root) : base.path;
+  return (p.isWithin(root, base.path) ? p.relative(base.path, from: root) : base.path).replaceAll(r'\', '/');
 }
 
 /// The base keys that [sources] may reference, by any of: an explicit

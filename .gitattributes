@@ -1,0 +1,3 @@
+# Keep fixtures and examples byte-identical on every OS (the tests compare exact text).
+* text=auto eol=lf
+*.png binary
