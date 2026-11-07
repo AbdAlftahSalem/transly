@@ -1,0 +1,13 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Boutique",
+  "welcome": "Bon retour, {name} !",
+  "cartItems": "{count, plural, =0{Votre panier est vide} one{1 article}}",
+  "greeting": "{gender, select, male{Bonjour M. {name}} female{Bonjour Mme {name}} other{Bonjour {name}}}",
+  "settings": "Paramètres",
+  "signOut": "Se déconnecter",
+  "signOut": "Déconnexion",
+  "deleteAccount": "Supprimer le compte",
+  "ok": "OK",
+  "unusedBanner": ""
+}

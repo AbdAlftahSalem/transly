@@ -1,0 +1,3 @@
+dir: assets/translations
+base: ar
+ignore_untranslated: [brand]

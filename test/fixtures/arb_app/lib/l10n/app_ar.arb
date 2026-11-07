@@ -1,0 +1,12 @@
+{
+  "@@locale": "ar",
+  "appTitle": "المتجر",
+  "welcome": "أهلاً بعودتك!",
+  "cartItems": "{count, plural, =0{سلتك فارغة} =1{منتج واحد في سلتك} two{منتجان في سلتك} few{{count} منتجات في سلتك} many{{count} منتجًا في سلتك} other{{count} منتج في سلتك}}",
+  "greeting": "{gender, select, male{مرحباً أستاذ {name}} female{مرحباً أستاذة {name}} other{مرحباً {name}}}",
+  "settings": "Settings",
+  "signOut": "TODO: Sign out",
+  "ok": "حسناً",
+  "unusedBanner": "عرض محدود",
+  "oldKey": "قديم"
+}

@@ -1,0 +1,39 @@
+{
+  "@@locale": "en",
+  "appTitle": "Shop",
+  "@appTitle": {
+    "description": "The app title"
+  },
+  "welcome": "Welcome back, {name}!",
+  "@welcome": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "cartItems": "{count, plural, =0{Your cart is empty} =1{1 item in your cart} other{{count} items in your cart}}",
+  "@cartItems": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "greeting": "{gender, select, male{Hello Mr. {name}} female{Hello Ms. {name}} other{Hello {name}}}",
+  "@greeting": {
+    "placeholders": {
+      "gender": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settings": "Settings",
+  "signOut": "Sign out",
+  "deleteAccount": "Delete account",
+  "ok": "OK",
+  "unusedBanner": "Limited offer"
+}

@@ -1,0 +1,22 @@
+{
+  "home": {
+    "title": "Home",
+    "welcome": "Hi {username}"
+  },
+  "cart": {
+    "items": {
+      "zero": "Cart is empty",
+      "one": "One product",
+      "other": "{} products"
+    },
+    "checkout": "Checkout"
+  },
+  "errors": {
+    "network": "Network error",
+    "server": "Server error"
+  },
+  "about": "حول التطبيق",
+  "brand": "Wasl Shop",
+  "unused_tip": "Unused tip",
+  "legacy": "Old text"
+}
