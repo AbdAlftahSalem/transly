@@ -1,0 +1,23 @@
+name: transly
+description: >-
+  Find and fix translation problems in Flutter apps: missing keys, broken placeholders, unused keys, hardcoded strings, free auto-translate. ARB and JSON.
+version: 0.1.0
+homepage: https://github.com/AbdAlftahSalem/transly
+repository: https://github.com/AbdAlftahSalem/transly
+issue_tracker: https://github.com/AbdAlftahSalem/transly/issues
+topics: [l10n, i18n, arb, flutter, cli]
+
+environment:
+  sdk: ^3.0.0
+
+executables:
+  transly:
+
+dependencies:
+  args: ^2.4.2
+  path: ^1.8.3
+  yaml: ^3.1.2
+
+dev_dependencies:
+  lints: ">=3.0.0 <7.0.0"
+  test: ^1.24.0

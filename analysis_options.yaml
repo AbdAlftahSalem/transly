@@ -1,0 +1,17 @@
+include: package:lints/recommended.yaml
+
+formatter:
+  page_width: 120
+
+analyzer:
+  exclude:
+    - example/**
+    - test/fixtures/**
+    - build/**
+
+linter:
+  rules:
+    - public_member_api_docs
+    - prefer_single_quotes
+    - always_declare_return_types
+    - avoid_print
