@@ -6,6 +6,13 @@ homepage: https://github.com/AbdAlftahSalem/transly
 repository: https://github.com/AbdAlftahSalem/transly
 issue_tracker: https://github.com/AbdAlftahSalem/transly/issues
 topics: [l10n, i18n, arb, flutter, cli]
+screenshots:
+  - description: transly check on a Flutter app with 5 languages and planted problems.
+    path: doc/screenshots/check_arb.png
+  - description: Free machine translation from English to Arabic with placeholders and plurals kept.
+    path: doc/screenshots/translate_en_ar.png
+  - description: transly fix --dry-run adds missing keys in base order without losing data.
+    path: doc/screenshots/fix_dry_run.png
 
 environment:
   sdk: ^3.0.0

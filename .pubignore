@@ -1,0 +1,7 @@
+# Not needed by users of the package (tests, fixtures and their Dart files).
+test/
+dart_test.yaml
+.github/
+doc/screenshots/raw/
+example/*/build/
+example/*/.dart_tool/

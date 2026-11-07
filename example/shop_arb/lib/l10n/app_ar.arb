@@ -156,8 +156,7 @@
       "minutes": {
         "type": "int"
       }
-    },
-    "x-translated": "auto"
+    }
   },
   "freeShippingOver": "شحن مجاني للطلبات التي تزيد عن {amount}",
   "@freeShippingOver": {
