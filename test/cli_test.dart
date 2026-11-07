@@ -141,7 +141,10 @@ void main() {
     final review = jsonDecode(read(root, reviewFileName)) as Map<String, dynamic>;
     expect((review['locales'] as Map)['ar'], contains('deleteAccount'));
     final (_, check, _) = await cli(['check', '-C', root, '--no-code']);
-    expect(check, contains('needs-review'));
+    expect(check, contains('2 machine translations are waiting'));
+    expect(check, isNot(contains('needs-review')));
+    final (_, listed, _) = await cli(['check', '-C', root, '--no-code', '--review']);
+    expect(listed, contains('needs-review'));
   });
 
   test('translate --dry-run and new locale with plurals', () async {

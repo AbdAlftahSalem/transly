@@ -73,7 +73,8 @@ class LocaleReport {
   int get warnings => issues.where((i) => i.severity == Severity.warning).length;
 }
 
-final RegExp _todo = RegExp(r'^\s*(TODO|FIXME|TBD)\b', caseSensitive: false);
+// Upper case only: Spanish "Todo lo que necesitas" is a real translation.
+final RegExp _todo = RegExp(r'^\s*(TODO|FIXME|TBD)\b');
 final RegExp _letter = RegExp(r'\p{L}', unicode: true);
 final RegExp _acronym = RegExp(r'^[\p{Lu}0-9_\-\s.&/+]+$', unicode: true);
 final RegExp _urlOrEmail = RegExp(r'^(https?://|www\.)\S+$|^\S+@\S+\.\S+$');

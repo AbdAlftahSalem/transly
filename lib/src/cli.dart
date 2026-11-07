@@ -225,6 +225,7 @@ class _CheckCommand extends _Base {
       ..addFlag('unused', defaultsTo: true, help: 'Report base keys no Dart file references (with --code).')
       ..addFlag('hardcoded', defaultsTo: true, help: 'Report user-facing strings that are not localized (with --code).')
       ..addFlag('identical', defaultsTo: true, help: 'Report values that are the same as the base text.')
+      ..addFlag('review', negatable: false, help: 'List every machine translation awaiting review (default: a count).')
       ..addMultiOption('ignore-key', help: 'Skip a key (wildcards * and ? work). Repeatable.')
       ..addOption('fail-on',
           allowed: ['error', 'warning', 'never'], defaultsTo: 'error', help: 'With --ci: which findings fail the run.');
@@ -297,8 +298,10 @@ class _CheckCommand extends _Base {
     }
     out.writeln();
     out.writeln(localeTable(reports, ansi));
+    final listReview = a['review'] as bool;
     for (final r in reports) {
-      section('${ansi.bold(r.locale)}  ${ansi.gray(pr.relative(r.file.path))}', r.issues);
+      final shown = listReview ? r.issues : r.issues.where((i) => i.kind != IssueKind.needsReview).toList();
+      section('${ansi.bold(r.locale)}  ${ansi.gray(pr.relative(r.file.path))}', shown);
     }
     if (code != null) {
       final unknown =
@@ -312,6 +315,10 @@ class _CheckCommand extends _Base {
     }
     out.writeln();
     out.writeln(summaryLine(all, ansi));
+    if (c.infos > 0 && !listReview) {
+      out.writeln(ansi.gray('${c.infos} machine translations are waiting for a person to check them '
+          '("$toolName check --review" lists them).'));
+    }
     final missing = reports.fold<int>(0, (s, r) => s + r.count(IssueKind.missingKey));
     if (missing > 0) {
       out.writeln(ansi.gray(

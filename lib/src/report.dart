@@ -82,7 +82,7 @@ String severityIcon(Severity s, Ansi a) => switch (s) {
 
 /// A 10-cell coverage bar.
 String coverageBar(double coverage, Ansi a) {
-  final filled = (coverage * 10).round().clamp(0, 10);
+  final filled = coverage >= 1 ? 10 : (coverage * 10).floor().clamp(0, 9);
   final bar = '█' * filled;
   final rest = '░' * (10 - filled);
   final color = coverage >= 0.999 ? a.green : (coverage >= 0.8 ? a.yellow : a.red);
@@ -92,10 +92,20 @@ String coverageBar(double coverage, Ansi a) {
 /// The per-locale summary table.
 String localeTable(List<LocaleReport> reports, Ansi a) {
   String n(int v, String Function(String) color) => v == 0 ? a.gray('–') : color('$v');
+  final review = reports.any((r) => r.count(IssueKind.needsReview) > 0);
   final rows = <List<String>>[
-    ['Locale', 'File', 'Keys', 'Missing', 'Extra', 'Empty/TODO', 'Same as base', 'Placeholders', 'Coverage']
-        .map(a.bold)
-        .toList(),
+    [
+      'Locale',
+      'File',
+      'Keys',
+      'Missing',
+      'Extra',
+      'Empty/TODO',
+      'Same as base',
+      'Placeholders',
+      if (review) 'To review',
+      'Coverage',
+    ].map(a.bold).toList(),
   ];
   for (final r in reports) {
     final keys = r.file.entries.length;
@@ -108,12 +118,13 @@ String localeTable(List<LocaleReport> reports, Ansi a) {
       n(r.countAny(const [IssueKind.emptyValue, IssueKind.todoValue]), a.yellow),
       n(r.count(IssueKind.untranslated), a.yellow),
       n(r.countAny(const [IssueKind.placeholderMismatch, IssueKind.icuSyntax]), a.red),
+      if (review) n(r.count(IssueKind.needsReview), a.blue),
       r.file.isValid
           ? '${coverageBar(r.coverage, a)} ${pad('${(r.coverage * 100).floor()}%', 4, right: true)}'
           : a.red('invalid JSON'),
     ]);
   }
-  return table(rows, right: const {2, 3, 4, 5, 6, 7});
+  return table(rows, right: {2, 3, 4, 5, 6, 7, if (review) 8});
 }
 
 /// One issue as a line: icon, kind, where, message.
