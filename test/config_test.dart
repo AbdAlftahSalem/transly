@@ -10,7 +10,7 @@ void main() {
   test('l10n.yaml gives the folder and the template as base', () {
     final pr = TranslyProject.load(root: copyFixture('arb_app'));
     expect(pr.dirSource, 'l10n.yaml');
-    expect(pr.relativeDir, p.join('lib', 'l10n'));
+    expect(pr.relativeDir, 'lib/l10n');
     expect(pr.base.locale, 'en');
     expect(pr.baseSource, 'l10n.yaml template');
     expect(pr.format, TranslationFormat.arb);
@@ -38,7 +38,7 @@ void main() {
     write(root, 'assets/lang/es.json', '{"a": "A es"}');
     final pr = TranslyProject.load(root: root);
     expect(pr.dirSource, 'found');
-    expect(pr.relativeDir, p.join('assets', 'lang'));
+    expect(pr.relativeDir, 'assets/lang');
     expect(pr.base.locale, 'en');
   });
 
