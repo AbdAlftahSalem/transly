@@ -1,0 +1,838 @@
+{
+  "@@locale": "ar",
+  "appTitle": "متجر سوق",
+  "@appTitle": {
+    "description": "The app name shown in the app bar and the task switcher",
+    "x-translated": "auto"
+  },
+  "tagline": "كل ما تحتاجه، يتم تسليمه بسرعة",
+  "@tagline": {
+    "x-translated": "auto"
+  },
+  "onboardingTitle1": "اكتشف آلاف المنتجات",
+  "@onboardingTitle1": {
+    "x-translated": "auto"
+  },
+  "onboardingBody1": "تصفح المجموعات المنسقة من البائعين الموثوقين.",
+  "@onboardingBody1": {
+    "x-translated": "auto"
+  },
+  "onboardingTitle2": "تسليم سريع وآمن",
+  "@onboardingTitle2": {
+    "x-translated": "auto"
+  },
+  "onboardingBody2": "تتبع كل طلب من المستودع إلى باب منزلك.",
+  "@onboardingBody2": {
+    "x-translated": "auto"
+  },
+  "onboardingTitle3": "ادفع بالطريقة التي تريدها",
+  "@onboardingTitle3": {
+    "x-translated": "auto"
+  },
+  "onboardingBody3": "البطاقات والمحافظ أو الدفع نقدًا عند التسليم.",
+  "@onboardingBody3": {
+    "x-translated": "auto"
+  },
+  "signIn": "تسجيل الدخول",
+  "@signIn": {
+    "x-translated": "auto"
+  },
+  "signUp": "اشتراك",
+  "@signUp": {
+    "x-translated": "auto"
+  },
+  "signOut": "تسجيل الخروج",
+  "@signOut": {
+    "x-translated": "auto"
+  },
+  "email": "عنوان البريد الإلكتروني",
+  "@email": {
+    "x-translated": "auto"
+  },
+  "password": "كلمة المرور",
+  "@password": {
+    "x-translated": "auto"
+  },
+  "forgotPassword": "نسيت كلمة السر؟",
+  "@forgotPassword": {
+    "x-translated": "auto"
+  },
+  "resetPassword": "إعادة تعيين كلمة المرور",
+  "@resetPassword": {
+    "x-translated": "auto"
+  },
+  "createAccount": "إنشاء حساب",
+  "@createAccount": {
+    "x-translated": "auto"
+  },
+  "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
+  "@alreadyHaveAccount": {
+    "x-translated": "auto"
+  },
+  "noAccount": "ليس لديك حساب؟",
+  "@noAccount": {
+    "x-translated": "auto"
+  },
+  "continueWithGoogle": "تواصل مع جوجل",
+  "@continueWithGoogle": {
+    "x-translated": "auto"
+  },
+  "continueWithApple": "تواصل مع أبل",
+  "@continueWithApple": {
+    "x-translated": "auto"
+  },
+  "termsAgreement": "من خلال الاستمرار فإنك توافق على شروطنا",
+  "@termsAgreement": {
+    "x-translated": "auto"
+  },
+  "welcomeBack": "مرحبًا بك مرة أخرى، {name}!",
+  "@welcomeBack": {
+    "description": "Shown on the sign-in screen when a returning user opens the app",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Sara"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "navHome": "بيت",
+  "@navHome": {
+    "x-translated": "auto"
+  },
+  "navCategories": "فئات",
+  "@navCategories": {
+    "x-translated": "auto"
+  },
+  "navCart": "عربة",
+  "@navCart": {
+    "x-translated": "auto"
+  },
+  "navOrders": "طلبات",
+  "@navOrders": {
+    "x-translated": "auto"
+  },
+  "navProfile": "حساب تعريفي",
+  "@navProfile": {
+    "x-translated": "auto"
+  },
+  "homeGreeting": "يسعدني رؤيتك، {name}",
+  "@homeGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Sara"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "searchHint": "البحث عن المنتجات",
+  "@searchHint": {
+    "x-translated": "auto"
+  },
+  "featured": "مميز",
+  "@featured": {
+    "x-translated": "auto"
+  },
+  "newArrivals": "الوافدون الجدد",
+  "@newArrivals": {
+    "x-translated": "auto"
+  },
+  "bestSellers": "الأكثر مبيعا",
+  "@bestSellers": {
+    "x-translated": "auto"
+  },
+  "seeAll": "شاهد الكل",
+  "@seeAll": {
+    "x-translated": "auto"
+  },
+  "flashSaleEndsIn": "ينتهي العرض السريع خلال {hours} ساعة و{minutes} دقيقة",
+  "@flashSaleEndsIn": {
+    "description": "Countdown on the home banner",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "freeShippingOver": "شحن مجاني للطلبات التي تزيد عن {amount}",
+  "@freeShippingOver": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "categoryElectronics": "إلكترونيات",
+  "@categoryElectronics": {
+    "x-translated": "auto"
+  },
+  "categoryFashion": "موضة",
+  "@categoryFashion": {
+    "x-translated": "auto"
+  },
+  "categoryHomeKitchen": "المنزل والمطبخ",
+  "@categoryHomeKitchen": {
+    "x-translated": "auto"
+  },
+  "categoryBeauty": "جمال",
+  "@categoryBeauty": {
+    "x-translated": "auto"
+  },
+  "categorySports": "الرياضة",
+  "@categorySports": {
+    "x-translated": "auto"
+  },
+  "categoryToys": "ألعاب",
+  "@categoryToys": {
+    "x-translated": "auto"
+  },
+  "categoryBooks": "كتب",
+  "@categoryBooks": {
+    "x-translated": "auto"
+  },
+  "categoryGrocery": "خضروات",
+  "@categoryGrocery": {
+    "x-translated": "auto"
+  },
+  "categoryGarden": "حديقة",
+  "@categoryGarden": {
+    "x-translated": "auto"
+  },
+  "categoryAutomotive": "السيارات",
+  "@categoryAutomotive": {
+    "x-translated": "auto"
+  },
+  "categoryHealth": "صحة",
+  "@categoryHealth": {
+    "x-translated": "auto"
+  },
+  "categoryPets": "حيوانات أليفة",
+  "@categoryPets": {
+    "x-translated": "auto"
+  },
+  "categoryMusic": "موسيقى",
+  "@categoryMusic": {
+    "x-translated": "auto"
+  },
+  "categoryOfficeSupplies": "اللوازم المكتبية",
+  "@categoryOfficeSupplies": {
+    "x-translated": "auto"
+  },
+  "categoryJewelry": "مجوهرات",
+  "@categoryJewelry": {
+    "x-translated": "auto"
+  },
+  "categoryBabyCare": "رعاية الطفل",
+  "@categoryBabyCare": {
+    "x-translated": "auto"
+  },
+  "addToCart": "أضف إلى السلة",
+  "@addToCart": {
+    "x-translated": "auto"
+  },
+  "buyNow": "اشتري الآن",
+  "@buyNow": {
+    "x-translated": "auto"
+  },
+  "inStock": "في الأوراق المالية",
+  "@inStock": {
+    "x-translated": "auto"
+  },
+  "outOfStock": "إنتهى من المخزن",
+  "@outOfStock": {
+    "x-translated": "auto"
+  },
+  "onlyLeft": "{count, plural, =1{تبقى 1 فقط في المخزون} other{تبقى في المخزون {count} فقط}}",
+  "@onlyLeft": {
+    "description": "Stock warning on the product page",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "reviewsCount": "{count, plural, =0{لا توجد تعليقات حتى الآن} =1{1 مراجعة} other{{count} تعليق}}",
+  "@reviewsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "ratingOutOfFive": "تم التقييم بـ {rating} من أصل 5",
+  "@ratingOutOfFive": {
+    "placeholders": {
+      "rating": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "productDescription": "وصف",
+  "@productDescription": {
+    "x-translated": "auto"
+  },
+  "specifications": "تحديد",
+  "@specifications": {
+    "x-translated": "auto"
+  },
+  "size": "مقاس",
+  "@size": {
+    "x-translated": "auto"
+  },
+  "color": "لون",
+  "@color": {
+    "x-translated": "auto"
+  },
+  "quantity": "كمية",
+  "@quantity": {
+    "x-translated": "auto"
+  },
+  "shareProduct": "شارك هذا المنتج",
+  "@shareProduct": {
+    "x-translated": "auto"
+  },
+  "priceWithDiscount": "{price} بدلاً من {oldPrice}",
+  "@priceWithDiscount": {
+    "description": "Price line when a product is on sale",
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "oldPrice": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "cartTitle": "عربة التسوق",
+  "@cartTitle": {
+    "x-translated": "auto"
+  },
+  "cartEmpty": "سلة التسوق الخاصة بك فارغة",
+  "@cartEmpty": {
+    "x-translated": "auto"
+  },
+  "cartItems": "{count, plural, =0{لا توجد عناصر} =1{1 عنصر} other{{count} عنصر}}",
+  "@cartItems": {
+    "description": "Number of items in the cart, in the cart tab badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "subtotal": "المجموع الفرعي",
+  "@subtotal": {
+    "x-translated": "auto"
+  },
+  "shipping": "شحن",
+  "@shipping": {
+    "x-translated": "auto"
+  },
+  "tax": "ضريبة",
+  "@tax": {
+    "x-translated": "auto"
+  },
+  "total": "المجموع",
+  "@total": {
+    "x-translated": "auto"
+  },
+  "removeItem": "إزالة العنصر",
+  "@removeItem": {
+    "x-translated": "auto"
+  },
+  "undo": "تراجع",
+  "@undo": {
+    "x-translated": "auto"
+  },
+  "applyCoupon": "تطبيق القسيمة",
+  "@applyCoupon": {
+    "x-translated": "auto"
+  },
+  "couponApplied": "تم تطبيق القسيمة {code}.",
+  "@couponApplied": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "proceedToCheckout": "الشروع في الخروج",
+  "@proceedToCheckout": {
+    "x-translated": "auto"
+  },
+  "checkoutTitle": "الدفع",
+  "@checkoutTitle": {
+    "x-translated": "auto"
+  },
+  "shippingAddress": "عنوان الشحن",
+  "@shippingAddress": {
+    "x-translated": "auto"
+  },
+  "paymentMethod": "طريقة الدفع",
+  "@paymentMethod": {
+    "x-translated": "auto"
+  },
+  "cardNumber": "رقم البطاقة",
+  "@cardNumber": {
+    "x-translated": "auto"
+  },
+  "expiryDate": "تاريخ انتهاء الصلاحية",
+  "@expiryDate": {
+    "x-translated": "auto"
+  },
+  "securityCode": "رمز الأمان",
+  "@securityCode": {
+    "x-translated": "auto"
+  },
+  "placeOrder": "وضع النظام",
+  "@placeOrder": {
+    "x-translated": "auto"
+  },
+  "orderPlaced": "لقد تم وضع طلبك",
+  "@orderPlaced": {
+    "x-translated": "auto"
+  },
+  "orderNumber": "رقم الطلب {number}",
+  "@orderNumber": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "estimatedDelivery": "التسليم المقدر: {date}",
+  "@estimatedDelivery": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "cashOnDelivery": "نقدا عند التسليم",
+  "@cashOnDelivery": {
+    "x-translated": "auto"
+  },
+  "addNewAddress": "أضف عنوانًا جديدًا",
+  "@addNewAddress": {
+    "x-translated": "auto"
+  },
+  "deliveryInstructions": "تعليمات التسليم",
+  "@deliveryInstructions": {
+    "x-translated": "auto"
+  },
+  "paymentFailed": "فشل الدفع، يرجى تجربة بطاقة أخرى",
+  "@paymentFailed": {
+    "x-translated": "auto"
+  },
+  "ordersTitle": "أوامري",
+  "@ordersTitle": {
+    "x-translated": "auto"
+  },
+  "noOrders": "ليس لديك أي أوامر حتى الآن",
+  "@noOrders": {
+    "x-translated": "auto"
+  },
+  "orderStatusPending": "قيد الانتظار",
+  "@orderStatusPending": {
+    "x-translated": "auto"
+  },
+  "orderStatusShipped": "تم الشحن",
+  "@orderStatusShipped": {
+    "x-translated": "auto"
+  },
+  "orderStatusDelivered": "تم التوصيل",
+  "@orderStatusDelivered": {
+    "x-translated": "auto"
+  },
+  "orderStatusCancelled": "تم الإلغاء",
+  "@orderStatusCancelled": {
+    "x-translated": "auto"
+  },
+  "trackOrder": "تتبع الطلب",
+  "@trackOrder": {
+    "x-translated": "auto"
+  },
+  "orderPlacedOn": "تم وضعه في {date}",
+  "@orderPlacedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "itemsInOrder": "{count, plural, =1{1 عنصر في هذا الترتيب} other{{count} عنصر بهذا الترتيب}}",
+  "@itemsInOrder": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "reorder": "اطلب مرة أخرى",
+  "@reorder": {
+    "x-translated": "auto"
+  },
+  "profileTitle": "ملفي الشخصي",
+  "@profileTitle": {
+    "x-translated": "auto"
+  },
+  "editProfile": "تحرير الملف الشخصي",
+  "@editProfile": {
+    "x-translated": "auto"
+  },
+  "fullName": "الاسم الكامل",
+  "@fullName": {
+    "x-translated": "auto"
+  },
+  "phoneNumber": "رقم التليفون",
+  "@phoneNumber": {
+    "x-translated": "auto"
+  },
+  "addresses": "العناوين المحفوظة",
+  "@addresses": {
+    "x-translated": "auto"
+  },
+  "wishlist": "قائمة الرغبات",
+  "@wishlist": {
+    "x-translated": "auto"
+  },
+  "wishlistCount": "{count, plural, =0{قائمة أمنياتك فارغة} =1{تم حفظ عنصر واحد} other{{count} العناصر المحفوظة}}",
+  "@wishlistCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "memberSince": "عضو منذ {year}",
+  "@memberSince": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "inviteFriends": "دعوة الأصدقاء",
+  "@inviteFriends": {
+    "x-translated": "auto"
+  },
+  "inviteReward": "احصل على {amount} مقابل كل صديق ينضم",
+  "@inviteReward": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "settingsTitle": "إعدادات",
+  "@settingsTitle": {
+    "x-translated": "auto"
+  },
+  "language": "لغة",
+  "@language": {
+    "x-translated": "auto"
+  },
+  "darkMode": "الوضع المظلم",
+  "@darkMode": {
+    "x-translated": "auto"
+  },
+  "notificationsSetting": "إشعارات",
+  "@notificationsSetting": {
+    "x-translated": "auto"
+  },
+  "pushNotifications": "دفع الإخطارات",
+  "@pushNotifications": {
+    "x-translated": "auto"
+  },
+  "emailNotifications": "إشعارات البريد الإلكتروني",
+  "@emailNotifications": {
+    "x-translated": "auto"
+  },
+  "currency": "عملة",
+  "@currency": {
+    "x-translated": "auto"
+  },
+  "privacyPolicy": "سياسة الخصوصية",
+  "@privacyPolicy": {
+    "x-translated": "auto"
+  },
+  "termsOfService": "شروط الخدمة",
+  "@termsOfService": {
+    "x-translated": "auto"
+  },
+  "helpCenter": "مركز المساعدة",
+  "@helpCenter": {
+    "x-translated": "auto"
+  },
+  "contactUs": "اتصل بنا",
+  "@contactUs": {
+    "x-translated": "auto"
+  },
+  "rateApp": "قيم التطبيق",
+  "@rateApp": {
+    "x-translated": "auto"
+  },
+  "appVersion": "الإصدار {version}",
+  "@appVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "deleteAccount": "حذف حسابي",
+  "@deleteAccount": {
+    "x-translated": "auto"
+  },
+  "notificationsTitle": "إشعارات",
+  "@notificationsTitle": {
+    "x-translated": "auto"
+  },
+  "noNotifications": "لا توجد إخطارات حتى الآن",
+  "@noNotifications": {
+    "x-translated": "auto"
+  },
+  "markAllRead": "وضع علامة على الكل كمقروءة",
+  "@markAllRead": {
+    "x-translated": "auto"
+  },
+  "newMessagesFrom": "{count, plural, =1{رسالة واحدة جديدة من {name}} other{{count} رسائل جديدة من {name}}}",
+  "@newMessagesFrom": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String",
+        "example": "Sara"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "priceDropAlert": "انخفض سعر {product} للتو",
+  "@priceDropAlert": {
+    "placeholders": {
+      "product": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "orderShippedNotice": "الطلب {orderId} في طريقه",
+  "@orderShippedNotice": {
+    "placeholders": {
+      "orderId": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "errorGeneric": "حدث خطأ ما",
+  "@errorGeneric": {
+    "x-translated": "auto"
+  },
+  "errorNetwork": "لا يوجد اتصال بالإنترنت",
+  "@errorNetwork": {
+    "x-translated": "auto"
+  },
+  "errorTimeout": "انتهت مهلة الطلب",
+  "@errorTimeout": {
+    "x-translated": "auto"
+  },
+  "errorServer": "الخادم الخاص بنا يواجه مشكلة",
+  "@errorServer": {
+    "x-translated": "auto"
+  },
+  "errorInvalidEmail": "يرجى إدخال عنوان بريد إلكتروني صالح",
+  "@errorInvalidEmail": {
+    "x-translated": "auto"
+  },
+  "errorPasswordTooShort": "يجب أن تتكون كلمة المرور من {min} حرفًا على الأقل",
+  "@errorPasswordTooShort": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "errorRequiredField": "هذه الخانة مطلوبه",
+  "@errorRequiredField": {
+    "x-translated": "auto"
+  },
+  "errorPaymentDeclined": "تم رفض دفعتك",
+  "@errorPaymentDeclined": {
+    "x-translated": "auto"
+  },
+  "retry": "حاول ثانية",
+  "@retry": {
+    "x-translated": "auto"
+  },
+  "sessionExpired": "لقد انتهت جلستك، يرجى تسجيل الدخول مرة أخرى",
+  "@sessionExpired": {
+    "x-translated": "auto"
+  },
+  "ok": "نعم",
+  "@ok": {
+    "x-translated": "auto"
+  },
+  "cancel": "يلغي",
+  "@cancel": {
+    "x-translated": "auto"
+  },
+  "save": "يحفظ",
+  "@save": {
+    "x-translated": "auto"
+  },
+  "delete": "يمسح",
+  "@delete": {
+    "x-translated": "auto"
+  },
+  "edit": "يحرر",
+  "@edit": {
+    "x-translated": "auto"
+  },
+  "close": "يغلق",
+  "@close": {
+    "x-translated": "auto"
+  },
+  "confirm": "يتأكد",
+  "@confirm": {
+    "x-translated": "auto"
+  },
+  "yes": "نعم",
+  "@yes": {
+    "x-translated": "auto"
+  },
+  "no": "لا",
+  "@no": {
+    "x-translated": "auto"
+  },
+  "loading": "تحميل…",
+  "@loading": {
+    "x-translated": "auto"
+  },
+  "done": "منتهي",
+  "@done": {
+    "x-translated": "auto"
+  },
+  "back": "خلف",
+  "@back": {
+    "x-translated": "auto"
+  },
+  "next": "التالي",
+  "@next": {
+    "x-translated": "auto"
+  },
+  "skip": "يتخطى",
+  "@skip": {
+    "x-translated": "auto"
+  },
+  "genderGreeting": "{gender, select, male{مرحبًا بك سيد {name}} female{مرحبًا بك، سيدة {name}} other{مرحبًا، {name}}}",
+  "@genderGreeting": {
+    "description": "Greeting that depends on the user's gender",
+    "placeholders": {
+      "gender": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String",
+        "example": "Sara"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "itemsSelected": "{count, plural, =0{لم يتم تحديد أي شيء} =1{تم تحديد 1} other{تم تحديد {count}.}}",
+  "@itemsSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "daysLeft": "{count, plural, =1{بقي يوم واحد} other{متبقي {count} يوم}}",
+  "@daysLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "minutesAgo": "{count, plural, =0{الآن} =1{منذ دقيقة واحدة} other{منذ {count} دقيقة}}",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "followers": "{count, plural, =1{1 متابع} other{{count} متابع}}",
+  "@followers": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "lastSeen": "آخر ظهور {time}",
+  "@lastSeen": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "monday": "الاثنين",
+  "@monday": {
+    "x-translated": "auto"
+  },
+  "tuesday": "يوم الثلاثاء",
+  "@tuesday": {
+    "x-translated": "auto"
+  },
+  "wednesday": "الأربعاء",
+  "@wednesday": {
+    "x-translated": "auto"
+  },
+  "thursday": "يوم الخميس",
+  "@thursday": {
+    "x-translated": "auto"
+  },
+  "friday": "جمعة",
+  "@friday": {
+    "x-translated": "auto"
+  },
+  "saturday": "السبت",
+  "@saturday": {
+    "x-translated": "auto"
+  },
+  "sunday": "الأحد",
+  "@sunday": {
+    "x-translated": "auto"
+  }
+}

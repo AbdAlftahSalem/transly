@@ -1,0 +1,838 @@
+{
+  "@@locale": "de",
+  "appTitle": "Souq-Shop",
+  "@appTitle": {
+    "description": "The app name shown in the app bar and the task switcher",
+    "x-translated": "auto"
+  },
+  "tagline": "Alles was Sie brauchen, schnell geliefert",
+  "@tagline": {
+    "x-translated": "auto"
+  },
+  "onboardingTitle1": "Entdecken Sie Tausende von Produkten",
+  "@onboardingTitle1": {
+    "x-translated": "auto"
+  },
+  "onboardingBody1": "Durchsuchen Sie kuratierte Sammlungen vertrauenswürdiger Verkäufer.",
+  "@onboardingBody1": {
+    "x-translated": "auto"
+  },
+  "onboardingTitle2": "Schnelle und sichere Lieferung",
+  "@onboardingTitle2": {
+    "x-translated": "auto"
+  },
+  "onboardingBody2": "Verfolgen Sie jede Bestellung vom Lager bis zu Ihrer Haustür.",
+  "@onboardingBody2": {
+    "x-translated": "auto"
+  },
+  "onboardingTitle3": "Bezahlen Sie so, wie Sie möchten",
+  "@onboardingTitle3": {
+    "x-translated": "auto"
+  },
+  "onboardingBody3": "Karten, Geldbörsen oder Nachnahme.",
+  "@onboardingBody3": {
+    "x-translated": "auto"
+  },
+  "signIn": "anmelden",
+  "@signIn": {
+    "x-translated": "auto"
+  },
+  "signUp": "Melden Sie sich an",
+  "@signUp": {
+    "x-translated": "auto"
+  },
+  "signOut": "Abmelden",
+  "@signOut": {
+    "x-translated": "auto"
+  },
+  "email": "E-Mail-Adresse",
+  "@email": {
+    "x-translated": "auto"
+  },
+  "password": "Passwort",
+  "@password": {
+    "x-translated": "auto"
+  },
+  "forgotPassword": "Passwort vergessen?",
+  "@forgotPassword": {
+    "x-translated": "auto"
+  },
+  "resetPassword": "Passwort zurücksetzen",
+  "@resetPassword": {
+    "x-translated": "auto"
+  },
+  "createAccount": "Benutzerkonto erstellen",
+  "@createAccount": {
+    "x-translated": "auto"
+  },
+  "alreadyHaveAccount": "Sie haben bereits ein Konto?",
+  "@alreadyHaveAccount": {
+    "x-translated": "auto"
+  },
+  "noAccount": "Sie haben noch kein Konto?",
+  "@noAccount": {
+    "x-translated": "auto"
+  },
+  "continueWithGoogle": "Weiter mit Google",
+  "@continueWithGoogle": {
+    "x-translated": "auto"
+  },
+  "continueWithApple": "Weiter mit Apple",
+  "@continueWithApple": {
+    "x-translated": "auto"
+  },
+  "termsAgreement": "Wenn Sie fortfahren, stimmen Sie unseren Bedingungen zu",
+  "@termsAgreement": {
+    "x-translated": "auto"
+  },
+  "welcomeBack": "Willkommen zurück, {name}!",
+  "@welcomeBack": {
+    "description": "Shown on the sign-in screen when a returning user opens the app",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Sara"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "navHome": "Heim",
+  "@navHome": {
+    "x-translated": "auto"
+  },
+  "navCategories": "Kategorien",
+  "@navCategories": {
+    "x-translated": "auto"
+  },
+  "navCart": "Warenkorb",
+  "@navCart": {
+    "x-translated": "auto"
+  },
+  "navOrders": "Bestellungen",
+  "@navOrders": {
+    "x-translated": "auto"
+  },
+  "navProfile": "Profil",
+  "@navProfile": {
+    "x-translated": "auto"
+  },
+  "homeGreeting": "Schön dich zu sehen, {name}",
+  "@homeGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Sara"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "searchHint": "Nach Produkten suchen",
+  "@searchHint": {
+    "x-translated": "auto"
+  },
+  "featured": "Hervorgehoben",
+  "@featured": {
+    "x-translated": "auto"
+  },
+  "newArrivals": "Neuzugänge",
+  "@newArrivals": {
+    "x-translated": "auto"
+  },
+  "bestSellers": "Bestseller",
+  "@bestSellers": {
+    "x-translated": "auto"
+  },
+  "seeAll": "Alle anzeigen",
+  "@seeAll": {
+    "x-translated": "auto"
+  },
+  "flashSaleEndsIn": "Der Flash-Sale endet in {hours}h {minutes}m",
+  "@flashSaleEndsIn": {
+    "description": "Countdown on the home banner",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "freeShippingOver": "Kostenloser Versand für Bestellungen über {amount}",
+  "@freeShippingOver": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "categoryElectronics": "Elektronik",
+  "@categoryElectronics": {
+    "x-translated": "auto"
+  },
+  "categoryFashion": "Mode",
+  "@categoryFashion": {
+    "x-translated": "auto"
+  },
+  "categoryHomeKitchen": "Haus & Küche",
+  "@categoryHomeKitchen": {
+    "x-translated": "auto"
+  },
+  "categoryBeauty": "Schönheit",
+  "@categoryBeauty": {
+    "x-translated": "auto"
+  },
+  "categorySports": "Sport",
+  "@categorySports": {
+    "x-translated": "auto"
+  },
+  "categoryToys": "Spielzeug",
+  "@categoryToys": {
+    "x-translated": "auto"
+  },
+  "categoryBooks": "Bücher",
+  "@categoryBooks": {
+    "x-translated": "auto"
+  },
+  "categoryGrocery": "Lebensmittelgeschäft",
+  "@categoryGrocery": {
+    "x-translated": "auto"
+  },
+  "categoryGarden": "Garten",
+  "@categoryGarden": {
+    "x-translated": "auto"
+  },
+  "categoryAutomotive": "Automobil",
+  "@categoryAutomotive": {
+    "x-translated": "auto"
+  },
+  "categoryHealth": "Gesundheit",
+  "@categoryHealth": {
+    "x-translated": "auto"
+  },
+  "categoryPets": "Haustiere",
+  "@categoryPets": {
+    "x-translated": "auto"
+  },
+  "categoryMusic": "Musik",
+  "@categoryMusic": {
+    "x-translated": "auto"
+  },
+  "categoryOfficeSupplies": "Bürobedarf",
+  "@categoryOfficeSupplies": {
+    "x-translated": "auto"
+  },
+  "categoryJewelry": "Schmuck",
+  "@categoryJewelry": {
+    "x-translated": "auto"
+  },
+  "categoryBabyCare": "Babypflege",
+  "@categoryBabyCare": {
+    "x-translated": "auto"
+  },
+  "addToCart": "In den Warenkorb legen",
+  "@addToCart": {
+    "x-translated": "auto"
+  },
+  "buyNow": "Jetzt kaufen",
+  "@buyNow": {
+    "x-translated": "auto"
+  },
+  "inStock": "Auf Lager",
+  "@inStock": {
+    "x-translated": "auto"
+  },
+  "outOfStock": "Ausverkauft",
+  "@outOfStock": {
+    "x-translated": "auto"
+  },
+  "onlyLeft": "{count, plural, =1{Nur noch 1 auf Lager} other{Nur noch {count} auf Lager}}",
+  "@onlyLeft": {
+    "description": "Stock warning on the product page",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "reviewsCount": "{count, plural, =0{Noch keine Bewertungen} =1{1 Rezension} other{{count} Bewertungen}}",
+  "@reviewsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "ratingOutOfFive": "Mit {rating} von 5 bewertet",
+  "@ratingOutOfFive": {
+    "placeholders": {
+      "rating": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "productDescription": "Beschreibung",
+  "@productDescription": {
+    "x-translated": "auto"
+  },
+  "specifications": "Spezifikationen",
+  "@specifications": {
+    "x-translated": "auto"
+  },
+  "size": "Größe",
+  "@size": {
+    "x-translated": "auto"
+  },
+  "color": "Farbe",
+  "@color": {
+    "x-translated": "auto"
+  },
+  "quantity": "Menge",
+  "@quantity": {
+    "x-translated": "auto"
+  },
+  "shareProduct": "Teilen Sie dieses Produkt",
+  "@shareProduct": {
+    "x-translated": "auto"
+  },
+  "priceWithDiscount": "{price} statt {oldPrice}",
+  "@priceWithDiscount": {
+    "description": "Price line when a product is on sale",
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "oldPrice": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "cartTitle": "Warenkorb",
+  "@cartTitle": {
+    "x-translated": "auto"
+  },
+  "cartEmpty": "Ihr Warenkorb ist leer",
+  "@cartEmpty": {
+    "x-translated": "auto"
+  },
+  "cartItems": "{count, plural, =0{Keine Artikel} =1{1 Artikel} other{{count} Artikel}}",
+  "@cartItems": {
+    "description": "Number of items in the cart, in the cart tab badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "subtotal": "Zwischensumme",
+  "@subtotal": {
+    "x-translated": "auto"
+  },
+  "shipping": "Versand",
+  "@shipping": {
+    "x-translated": "auto"
+  },
+  "tax": "Steuer",
+  "@tax": {
+    "x-translated": "auto"
+  },
+  "total": "Gesamt",
+  "@total": {
+    "x-translated": "auto"
+  },
+  "removeItem": "Artikel entfernen",
+  "@removeItem": {
+    "x-translated": "auto"
+  },
+  "undo": "Rückgängig machen",
+  "@undo": {
+    "x-translated": "auto"
+  },
+  "applyCoupon": "Gutschein anwenden",
+  "@applyCoupon": {
+    "x-translated": "auto"
+  },
+  "couponApplied": "Gutschein {code} angewendet",
+  "@couponApplied": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "proceedToCheckout": "Gehen Sie zur Kasse",
+  "@proceedToCheckout": {
+    "x-translated": "auto"
+  },
+  "checkoutTitle": "Kasse",
+  "@checkoutTitle": {
+    "x-translated": "auto"
+  },
+  "shippingAddress": "Lieferadresse",
+  "@shippingAddress": {
+    "x-translated": "auto"
+  },
+  "paymentMethod": "Zahlungsart",
+  "@paymentMethod": {
+    "x-translated": "auto"
+  },
+  "cardNumber": "Kartennummer",
+  "@cardNumber": {
+    "x-translated": "auto"
+  },
+  "expiryDate": "Verfallsdatum",
+  "@expiryDate": {
+    "x-translated": "auto"
+  },
+  "securityCode": "Sicherheitscode",
+  "@securityCode": {
+    "x-translated": "auto"
+  },
+  "placeOrder": "Bestellung aufgeben",
+  "@placeOrder": {
+    "x-translated": "auto"
+  },
+  "orderPlaced": "Ihre Bestellung wurde aufgegeben",
+  "@orderPlaced": {
+    "x-translated": "auto"
+  },
+  "orderNumber": "Bestellnummer {number}",
+  "@orderNumber": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "estimatedDelivery": "Voraussichtliche Lieferung: {date}",
+  "@estimatedDelivery": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "cashOnDelivery": "Nachnahme",
+  "@cashOnDelivery": {
+    "x-translated": "auto"
+  },
+  "addNewAddress": "Fügen Sie eine neue Adresse hinzu",
+  "@addNewAddress": {
+    "x-translated": "auto"
+  },
+  "deliveryInstructions": "Lieferanweisungen",
+  "@deliveryInstructions": {
+    "x-translated": "auto"
+  },
+  "paymentFailed": "Die Zahlung ist fehlgeschlagen. Bitte versuchen Sie es mit einer anderen Karte",
+  "@paymentFailed": {
+    "x-translated": "auto"
+  },
+  "ordersTitle": "Meine Bestellungen",
+  "@ordersTitle": {
+    "x-translated": "auto"
+  },
+  "noOrders": "Sie haben noch keine Bestellungen",
+  "@noOrders": {
+    "x-translated": "auto"
+  },
+  "orderStatusPending": "Ausstehend",
+  "@orderStatusPending": {
+    "x-translated": "auto"
+  },
+  "orderStatusShipped": "Ausgeliefert",
+  "@orderStatusShipped": {
+    "x-translated": "auto"
+  },
+  "orderStatusDelivered": "Geliefert",
+  "@orderStatusDelivered": {
+    "x-translated": "auto"
+  },
+  "orderStatusCancelled": "Abgesagt",
+  "@orderStatusCancelled": {
+    "x-translated": "auto"
+  },
+  "trackOrder": "Bestellung verfolgen",
+  "@trackOrder": {
+    "x-translated": "auto"
+  },
+  "orderPlacedOn": "Platziert am {date}",
+  "@orderPlacedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "itemsInOrder": "{count, plural, =1{1 Artikel in dieser Bestellung} other{{count} Artikel in dieser Bestellung}}",
+  "@itemsInOrder": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "reorder": "Bestellen Sie erneut",
+  "@reorder": {
+    "x-translated": "auto"
+  },
+  "profileTitle": "Mein Profil",
+  "@profileTitle": {
+    "x-translated": "auto"
+  },
+  "editProfile": "Profil bearbeiten",
+  "@editProfile": {
+    "x-translated": "auto"
+  },
+  "fullName": "Vollständiger Name",
+  "@fullName": {
+    "x-translated": "auto"
+  },
+  "phoneNumber": "Telefonnummer",
+  "@phoneNumber": {
+    "x-translated": "auto"
+  },
+  "addresses": "Gespeicherte Adressen",
+  "@addresses": {
+    "x-translated": "auto"
+  },
+  "wishlist": "Wunschliste",
+  "@wishlist": {
+    "x-translated": "auto"
+  },
+  "wishlistCount": "{count, plural, =0{Ihre Wunschliste ist leer} =1{1 gespeicherter Artikel} other{{count} Artikel gespeichert}}",
+  "@wishlistCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "memberSince": "Mitglied seit {year}",
+  "@memberSince": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "inviteFriends": "Freunde einladen",
+  "@inviteFriends": {
+    "x-translated": "auto"
+  },
+  "inviteReward": "Erhalten Sie {amount} für jeden Freund, der beitritt",
+  "@inviteReward": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "settingsTitle": "Einstellungen",
+  "@settingsTitle": {
+    "x-translated": "auto"
+  },
+  "language": "Sprache",
+  "@language": {
+    "x-translated": "auto"
+  },
+  "darkMode": "Dunkler Modus",
+  "@darkMode": {
+    "x-translated": "auto"
+  },
+  "notificationsSetting": "Benachrichtigungen",
+  "@notificationsSetting": {
+    "x-translated": "auto"
+  },
+  "pushNotifications": "Push-Benachrichtigungen",
+  "@pushNotifications": {
+    "x-translated": "auto"
+  },
+  "emailNotifications": "E-Mail-Benachrichtigungen",
+  "@emailNotifications": {
+    "x-translated": "auto"
+  },
+  "currency": "Währung",
+  "@currency": {
+    "x-translated": "auto"
+  },
+  "privacyPolicy": "Datenschutzrichtlinie",
+  "@privacyPolicy": {
+    "x-translated": "auto"
+  },
+  "termsOfService": "Nutzungsbedingungen",
+  "@termsOfService": {
+    "x-translated": "auto"
+  },
+  "helpCenter": "Hilfecenter",
+  "@helpCenter": {
+    "x-translated": "auto"
+  },
+  "contactUs": "Kontaktieren Sie uns",
+  "@contactUs": {
+    "x-translated": "auto"
+  },
+  "rateApp": "Bewerten Sie die App",
+  "@rateApp": {
+    "x-translated": "auto"
+  },
+  "appVersion": "Version {version}",
+  "@appVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "deleteAccount": "Mein Konto löschen",
+  "@deleteAccount": {
+    "x-translated": "auto"
+  },
+  "notificationsTitle": "Benachrichtigungen",
+  "@notificationsTitle": {
+    "x-translated": "auto"
+  },
+  "noNotifications": "Noch keine Benachrichtigungen",
+  "@noNotifications": {
+    "x-translated": "auto"
+  },
+  "markAllRead": "Alle als gelesen markieren",
+  "@markAllRead": {
+    "x-translated": "auto"
+  },
+  "newMessagesFrom": "{count, plural, =1{1 neue Nachricht von {name}} other{{count} neue Nachrichten von {name}}}",
+  "@newMessagesFrom": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String",
+        "example": "Sara"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "priceDropAlert": "Der Preis von {product} ist gerade gesunken",
+  "@priceDropAlert": {
+    "placeholders": {
+      "product": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "orderShippedNotice": "Bestellung {orderId} ist unterwegs",
+  "@orderShippedNotice": {
+    "placeholders": {
+      "orderId": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "errorGeneric": "Etwas ist schief gelaufen",
+  "@errorGeneric": {
+    "x-translated": "auto"
+  },
+  "errorNetwork": "Keine Internetverbindung",
+  "@errorNetwork": {
+    "x-translated": "auto"
+  },
+  "errorTimeout": "Bei der Anfrage ist eine Zeitüberschreitung aufgetreten",
+  "@errorTimeout": {
+    "x-translated": "auto"
+  },
+  "errorServer": "Unser Server hat Probleme",
+  "@errorServer": {
+    "x-translated": "auto"
+  },
+  "errorInvalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+  "@errorInvalidEmail": {
+    "x-translated": "auto"
+  },
+  "errorPasswordTooShort": "Das Passwort muss mindestens {min} Zeichen lang sein",
+  "@errorPasswordTooShort": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "errorRequiredField": "Dieses Feld ist erforderlich",
+  "@errorRequiredField": {
+    "x-translated": "auto"
+  },
+  "errorPaymentDeclined": "Ihre Zahlung wurde abgelehnt",
+  "@errorPaymentDeclined": {
+    "x-translated": "auto"
+  },
+  "retry": "Versuchen Sie es erneut",
+  "@retry": {
+    "x-translated": "auto"
+  },
+  "sessionExpired": "Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an",
+  "@sessionExpired": {
+    "x-translated": "auto"
+  },
+  "ok": "OK",
+  "@ok": {
+    "x-translated": "auto"
+  },
+  "cancel": "Stornieren",
+  "@cancel": {
+    "x-translated": "auto"
+  },
+  "save": "Speichern",
+  "@save": {
+    "x-translated": "auto"
+  },
+  "delete": "Löschen",
+  "@delete": {
+    "x-translated": "auto"
+  },
+  "edit": "Bearbeiten",
+  "@edit": {
+    "x-translated": "auto"
+  },
+  "close": "Schließen",
+  "@close": {
+    "x-translated": "auto"
+  },
+  "confirm": "Bestätigen",
+  "@confirm": {
+    "x-translated": "auto"
+  },
+  "yes": "Ja",
+  "@yes": {
+    "x-translated": "auto"
+  },
+  "no": "NEIN",
+  "@no": {
+    "x-translated": "auto"
+  },
+  "loading": "Laden…",
+  "@loading": {
+    "x-translated": "auto"
+  },
+  "done": "Erledigt",
+  "@done": {
+    "x-translated": "auto"
+  },
+  "back": "Zurück",
+  "@back": {
+    "x-translated": "auto"
+  },
+  "next": "Nächste",
+  "@next": {
+    "x-translated": "auto"
+  },
+  "skip": "Überspringen",
+  "@skip": {
+    "x-translated": "auto"
+  },
+  "genderGreeting": "{gender, select, male{Willkommen, Herr {name}} female{Willkommen, Frau {name}} other{Willkommen, {name}}}",
+  "@genderGreeting": {
+    "description": "Greeting that depends on the user's gender",
+    "placeholders": {
+      "gender": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String",
+        "example": "Sara"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "itemsSelected": "{count, plural, =0{Nichts ausgewählt} =1{1 ausgewählt} other{{count} ausgewählt}}",
+  "@itemsSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "daysLeft": "{count, plural, =1{Noch 1 Tag übrig} other{Noch {count} Tage übrig}}",
+  "@daysLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "minutesAgo": "{count, plural, =0{Soeben} =1{Vor 1 Minute} other{Vor {count} Minuten}}",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "followers": "{count, plural, =1{1 Follower} other{{count} Follower}}",
+  "@followers": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "lastSeen": "Zuletzt gesehen {time}",
+  "@lastSeen": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    },
+    "x-translated": "auto"
+  },
+  "monday": "Montag",
+  "@monday": {
+    "x-translated": "auto"
+  },
+  "tuesday": "Dienstag",
+  "@tuesday": {
+    "x-translated": "auto"
+  },
+  "wednesday": "Mittwoch",
+  "@wednesday": {
+    "x-translated": "auto"
+  },
+  "thursday": "Donnerstag",
+  "@thursday": {
+    "x-translated": "auto"
+  },
+  "friday": "Freitag",
+  "@friday": {
+    "x-translated": "auto"
+  },
+  "saturday": "Samstag",
+  "@saturday": {
+    "x-translated": "auto"
+  },
+  "sunday": "Sonntag",
+  "@sunday": {
+    "x-translated": "auto"
+  }
+}

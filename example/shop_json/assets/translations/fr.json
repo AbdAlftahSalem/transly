@@ -1,0 +1,243 @@
+{
+  "app": {
+    "appTitle": "Boutique du souk",
+    "tagline": "Tout ce dont vous avez besoin, livré rapidement"
+  },
+  "onboarding": {
+    "onboardingTitle1": "Découvrez des milliers de produits",
+    "onboardingBody1": "Parcourez les collections organisées par des vendeurs de confiance.",
+    "onboardingTitle2": "Livraison rapide et sûre",
+    "onboardingBody2": "Suivez chaque commande depuis l'entrepôt jusqu'à votre porte.",
+    "onboardingTitle3": "Payez comme vous le souhaitez",
+    "onboardingBody3": "Cartes, portefeuilles ou paiement à la livraison."
+  },
+  "auth": {
+    "signIn": "Se connecter",
+    "signUp": "S'inscrire",
+    "signOut": "se déconnecter",
+    "email": "Adresse email",
+    "password": "Mot de passe",
+    "forgotPassword": "Vous avez oublié votre mot de passe ?",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "createAccount": "Créer un compte",
+    "alreadyHaveAccount": "Vous avez déjà un compte ?",
+    "noAccount": "Vous n'avez pas de compte ?",
+    "continueWithGoogle": "Continuer avec Google",
+    "continueWithApple": "Continuer avec Apple",
+    "termsAgreement": "En continuant, vous acceptez nos conditions",
+    "welcomeBack": "Bon retour, {name} !"
+  },
+  "nav": {
+    "navHome": "Maison",
+    "navCategories": "Catégories",
+    "navCart": "Panier",
+    "navOrders": "Ordres",
+    "navProfile": "Profil"
+  },
+  "home": {
+    "homeGreeting": "Content de vous voir, {name}",
+    "searchHint": "Rechercher des produits",
+    "featured": "En vedette",
+    "newArrivals": "Nouveautés",
+    "bestSellers": "Meilleures ventes",
+    "seeAll": "Voir tout",
+    "flashSaleEndsIn": "La vente flash se termine dans {hours}h {minutes} min",
+    "freeShippingOver": "Livraison gratuite pour les commandes supérieures à {amount}"
+  },
+  "categories": {
+    "categoryElectronics": "Électronique",
+    "categoryFashion": "Mode",
+    "categoryHomeKitchen": "Maison et cuisine",
+    "categoryBeauty": "Beauté",
+    "categorySports": "Sportif",
+    "categoryToys": "Jouets",
+    "categoryBooks": "Livres",
+    "categoryGrocery": "Épicerie",
+    "categoryGarden": "Jardin",
+    "categoryAutomotive": "Automobile",
+    "categoryHealth": "Santé",
+    "categoryPets": "Animaux de compagnie",
+    "categoryMusic": "Musique",
+    "categoryOfficeSupplies": "Fournitures de bureau",
+    "categoryJewelry": "Bijoux",
+    "categoryBabyCare": "Soins de bébé"
+  },
+  "product": {
+    "addToCart": "Ajouter au panier",
+    "buyNow": "Acheter maintenant",
+    "inStock": "En stock",
+    "outOfStock": "En rupture de stock",
+    "onlyLeft": {
+      "one": "Il n'en reste que 1 en stock",
+      "other": "Il ne reste que {} en stock"
+    },
+    "reviewsCount": {
+      "zero": "Aucun avis pour l'instant",
+      "one": "1 avis",
+      "other": "{} avis"
+    },
+    "ratingOutOfFive": "Noté {rating} sur 5",
+    "productDescription": "Description",
+    "specifications": "Caractéristiques",
+    "size": "Taille",
+    "color": "Couleur",
+    "quantity": "Quantité",
+    "shareProduct": "Partager ce produit",
+    "priceWithDiscount": "{price} au lieu de {oldPrice}"
+  },
+  "cart": {
+    "cartTitle": "Panier",
+    "cartEmpty": "Votre panier est vide",
+    "cartItems": {
+      "zero": "Aucun article",
+      "one": "1 article",
+      "other": "{} articles"
+    },
+    "subtotal": "Total",
+    "shipping": "Expédition",
+    "tax": "Impôt",
+    "total": "Total",
+    "removeItem": "Supprimer l'élément",
+    "undo": "Défaire",
+    "applyCoupon": "Appliquer le coupon",
+    "couponApplied": "Coupon {code} appliqué",
+    "proceedToCheckout": "Passer à la caisse"
+  },
+  "checkout": {
+    "checkoutTitle": "Vérifier",
+    "shippingAddress": "Adresse de livraison",
+    "paymentMethod": "Mode de paiement",
+    "cardNumber": "Numéro de carte",
+    "expiryDate": "Date d'expiration",
+    "securityCode": "Code de sécurité",
+    "placeOrder": "Passer la commande",
+    "orderPlaced": "Votre commande a été passée",
+    "orderNumber": "Numéro de commande {number}",
+    "estimatedDelivery": "Livraison estimée : {date}",
+    "cashOnDelivery": "Paiement à la livraison",
+    "addNewAddress": "Ajouter une nouvelle adresse",
+    "deliveryInstructions": "Instructions de livraison",
+    "paymentFailed": "Le paiement a échoué, veuillez essayer avec une autre carte"
+  },
+  "orders": {
+    "ordersTitle": "Mes commandes",
+    "noOrders": "Vous n'avez pas encore de commandes",
+    "orderStatusPending": "En attente",
+    "orderStatusShipped": "Expédié",
+    "orderStatusDelivered": "Livré",
+    "orderStatusCancelled": "Annulé",
+    "trackOrder": "Suivre la commande",
+    "orderPlacedOn": "Placé le {date}",
+    "itemsInOrder": {
+      "one": "1 article dans cette commande",
+      "other": "{} articles dans cette commande"
+    },
+    "reorder": "Commandez à nouveau"
+  },
+  "profile": {
+    "profileTitle": "Mon profil",
+    "editProfile": "Modifier le profil",
+    "fullName": "Nom et prénom",
+    "phoneNumber": "Numéro de téléphone",
+    "addresses": "Adresses enregistrées",
+    "wishlist": "Liste de souhaits",
+    "wishlistCount": {
+      "zero": "Votre liste de souhaits est vide",
+      "one": "1 élément enregistré",
+      "other": "{} éléments enregistrés"
+    },
+    "memberSince": "Membre depuis {year}",
+    "inviteFriends": "Inviter des amis",
+    "inviteReward": "Obtenez {amount} pour chaque ami qui nous rejoint"
+  },
+  "settings": {
+    "settingsTitle": "Paramètres",
+    "language": "Langue",
+    "darkMode": "Mode sombre",
+    "notificationsSetting": "Notifications",
+    "pushNotifications": "Notifications poussées",
+    "emailNotifications": "Notifications par courrier électronique",
+    "currency": "Devise",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "helpCenter": "Centre d'aide",
+    "contactUs": "Contactez-nous",
+    "rateApp": "Évaluez l'application",
+    "appVersion": "Version {version}",
+    "deleteAccount": "Supprimer mon compte"
+  },
+  "notifications": {
+    "notificationsTitle": "Notifications",
+    "noNotifications": "Aucune notification pour l'instant",
+    "markAllRead": "Marquer tout comme lu",
+    "newMessagesFrom": {
+      "one": "1 nouveau message de {name}",
+      "other": "{} nouveaux messages de {name}"
+    },
+    "priceDropAlert": "Le prix de {product} vient de baisser",
+    "orderShippedNotice": "La commande {orderId} est en route"
+  },
+  "errors": {
+    "errorGeneric": "Quelque chose s'est mal passé",
+    "errorNetwork": "Pas de connexion Internet",
+    "errorTimeout": "La demande a expiré",
+    "errorServer": "Notre serveur a des problèmes",
+    "errorInvalidEmail": "S'il vous plaît, mettez une adresse email valide",
+    "errorPasswordTooShort": "Le mot de passe doit contenir au moins {min} caractères",
+    "errorRequiredField": "Ce champ est obligatoire",
+    "errorPaymentDeclined": "Votre paiement a été refusé",
+    "retry": "Essayer à nouveau",
+    "sessionExpired": "Votre session a expiré, veuillez vous reconnecter"
+  },
+  "common": {
+    "ok": "D'ACCORD",
+    "cancel": "Annuler",
+    "save": "Sauvegarder",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "confirm": "Confirmer",
+    "yes": "Oui",
+    "no": "Non",
+    "loading": "Chargement…",
+    "done": "Fait",
+    "back": "Dos",
+    "next": "Suivant",
+    "skip": "Sauter"
+  },
+  "misc": {
+    "genderGreeting": {
+      "male": "Bienvenue, M. {name}",
+      "female": "Bienvenue, Mme {name}",
+      "other": "Bienvenue, {name}"
+    },
+    "itemsSelected": {
+      "zero": "Rien de sélectionné",
+      "one": "1 sélectionné",
+      "other": "{} sélectionné"
+    },
+    "daysLeft": {
+      "one": "il reste 1 jour",
+      "other": "Il reste {} jours"
+    },
+    "minutesAgo": {
+      "zero": "Tout à l' heure",
+      "one": "il y a 1 minute",
+      "other": "il y a {} minutes"
+    },
+    "followers": {
+      "one": "1 abonné",
+      "other": "{} abonnés"
+    },
+    "lastSeen": "Vu pour la dernière fois {time}"
+  },
+  "days": {
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche"
+  }
+}

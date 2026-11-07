@@ -1,0 +1,25 @@
+name: shop_arb
+description: "transly example: a shop app localized with Flutter gen-l10n (.arb), 168 keys in 5 languages."
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  transly:
+    path: ../..
+
+flutter:
+  uses-material-design: true
+  generate: true

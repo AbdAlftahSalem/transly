@@ -1,0 +1,243 @@
+{
+  "app": {
+    "appTitle": "Souq-Shop",
+    "tagline": "Alles was Sie brauchen, schnell geliefert"
+  },
+  "onboarding": {
+    "onboardingTitle1": "Entdecken Sie Tausende von Produkten",
+    "onboardingBody1": "Durchsuchen Sie kuratierte Sammlungen vertrauenswürdiger Verkäufer.",
+    "onboardingTitle2": "Schnelle und sichere Lieferung",
+    "onboardingBody2": "Verfolgen Sie jede Bestellung vom Lager bis zu Ihrer Haustür.",
+    "onboardingTitle3": "Bezahlen Sie so, wie Sie möchten",
+    "onboardingBody3": "Karten, Geldbörsen oder Nachnahme."
+  },
+  "auth": {
+    "signIn": "anmelden",
+    "signUp": "Melden Sie sich an",
+    "signOut": "Abmelden",
+    "email": "E-Mail-Adresse",
+    "password": "Passwort",
+    "forgotPassword": "Passwort vergessen?",
+    "resetPassword": "Passwort zurücksetzen",
+    "createAccount": "Benutzerkonto erstellen",
+    "alreadyHaveAccount": "Sie haben bereits ein Konto?",
+    "noAccount": "Sie haben noch kein Konto?",
+    "continueWithGoogle": "Weiter mit Google",
+    "continueWithApple": "Weiter mit Apple",
+    "termsAgreement": "Wenn Sie fortfahren, stimmen Sie unseren Bedingungen zu",
+    "welcomeBack": "Willkommen zurück, {name}!"
+  },
+  "nav": {
+    "navHome": "Heim",
+    "navCategories": "Kategorien",
+    "navCart": "Warenkorb",
+    "navOrders": "Bestellungen",
+    "navProfile": "Profil"
+  },
+  "home": {
+    "homeGreeting": "Schön dich zu sehen, {name}",
+    "searchHint": "Nach Produkten suchen",
+    "featured": "Hervorgehoben",
+    "newArrivals": "Neuzugänge",
+    "bestSellers": "Bestseller",
+    "seeAll": "Alle anzeigen",
+    "flashSaleEndsIn": "Der Flash-Sale endet in {hours}h {minutes}m",
+    "freeShippingOver": "Kostenloser Versand für Bestellungen über {amount}"
+  },
+  "categories": {
+    "categoryElectronics": "Elektronik",
+    "categoryFashion": "Mode",
+    "categoryHomeKitchen": "Haus & Küche",
+    "categoryBeauty": "Schönheit",
+    "categorySports": "Sport",
+    "categoryToys": "Spielzeug",
+    "categoryBooks": "Bücher",
+    "categoryGrocery": "Lebensmittelgeschäft",
+    "categoryGarden": "Garten",
+    "categoryAutomotive": "Automobil",
+    "categoryHealth": "Gesundheit",
+    "categoryPets": "Haustiere",
+    "categoryMusic": "Musik",
+    "categoryOfficeSupplies": "Bürobedarf",
+    "categoryJewelry": "Schmuck",
+    "categoryBabyCare": "Babypflege"
+  },
+  "product": {
+    "addToCart": "In den Warenkorb legen",
+    "buyNow": "Jetzt kaufen",
+    "inStock": "Auf Lager",
+    "outOfStock": "Ausverkauft",
+    "onlyLeft": {
+      "one": "Nur noch 1 auf Lager",
+      "other": "Nur noch {} auf Lager"
+    },
+    "reviewsCount": {
+      "zero": "Noch keine Bewertungen",
+      "one": "1 Rezension",
+      "other": "{} Bewertungen"
+    },
+    "ratingOutOfFive": "Mit {rating} von 5 bewertet",
+    "productDescription": "Beschreibung",
+    "specifications": "Spezifikationen",
+    "size": "Größe",
+    "color": "Farbe",
+    "quantity": "Menge",
+    "shareProduct": "Teilen Sie dieses Produkt",
+    "priceWithDiscount": "{price} statt {oldPrice}"
+  },
+  "cart": {
+    "cartTitle": "Warenkorb",
+    "cartEmpty": "Ihr Warenkorb ist leer",
+    "cartItems": {
+      "zero": "Keine Artikel",
+      "one": "1 Artikel",
+      "other": "{} Artikel"
+    },
+    "subtotal": "Zwischensumme",
+    "shipping": "Versand",
+    "tax": "Steuer",
+    "total": "Gesamt",
+    "removeItem": "Artikel entfernen",
+    "undo": "Rückgängig machen",
+    "applyCoupon": "Gutschein anwenden",
+    "couponApplied": "Gutschein {code} angewendet",
+    "proceedToCheckout": "Gehen Sie zur Kasse"
+  },
+  "checkout": {
+    "checkoutTitle": "Kasse",
+    "shippingAddress": "Lieferadresse",
+    "paymentMethod": "Zahlungsart",
+    "cardNumber": "Kartennummer",
+    "expiryDate": "Verfallsdatum",
+    "securityCode": "Sicherheitscode",
+    "placeOrder": "Bestellung aufgeben",
+    "orderPlaced": "Ihre Bestellung wurde aufgegeben",
+    "orderNumber": "Bestellnummer {number}",
+    "estimatedDelivery": "Voraussichtliche Lieferung: {date}",
+    "cashOnDelivery": "Nachnahme",
+    "addNewAddress": "Fügen Sie eine neue Adresse hinzu",
+    "deliveryInstructions": "Lieferanweisungen",
+    "paymentFailed": "Die Zahlung ist fehlgeschlagen. Bitte versuchen Sie es mit einer anderen Karte"
+  },
+  "orders": {
+    "ordersTitle": "Meine Bestellungen",
+    "noOrders": "Sie haben noch keine Bestellungen",
+    "orderStatusPending": "Ausstehend",
+    "orderStatusShipped": "Ausgeliefert",
+    "orderStatusDelivered": "Geliefert",
+    "orderStatusCancelled": "Abgesagt",
+    "trackOrder": "Bestellung verfolgen",
+    "orderPlacedOn": "Platziert am {date}",
+    "itemsInOrder": {
+      "one": "1 Artikel in dieser Bestellung",
+      "other": "{} Artikel in dieser Bestellung"
+    },
+    "reorder": "Bestellen Sie erneut"
+  },
+  "profile": {
+    "profileTitle": "Mein Profil",
+    "editProfile": "Profil bearbeiten",
+    "fullName": "Vollständiger Name",
+    "phoneNumber": "Telefonnummer",
+    "addresses": "Gespeicherte Adressen",
+    "wishlist": "Wunschliste",
+    "wishlistCount": {
+      "zero": "Ihre Wunschliste ist leer",
+      "one": "1 gespeicherter Artikel",
+      "other": "{} Artikel gespeichert"
+    },
+    "memberSince": "Mitglied seit {year}",
+    "inviteFriends": "Freunde einladen",
+    "inviteReward": "Erhalten Sie {amount} für jeden Freund, der beitritt"
+  },
+  "settings": {
+    "settingsTitle": "Einstellungen",
+    "language": "Sprache",
+    "darkMode": "Dunkler Modus",
+    "notificationsSetting": "Benachrichtigungen",
+    "pushNotifications": "Push-Benachrichtigungen",
+    "emailNotifications": "E-Mail-Benachrichtigungen",
+    "currency": "Währung",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen",
+    "helpCenter": "Hilfecenter",
+    "contactUs": "Kontaktieren Sie uns",
+    "rateApp": "Bewerten Sie die App",
+    "appVersion": "Version {version}",
+    "deleteAccount": "Mein Konto löschen"
+  },
+  "notifications": {
+    "notificationsTitle": "Benachrichtigungen",
+    "noNotifications": "Noch keine Benachrichtigungen",
+    "markAllRead": "Alle als gelesen markieren",
+    "newMessagesFrom": {
+      "one": "1 neue Nachricht von {name}",
+      "other": "{} neue Nachrichten von {name}"
+    },
+    "priceDropAlert": "Der Preis von {product} ist gerade gesunken",
+    "orderShippedNotice": "Bestellung {orderId} ist unterwegs"
+  },
+  "errors": {
+    "errorGeneric": "Etwas ist schief gelaufen",
+    "errorNetwork": "Keine Internetverbindung",
+    "errorTimeout": "Bei der Anfrage ist eine Zeitüberschreitung aufgetreten",
+    "errorServer": "Unser Server hat Probleme",
+    "errorInvalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "errorPasswordTooShort": "Das Passwort muss mindestens {min} Zeichen lang sein",
+    "errorRequiredField": "Dieses Feld ist erforderlich",
+    "errorPaymentDeclined": "Ihre Zahlung wurde abgelehnt",
+    "retry": "Versuchen Sie es erneut",
+    "sessionExpired": "Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an"
+  },
+  "common": {
+    "ok": "OK",
+    "cancel": "Stornieren",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "close": "Schließen",
+    "confirm": "Bestätigen",
+    "yes": "Ja",
+    "no": "NEIN",
+    "loading": "Laden…",
+    "done": "Erledigt",
+    "back": "Zurück",
+    "next": "Nächste",
+    "skip": "Überspringen"
+  },
+  "misc": {
+    "genderGreeting": {
+      "male": "Willkommen, Herr {name}",
+      "female": "Willkommen, Frau {name}",
+      "other": "Willkommen, {name}"
+    },
+    "itemsSelected": {
+      "zero": "Nichts ausgewählt",
+      "one": "1 ausgewählt",
+      "other": "{} ausgewählt"
+    },
+    "daysLeft": {
+      "one": "Noch 1 Tag übrig",
+      "other": "Noch {} Tage übrig"
+    },
+    "minutesAgo": {
+      "zero": "Soeben",
+      "one": "Vor 1 Minute",
+      "other": "Vor {} Minuten"
+    },
+    "followers": {
+      "one": "1 Follower",
+      "other": "{} Follower"
+    },
+    "lastSeen": "Zuletzt gesehen {time}"
+  },
+  "days": {
+    "monday": "Montag",
+    "tuesday": "Dienstag",
+    "wednesday": "Mittwoch",
+    "thursday": "Donnerstag",
+    "friday": "Freitag",
+    "saturday": "Samstag",
+    "sunday": "Sonntag"
+  }
+}

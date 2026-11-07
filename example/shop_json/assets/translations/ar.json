@@ -1,0 +1,243 @@
+{
+  "app": {
+    "appTitle": "متجر سوق",
+    "tagline": "كل ما تحتاجه، يتم تسليمه بسرعة"
+  },
+  "onboarding": {
+    "onboardingTitle1": "اكتشف آلاف المنتجات",
+    "onboardingBody1": "تصفح المجموعات المنسقة من البائعين الموثوقين.",
+    "onboardingTitle2": "تسليم سريع وآمن",
+    "onboardingBody2": "تتبع كل طلب من المستودع إلى باب منزلك.",
+    "onboardingTitle3": "ادفع بالطريقة التي تريدها",
+    "onboardingBody3": "البطاقات والمحافظ أو الدفع نقدًا عند التسليم."
+  },
+  "auth": {
+    "signIn": "تسجيل الدخول",
+    "signUp": "اشتراك",
+    "signOut": "تسجيل الخروج",
+    "email": "عنوان البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "forgotPassword": "نسيت كلمة السر؟",
+    "resetPassword": "إعادة تعيين كلمة المرور",
+    "createAccount": "إنشاء حساب",
+    "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
+    "noAccount": "ليس لديك حساب؟",
+    "continueWithGoogle": "تواصل مع جوجل",
+    "continueWithApple": "تواصل مع أبل",
+    "termsAgreement": "من خلال الاستمرار فإنك توافق على شروطنا",
+    "welcomeBack": "مرحبًا بك مرة أخرى، {name}!"
+  },
+  "nav": {
+    "navHome": "بيت",
+    "navCategories": "فئات",
+    "navCart": "عربة",
+    "navOrders": "طلبات",
+    "navProfile": "حساب تعريفي"
+  },
+  "home": {
+    "homeGreeting": "يسعدني رؤيتك، {name}",
+    "searchHint": "البحث عن المنتجات",
+    "featured": "مميز",
+    "newArrivals": "الوافدون الجدد",
+    "bestSellers": "الأكثر مبيعا",
+    "seeAll": "شاهد الكل",
+    "flashSaleEndsIn": "ينتهي العرض السريع خلال {hours} ساعة و{minutes} دقيقة",
+    "freeShippingOver": "شحن مجاني للطلبات التي تزيد عن {amount}"
+  },
+  "categories": {
+    "categoryElectronics": "إلكترونيات",
+    "categoryFashion": "موضة",
+    "categoryHomeKitchen": "المنزل والمطبخ",
+    "categoryBeauty": "جمال",
+    "categorySports": "الرياضة",
+    "categoryToys": "ألعاب",
+    "categoryBooks": "كتب",
+    "categoryGrocery": "خضروات",
+    "categoryGarden": "حديقة",
+    "categoryAutomotive": "السيارات",
+    "categoryHealth": "صحة",
+    "categoryPets": "حيوانات أليفة",
+    "categoryMusic": "موسيقى",
+    "categoryOfficeSupplies": "اللوازم المكتبية",
+    "categoryJewelry": "مجوهرات",
+    "categoryBabyCare": "رعاية الطفل"
+  },
+  "product": {
+    "addToCart": "أضف إلى السلة",
+    "buyNow": "اشتري الآن",
+    "inStock": "في الأوراق المالية",
+    "outOfStock": "إنتهى من المخزن",
+    "onlyLeft": {
+      "one": "تبقى 1 فقط في المخزون",
+      "other": "تبقى في المخزون {} فقط"
+    },
+    "reviewsCount": {
+      "zero": "لا توجد تعليقات حتى الآن",
+      "one": "1 مراجعة",
+      "other": "{} تعليق"
+    },
+    "ratingOutOfFive": "تم التقييم بـ {rating} من أصل 5",
+    "productDescription": "وصف",
+    "specifications": "تحديد",
+    "size": "مقاس",
+    "color": "لون",
+    "quantity": "كمية",
+    "shareProduct": "شارك هذا المنتج",
+    "priceWithDiscount": "{price} بدلاً من {oldPrice}"
+  },
+  "cart": {
+    "cartTitle": "عربة التسوق",
+    "cartEmpty": "سلة التسوق الخاصة بك فارغة",
+    "cartItems": {
+      "zero": "لا توجد عناصر",
+      "one": "1 عنصر",
+      "other": "{} عنصر"
+    },
+    "subtotal": "المجموع الفرعي",
+    "shipping": "شحن",
+    "tax": "ضريبة",
+    "total": "المجموع",
+    "removeItem": "إزالة العنصر",
+    "undo": "تراجع",
+    "applyCoupon": "تطبيق القسيمة",
+    "couponApplied": "تم تطبيق القسيمة {code}.",
+    "proceedToCheckout": "الشروع في الخروج"
+  },
+  "checkout": {
+    "checkoutTitle": "الدفع",
+    "shippingAddress": "عنوان الشحن",
+    "paymentMethod": "طريقة الدفع",
+    "cardNumber": "رقم البطاقة",
+    "expiryDate": "تاريخ انتهاء الصلاحية",
+    "securityCode": "رمز الأمان",
+    "placeOrder": "وضع النظام",
+    "orderPlaced": "لقد تم وضع طلبك",
+    "orderNumber": "رقم الطلب {number}",
+    "estimatedDelivery": "التسليم المقدر: {date}",
+    "cashOnDelivery": "نقدا عند التسليم",
+    "addNewAddress": "أضف عنوانًا جديدًا",
+    "deliveryInstructions": "تعليمات التسليم",
+    "paymentFailed": "فشل الدفع، يرجى تجربة بطاقة أخرى"
+  },
+  "orders": {
+    "ordersTitle": "أوامري",
+    "noOrders": "ليس لديك أي أوامر حتى الآن",
+    "orderStatusPending": "قيد الانتظار",
+    "orderStatusShipped": "تم الشحن",
+    "orderStatusDelivered": "تم التوصيل",
+    "orderStatusCancelled": "تم الإلغاء",
+    "trackOrder": "تتبع الطلب",
+    "orderPlacedOn": "تم وضعه في {date}",
+    "itemsInOrder": {
+      "one": "1 عنصر في هذا الترتيب",
+      "other": "{} عنصر بهذا الترتيب"
+    },
+    "reorder": "اطلب مرة أخرى"
+  },
+  "profile": {
+    "profileTitle": "ملفي الشخصي",
+    "editProfile": "تحرير الملف الشخصي",
+    "fullName": "الاسم الكامل",
+    "phoneNumber": "رقم التليفون",
+    "addresses": "العناوين المحفوظة",
+    "wishlist": "قائمة الرغبات",
+    "wishlistCount": {
+      "zero": "قائمة أمنياتك فارغة",
+      "one": "تم حفظ عنصر واحد",
+      "other": "{} العناصر المحفوظة"
+    },
+    "memberSince": "عضو منذ {year}",
+    "inviteFriends": "دعوة الأصدقاء",
+    "inviteReward": "احصل على {amount} مقابل كل صديق ينضم"
+  },
+  "settings": {
+    "settingsTitle": "إعدادات",
+    "language": "لغة",
+    "darkMode": "الوضع المظلم",
+    "notificationsSetting": "إشعارات",
+    "pushNotifications": "دفع الإخطارات",
+    "emailNotifications": "إشعارات البريد الإلكتروني",
+    "currency": "عملة",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة",
+    "helpCenter": "مركز المساعدة",
+    "contactUs": "اتصل بنا",
+    "rateApp": "قيم التطبيق",
+    "appVersion": "الإصدار {version}",
+    "deleteAccount": "حذف حسابي"
+  },
+  "notifications": {
+    "notificationsTitle": "إشعارات",
+    "noNotifications": "لا توجد إخطارات حتى الآن",
+    "markAllRead": "وضع علامة على الكل كمقروءة",
+    "newMessagesFrom": {
+      "one": "رسالة واحدة جديدة من {name}",
+      "other": "{} رسائل جديدة من {name}"
+    },
+    "priceDropAlert": "انخفض سعر {product} للتو",
+    "orderShippedNotice": "الطلب {orderId} في طريقه"
+  },
+  "errors": {
+    "errorGeneric": "حدث خطأ ما",
+    "errorNetwork": "لا يوجد اتصال بالإنترنت",
+    "errorTimeout": "انتهت مهلة الطلب",
+    "errorServer": "الخادم الخاص بنا يواجه مشكلة",
+    "errorInvalidEmail": "يرجى إدخال عنوان بريد إلكتروني صالح",
+    "errorPasswordTooShort": "يجب أن تتكون كلمة المرور من {min} حرفًا على الأقل",
+    "errorRequiredField": "هذه الخانة مطلوبه",
+    "errorPaymentDeclined": "تم رفض دفعتك",
+    "retry": "حاول ثانية",
+    "sessionExpired": "لقد انتهت جلستك، يرجى تسجيل الدخول مرة أخرى"
+  },
+  "common": {
+    "ok": "نعم",
+    "cancel": "يلغي",
+    "save": "يحفظ",
+    "delete": "يمسح",
+    "edit": "يحرر",
+    "close": "يغلق",
+    "confirm": "يتأكد",
+    "yes": "نعم",
+    "no": "لا",
+    "loading": "تحميل…",
+    "done": "منتهي",
+    "back": "خلف",
+    "next": "التالي",
+    "skip": "يتخطى"
+  },
+  "misc": {
+    "genderGreeting": {
+      "male": "مرحبًا بك سيد {name}",
+      "female": "مرحبًا بك، سيدة {name}",
+      "other": "مرحبًا، {name}"
+    },
+    "itemsSelected": {
+      "zero": "لم يتم تحديد أي شيء",
+      "one": "تم تحديد 1",
+      "other": "تم تحديد {}."
+    },
+    "daysLeft": {
+      "one": "بقي يوم واحد",
+      "other": "متبقي {} يوم"
+    },
+    "minutesAgo": {
+      "zero": "الآن",
+      "one": "منذ دقيقة واحدة",
+      "other": "منذ {} دقيقة"
+    },
+    "followers": {
+      "one": "1 متابع",
+      "other": "{} متابع"
+    },
+    "lastSeen": "آخر ظهور {time}"
+  },
+  "days": {
+    "monday": "الاثنين",
+    "tuesday": "يوم الثلاثاء",
+    "wednesday": "الأربعاء",
+    "thursday": "يوم الخميس",
+    "friday": "جمعة",
+    "saturday": "السبت",
+    "sunday": "الأحد"
+  }
+}

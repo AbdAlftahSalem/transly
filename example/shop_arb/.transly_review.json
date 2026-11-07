@@ -1,0 +1,3373 @@
+{
+  "about": "Machine translations made by transly that a person has not reviewed yet. Edit the value in the translation file (or delete the entry here) once checked.",
+  "locales": {
+    "ar": {
+      "appTitle": {
+        "source": "Souq Shop",
+        "translation": "متجر سوق",
+        "engine": "google"
+      },
+      "tagline": {
+        "source": "Everything you need, delivered fast",
+        "translation": "كل ما تحتاجه، يتم تسليمه بسرعة",
+        "engine": "google"
+      },
+      "onboardingTitle1": {
+        "source": "Discover thousands of products",
+        "translation": "اكتشف آلاف المنتجات",
+        "engine": "google"
+      },
+      "onboardingBody1": {
+        "source": "Browse curated collections from trusted sellers.",
+        "translation": "تصفح المجموعات المنسقة من البائعين الموثوقين.",
+        "engine": "google"
+      },
+      "onboardingTitle2": {
+        "source": "Fast and safe delivery",
+        "translation": "تسليم سريع وآمن",
+        "engine": "google"
+      },
+      "onboardingBody2": {
+        "source": "Track every order from the warehouse to your door.",
+        "translation": "تتبع كل طلب من المستودع إلى باب منزلك.",
+        "engine": "google"
+      },
+      "onboardingTitle3": {
+        "source": "Pay the way you like",
+        "translation": "ادفع بالطريقة التي تريدها",
+        "engine": "google"
+      },
+      "onboardingBody3": {
+        "source": "Cards, wallets or cash on delivery.",
+        "translation": "البطاقات والمحافظ أو الدفع نقدًا عند التسليم.",
+        "engine": "google"
+      },
+      "signIn": {
+        "source": "Sign in",
+        "translation": "تسجيل الدخول",
+        "engine": "google"
+      },
+      "signUp": {
+        "source": "Sign up",
+        "translation": "اشتراك",
+        "engine": "google"
+      },
+      "signOut": {
+        "source": "Sign out",
+        "translation": "تسجيل الخروج",
+        "engine": "google"
+      },
+      "email": {
+        "source": "Email address",
+        "translation": "عنوان البريد الإلكتروني",
+        "engine": "google"
+      },
+      "password": {
+        "source": "Password",
+        "translation": "كلمة المرور",
+        "engine": "google"
+      },
+      "forgotPassword": {
+        "source": "Forgot your password?",
+        "translation": "نسيت كلمة السر؟",
+        "engine": "google"
+      },
+      "resetPassword": {
+        "source": "Reset password",
+        "translation": "إعادة تعيين كلمة المرور",
+        "engine": "google"
+      },
+      "createAccount": {
+        "source": "Create account",
+        "translation": "إنشاء حساب",
+        "engine": "google"
+      },
+      "alreadyHaveAccount": {
+        "source": "Already have an account?",
+        "translation": "هل لديك حساب بالفعل؟",
+        "engine": "google"
+      },
+      "noAccount": {
+        "source": "Don't have an account?",
+        "translation": "ليس لديك حساب؟",
+        "engine": "google"
+      },
+      "continueWithGoogle": {
+        "source": "Continue with Google",
+        "translation": "تواصل مع جوجل",
+        "engine": "google"
+      },
+      "continueWithApple": {
+        "source": "Continue with Apple",
+        "translation": "تواصل مع أبل",
+        "engine": "google"
+      },
+      "termsAgreement": {
+        "source": "By continuing you agree to our terms",
+        "translation": "من خلال الاستمرار فإنك توافق على شروطنا",
+        "engine": "google"
+      },
+      "welcomeBack": {
+        "source": "Welcome back, {name}!",
+        "translation": "مرحبًا بك مرة أخرى، {name}!",
+        "engine": "google"
+      },
+      "navHome": {
+        "source": "Home",
+        "translation": "بيت",
+        "engine": "google"
+      },
+      "navCategories": {
+        "source": "Categories",
+        "translation": "فئات",
+        "engine": "google"
+      },
+      "navCart": {
+        "source": "Cart",
+        "translation": "عربة",
+        "engine": "google"
+      },
+      "navOrders": {
+        "source": "Orders",
+        "translation": "طلبات",
+        "engine": "google"
+      },
+      "navProfile": {
+        "source": "Profile",
+        "translation": "حساب تعريفي",
+        "engine": "google"
+      },
+      "homeGreeting": {
+        "source": "Good to see you, {name}",
+        "translation": "يسعدني رؤيتك، {name}",
+        "engine": "google"
+      },
+      "searchHint": {
+        "source": "Search for products",
+        "translation": "البحث عن المنتجات",
+        "engine": "google"
+      },
+      "featured": {
+        "source": "Featured",
+        "translation": "مميز",
+        "engine": "google"
+      },
+      "newArrivals": {
+        "source": "New arrivals",
+        "translation": "الوافدون الجدد",
+        "engine": "google"
+      },
+      "bestSellers": {
+        "source": "Best sellers",
+        "translation": "الأكثر مبيعا",
+        "engine": "google"
+      },
+      "seeAll": {
+        "source": "See all",
+        "translation": "شاهد الكل",
+        "engine": "google"
+      },
+      "flashSaleEndsIn": {
+        "source": "Flash sale ends in {hours}h {minutes}m",
+        "translation": "ينتهي البيع السريع خلال {hours}ساعة {minutes}دقيقة",
+        "engine": "google"
+      },
+      "freeShippingOver": {
+        "source": "Free shipping on orders over {amount}",
+        "translation": "شحن مجاني للطلبات التي تزيد عن {amount}",
+        "engine": "google"
+      },
+      "categoryElectronics": {
+        "source": "Electronics",
+        "translation": "إلكترونيات",
+        "engine": "google"
+      },
+      "categoryFashion": {
+        "source": "Fashion",
+        "translation": "موضة",
+        "engine": "google"
+      },
+      "categoryHomeKitchen": {
+        "source": "Home & kitchen",
+        "translation": "المنزل والمطبخ",
+        "engine": "google"
+      },
+      "categoryBeauty": {
+        "source": "Beauty",
+        "translation": "جمال",
+        "engine": "google"
+      },
+      "categorySports": {
+        "source": "Sports",
+        "translation": "الرياضة",
+        "engine": "google"
+      },
+      "categoryToys": {
+        "source": "Toys",
+        "translation": "ألعاب",
+        "engine": "google"
+      },
+      "categoryBooks": {
+        "source": "Books",
+        "translation": "كتب",
+        "engine": "google"
+      },
+      "categoryGrocery": {
+        "source": "Grocery",
+        "translation": "خضروات",
+        "engine": "google"
+      },
+      "categoryGarden": {
+        "source": "Garden",
+        "translation": "حديقة",
+        "engine": "google"
+      },
+      "categoryAutomotive": {
+        "source": "Automotive",
+        "translation": "السيارات",
+        "engine": "google"
+      },
+      "categoryHealth": {
+        "source": "Health",
+        "translation": "صحة",
+        "engine": "google"
+      },
+      "categoryPets": {
+        "source": "Pets",
+        "translation": "حيوانات أليفة",
+        "engine": "google"
+      },
+      "categoryMusic": {
+        "source": "Music",
+        "translation": "موسيقى",
+        "engine": "google"
+      },
+      "categoryOfficeSupplies": {
+        "source": "Office supplies",
+        "translation": "اللوازم المكتبية",
+        "engine": "google"
+      },
+      "categoryJewelry": {
+        "source": "Jewelry",
+        "translation": "مجوهرات",
+        "engine": "google"
+      },
+      "categoryBabyCare": {
+        "source": "Baby care",
+        "translation": "رعاية الطفل",
+        "engine": "google"
+      },
+      "addToCart": {
+        "source": "Add to cart",
+        "translation": "أضف إلى السلة",
+        "engine": "google"
+      },
+      "buyNow": {
+        "source": "Buy now",
+        "translation": "اشتري الآن",
+        "engine": "google"
+      },
+      "inStock": {
+        "source": "In stock",
+        "translation": "في الأوراق المالية",
+        "engine": "google"
+      },
+      "outOfStock": {
+        "source": "Out of stock",
+        "translation": "إنتهى من المخزن",
+        "engine": "google"
+      },
+      "onlyLeft": {
+        "source": "{count, plural, =1{Only 1 left in stock} other{Only {count} left in stock}}",
+        "translation": "{count, plural, =1{تبقى 1 فقط في المخزون} other{تبقى في المخزون {count} فقط}}",
+        "engine": "google"
+      },
+      "reviewsCount": {
+        "source": "{count, plural, =0{No reviews yet} =1{1 review} other{{count} reviews}}",
+        "translation": "{count, plural, =0{لا توجد تعليقات حتى الآن} =1{1 مراجعة} other{{count} تعليق}}",
+        "engine": "google"
+      },
+      "ratingOutOfFive": {
+        "source": "Rated {rating} out of 5",
+        "translation": "تم التقييم بـ {rating} من أصل 5",
+        "engine": "google"
+      },
+      "productDescription": {
+        "source": "Description",
+        "translation": "وصف",
+        "engine": "google"
+      },
+      "specifications": {
+        "source": "Specifications",
+        "translation": "تحديد",
+        "engine": "google"
+      },
+      "size": {
+        "source": "Size",
+        "translation": "مقاس",
+        "engine": "google"
+      },
+      "color": {
+        "source": "Color",
+        "translation": "لون",
+        "engine": "google"
+      },
+      "quantity": {
+        "source": "Quantity",
+        "translation": "كمية",
+        "engine": "google"
+      },
+      "shareProduct": {
+        "source": "Share this product",
+        "translation": "شارك هذا المنتج",
+        "engine": "google"
+      },
+      "priceWithDiscount": {
+        "source": "{price} instead of {oldPrice}",
+        "translation": "{price} بدلاً من {oldPrice}",
+        "engine": "google"
+      },
+      "cartTitle": {
+        "source": "Shopping cart",
+        "translation": "عربة التسوق",
+        "engine": "google"
+      },
+      "cartEmpty": {
+        "source": "Your cart is empty",
+        "translation": "سلة التسوق الخاصة بك فارغة",
+        "engine": "google"
+      },
+      "cartItems": {
+        "source": "{count, plural, =0{No items} =1{1 item} other{{count} items}}",
+        "translation": "{count, plural, =0{لا توجد عناصر} =1{1 عنصر} other{{count} عنصر}}",
+        "engine": "google"
+      },
+      "subtotal": {
+        "source": "Subtotal",
+        "translation": "المجموع الفرعي",
+        "engine": "google"
+      },
+      "shipping": {
+        "source": "Shipping",
+        "translation": "شحن",
+        "engine": "google"
+      },
+      "tax": {
+        "source": "Tax",
+        "translation": "ضريبة",
+        "engine": "google"
+      },
+      "total": {
+        "source": "Total",
+        "translation": "المجموع",
+        "engine": "google"
+      },
+      "removeItem": {
+        "source": "Remove item",
+        "translation": "إزالة العنصر",
+        "engine": "google"
+      },
+      "undo": {
+        "source": "Undo",
+        "translation": "تراجع",
+        "engine": "google"
+      },
+      "applyCoupon": {
+        "source": "Apply coupon",
+        "translation": "تطبيق القسيمة",
+        "engine": "google"
+      },
+      "couponApplied": {
+        "source": "Coupon {code} applied",
+        "translation": "تم تطبيق القسيمة {code}.",
+        "engine": "google"
+      },
+      "proceedToCheckout": {
+        "source": "Proceed to checkout",
+        "translation": "الشروع في الخروج",
+        "engine": "google"
+      },
+      "checkoutTitle": {
+        "source": "Checkout",
+        "translation": "الدفع",
+        "engine": "google"
+      },
+      "shippingAddress": {
+        "source": "Shipping address",
+        "translation": "عنوان الشحن",
+        "engine": "google"
+      },
+      "paymentMethod": {
+        "source": "Payment method",
+        "translation": "طريقة الدفع",
+        "engine": "google"
+      },
+      "cardNumber": {
+        "source": "Card number",
+        "translation": "رقم البطاقة",
+        "engine": "google"
+      },
+      "expiryDate": {
+        "source": "Expiry date",
+        "translation": "تاريخ انتهاء الصلاحية",
+        "engine": "google"
+      },
+      "securityCode": {
+        "source": "Security code",
+        "translation": "رمز الأمان",
+        "engine": "google"
+      },
+      "placeOrder": {
+        "source": "Place order",
+        "translation": "وضع النظام",
+        "engine": "google"
+      },
+      "orderPlaced": {
+        "source": "Your order has been placed",
+        "translation": "لقد تم وضع طلبك",
+        "engine": "google"
+      },
+      "orderNumber": {
+        "source": "Order number {number}",
+        "translation": "رقم الطلب {number}",
+        "engine": "google"
+      },
+      "estimatedDelivery": {
+        "source": "Estimated delivery: {date}",
+        "translation": "التسليم المقدر: {date}",
+        "engine": "google"
+      },
+      "cashOnDelivery": {
+        "source": "Cash on delivery",
+        "translation": "نقدا عند التسليم",
+        "engine": "google"
+      },
+      "addNewAddress": {
+        "source": "Add a new address",
+        "translation": "أضف عنوانًا جديدًا",
+        "engine": "google"
+      },
+      "deliveryInstructions": {
+        "source": "Delivery instructions",
+        "translation": "تعليمات التسليم",
+        "engine": "google"
+      },
+      "paymentFailed": {
+        "source": "Payment failed, please try another card",
+        "translation": "فشل الدفع، يرجى تجربة بطاقة أخرى",
+        "engine": "google"
+      },
+      "ordersTitle": {
+        "source": "My orders",
+        "translation": "أوامري",
+        "engine": "google"
+      },
+      "noOrders": {
+        "source": "You have no orders yet",
+        "translation": "ليس لديك أي أوامر حتى الآن",
+        "engine": "google"
+      },
+      "orderStatusPending": {
+        "source": "Pending",
+        "translation": "قيد الانتظار",
+        "engine": "google"
+      },
+      "orderStatusShipped": {
+        "source": "Shipped",
+        "translation": "تم الشحن",
+        "engine": "google"
+      },
+      "orderStatusDelivered": {
+        "source": "Delivered",
+        "translation": "تم التوصيل",
+        "engine": "google"
+      },
+      "orderStatusCancelled": {
+        "source": "Cancelled",
+        "translation": "تم الإلغاء",
+        "engine": "google"
+      },
+      "trackOrder": {
+        "source": "Track order",
+        "translation": "تتبع الطلب",
+        "engine": "google"
+      },
+      "orderPlacedOn": {
+        "source": "Placed on {date}",
+        "translation": "تم وضعه في {date}",
+        "engine": "google"
+      },
+      "itemsInOrder": {
+        "source": "{count, plural, =1{1 item in this order} other{{count} items in this order}}",
+        "translation": "{count, plural, =1{1 عنصر في هذا الترتيب} other{{count} عنصر بهذا الترتيب}}",
+        "engine": "google"
+      },
+      "reorder": {
+        "source": "Order again",
+        "translation": "اطلب مرة أخرى",
+        "engine": "google"
+      },
+      "profileTitle": {
+        "source": "My profile",
+        "translation": "ملفي الشخصي",
+        "engine": "google"
+      },
+      "editProfile": {
+        "source": "Edit profile",
+        "translation": "تحرير الملف الشخصي",
+        "engine": "google"
+      },
+      "fullName": {
+        "source": "Full name",
+        "translation": "الاسم الكامل",
+        "engine": "google"
+      },
+      "phoneNumber": {
+        "source": "Phone number",
+        "translation": "رقم التليفون",
+        "engine": "google"
+      },
+      "addresses": {
+        "source": "Saved addresses",
+        "translation": "العناوين المحفوظة",
+        "engine": "google"
+      },
+      "wishlist": {
+        "source": "Wishlist",
+        "translation": "قائمة الرغبات",
+        "engine": "google"
+      },
+      "wishlistCount": {
+        "source": "{count, plural, =0{Your wishlist is empty} =1{1 saved item} other{{count} saved items}}",
+        "translation": "{count, plural, =0{قائمة أمنياتك فارغة} =1{تم حفظ عنصر واحد} other{{count} العناصر المحفوظة}}",
+        "engine": "google"
+      },
+      "memberSince": {
+        "source": "Member since {year}",
+        "translation": "عضو منذ {year}",
+        "engine": "google"
+      },
+      "inviteFriends": {
+        "source": "Invite friends",
+        "translation": "دعوة الأصدقاء",
+        "engine": "google"
+      },
+      "inviteReward": {
+        "source": "Get {amount} for every friend who joins",
+        "translation": "احصل على {amount} مقابل كل صديق ينضم",
+        "engine": "google"
+      },
+      "settingsTitle": {
+        "source": "Settings",
+        "translation": "إعدادات",
+        "engine": "google"
+      },
+      "language": {
+        "source": "Language",
+        "translation": "لغة",
+        "engine": "google"
+      },
+      "darkMode": {
+        "source": "Dark mode",
+        "translation": "الوضع المظلم",
+        "engine": "google"
+      },
+      "notificationsSetting": {
+        "source": "Notifications",
+        "translation": "إشعارات",
+        "engine": "google"
+      },
+      "pushNotifications": {
+        "source": "Push notifications",
+        "translation": "دفع الإخطارات",
+        "engine": "google"
+      },
+      "emailNotifications": {
+        "source": "Email notifications",
+        "translation": "إشعارات البريد الإلكتروني",
+        "engine": "google"
+      },
+      "currency": {
+        "source": "Currency",
+        "translation": "عملة",
+        "engine": "google"
+      },
+      "privacyPolicy": {
+        "source": "Privacy policy",
+        "translation": "سياسة الخصوصية",
+        "engine": "google"
+      },
+      "termsOfService": {
+        "source": "Terms of service",
+        "translation": "شروط الخدمة",
+        "engine": "google"
+      },
+      "helpCenter": {
+        "source": "Help center",
+        "translation": "مركز المساعدة",
+        "engine": "google"
+      },
+      "contactUs": {
+        "source": "Contact us",
+        "translation": "اتصل بنا",
+        "engine": "google"
+      },
+      "rateApp": {
+        "source": "Rate the app",
+        "translation": "قيم التطبيق",
+        "engine": "google"
+      },
+      "appVersion": {
+        "source": "Version {version}",
+        "translation": "الإصدار {version}",
+        "engine": "google"
+      },
+      "deleteAccount": {
+        "source": "Delete my account",
+        "translation": "حذف حسابي",
+        "engine": "google"
+      },
+      "notificationsTitle": {
+        "source": "Notifications",
+        "translation": "إشعارات",
+        "engine": "google"
+      },
+      "noNotifications": {
+        "source": "No notifications yet",
+        "translation": "لا توجد إخطارات حتى الآن",
+        "engine": "google"
+      },
+      "markAllRead": {
+        "source": "Mark all as read",
+        "translation": "وضع علامة على الكل كمقروءة",
+        "engine": "google"
+      },
+      "newMessagesFrom": {
+        "source": "{count, plural, =1{1 new message from {name}} other{{count} new messages from {name}}}",
+        "translation": "{count, plural, =1{رسالة واحدة جديدة من {name}} other{{count} رسائل جديدة من {name}}}",
+        "engine": "google"
+      },
+      "priceDropAlert": {
+        "source": "The price of {product} just dropped",
+        "translation": "انخفض سعر {product} للتو",
+        "engine": "google"
+      },
+      "orderShippedNotice": {
+        "source": "Order {orderId} is on its way",
+        "translation": "الطلب {orderId} في طريقه",
+        "engine": "google"
+      },
+      "errorGeneric": {
+        "source": "Something went wrong",
+        "translation": "حدث خطأ ما",
+        "engine": "google"
+      },
+      "errorNetwork": {
+        "source": "No internet connection",
+        "translation": "لا يوجد اتصال بالإنترنت",
+        "engine": "google"
+      },
+      "errorTimeout": {
+        "source": "The request timed out",
+        "translation": "انتهت مهلة الطلب",
+        "engine": "google"
+      },
+      "errorServer": {
+        "source": "Our server is having trouble",
+        "translation": "الخادم الخاص بنا يواجه مشكلة",
+        "engine": "google"
+      },
+      "errorInvalidEmail": {
+        "source": "Please enter a valid email address",
+        "translation": "يرجى إدخال عنوان بريد إلكتروني صالح",
+        "engine": "google"
+      },
+      "errorPasswordTooShort": {
+        "source": "Password must be at least {min} characters",
+        "translation": "يجب أن تتكون كلمة المرور من {min} حرفًا على الأقل",
+        "engine": "google"
+      },
+      "errorRequiredField": {
+        "source": "This field is required",
+        "translation": "هذه الخانة مطلوبه",
+        "engine": "google"
+      },
+      "errorPaymentDeclined": {
+        "source": "Your payment was declined",
+        "translation": "تم رفض دفعتك",
+        "engine": "google"
+      },
+      "retry": {
+        "source": "Try again",
+        "translation": "حاول ثانية",
+        "engine": "google"
+      },
+      "sessionExpired": {
+        "source": "Your session has expired, please sign in again",
+        "translation": "لقد انتهت جلستك، يرجى تسجيل الدخول مرة أخرى",
+        "engine": "google"
+      },
+      "ok": {
+        "source": "OK",
+        "translation": "نعم",
+        "engine": "google"
+      },
+      "cancel": {
+        "source": "Cancel",
+        "translation": "يلغي",
+        "engine": "google"
+      },
+      "save": {
+        "source": "Save",
+        "translation": "يحفظ",
+        "engine": "google"
+      },
+      "delete": {
+        "source": "Delete",
+        "translation": "يمسح",
+        "engine": "google"
+      },
+      "edit": {
+        "source": "Edit",
+        "translation": "يحرر",
+        "engine": "google"
+      },
+      "close": {
+        "source": "Close",
+        "translation": "يغلق",
+        "engine": "google"
+      },
+      "confirm": {
+        "source": "Confirm",
+        "translation": "يتأكد",
+        "engine": "google"
+      },
+      "yes": {
+        "source": "Yes",
+        "translation": "نعم",
+        "engine": "google"
+      },
+      "no": {
+        "source": "No",
+        "translation": "لا",
+        "engine": "google"
+      },
+      "loading": {
+        "source": "Loading…",
+        "translation": "تحميل…",
+        "engine": "google"
+      },
+      "done": {
+        "source": "Done",
+        "translation": "منتهي",
+        "engine": "google"
+      },
+      "back": {
+        "source": "Back",
+        "translation": "خلف",
+        "engine": "google"
+      },
+      "next": {
+        "source": "Next",
+        "translation": "التالي",
+        "engine": "google"
+      },
+      "skip": {
+        "source": "Skip",
+        "translation": "يتخطى",
+        "engine": "google"
+      },
+      "genderGreeting": {
+        "source": "{gender, select, male{Welcome, Mr. {name}} female{Welcome, Ms. {name}} other{Welcome, {name}}}",
+        "translation": "{gender, select, male{مرحبًا بك سيد {name}} female{مرحبًا بك، سيدة {name}} other{مرحبًا، {name}}}",
+        "engine": "google"
+      },
+      "itemsSelected": {
+        "source": "{count, plural, =0{Nothing selected} =1{1 selected} other{{count} selected}}",
+        "translation": "{count, plural, =0{لم يتم تحديد أي شيء} =1{تم تحديد 1} other{تم تحديد {count}.}}",
+        "engine": "google"
+      },
+      "daysLeft": {
+        "source": "{count, plural, =1{1 day left} other{{count} days left}}",
+        "translation": "{count, plural, =1{بقي يوم واحد} other{متبقي {count} يوم}}",
+        "engine": "google"
+      },
+      "minutesAgo": {
+        "source": "{count, plural, =0{Just now} =1{1 minute ago} other{{count} minutes ago}}",
+        "translation": "{count, plural, =0{الآن} =1{منذ دقيقة واحدة} other{منذ {count} دقيقة}}",
+        "engine": "google"
+      },
+      "followers": {
+        "source": "{count, plural, =1{1 follower} other{{count} followers}}",
+        "translation": "{count, plural, =1{1 متابع} other{{count} متابع}}",
+        "engine": "google"
+      },
+      "lastSeen": {
+        "source": "Last seen {time}",
+        "translation": "آخر ظهور {time}",
+        "engine": "google"
+      },
+      "monday": {
+        "source": "Monday",
+        "translation": "الاثنين",
+        "engine": "google"
+      },
+      "tuesday": {
+        "source": "Tuesday",
+        "translation": "يوم الثلاثاء",
+        "engine": "google"
+      },
+      "wednesday": {
+        "source": "Wednesday",
+        "translation": "الأربعاء",
+        "engine": "google"
+      },
+      "thursday": {
+        "source": "Thursday",
+        "translation": "يوم الخميس",
+        "engine": "google"
+      },
+      "friday": {
+        "source": "Friday",
+        "translation": "جمعة",
+        "engine": "google"
+      },
+      "saturday": {
+        "source": "Saturday",
+        "translation": "السبت",
+        "engine": "google"
+      },
+      "sunday": {
+        "source": "Sunday",
+        "translation": "الأحد",
+        "engine": "google"
+      }
+    },
+    "fr": {
+      "appTitle": {
+        "source": "Souq Shop",
+        "translation": "Boutique du souk",
+        "engine": "google"
+      },
+      "tagline": {
+        "source": "Everything you need, delivered fast",
+        "translation": "Tout ce dont vous avez besoin, livré rapidement",
+        "engine": "google"
+      },
+      "onboardingTitle1": {
+        "source": "Discover thousands of products",
+        "translation": "Découvrez des milliers de produits",
+        "engine": "google"
+      },
+      "onboardingBody1": {
+        "source": "Browse curated collections from trusted sellers.",
+        "translation": "Parcourez les collections organisées par des vendeurs de confiance.",
+        "engine": "google"
+      },
+      "onboardingTitle2": {
+        "source": "Fast and safe delivery",
+        "translation": "Livraison rapide et sûre",
+        "engine": "google"
+      },
+      "onboardingBody2": {
+        "source": "Track every order from the warehouse to your door.",
+        "translation": "Suivez chaque commande depuis l'entrepôt jusqu'à votre porte.",
+        "engine": "google"
+      },
+      "onboardingTitle3": {
+        "source": "Pay the way you like",
+        "translation": "Payez comme vous le souhaitez",
+        "engine": "google"
+      },
+      "onboardingBody3": {
+        "source": "Cards, wallets or cash on delivery.",
+        "translation": "Cartes, portefeuilles ou paiement à la livraison.",
+        "engine": "google"
+      },
+      "signIn": {
+        "source": "Sign in",
+        "translation": "Se connecter",
+        "engine": "google"
+      },
+      "signUp": {
+        "source": "Sign up",
+        "translation": "S'inscrire",
+        "engine": "google"
+      },
+      "signOut": {
+        "source": "Sign out",
+        "translation": "se déconnecter",
+        "engine": "google"
+      },
+      "email": {
+        "source": "Email address",
+        "translation": "Adresse email",
+        "engine": "google"
+      },
+      "password": {
+        "source": "Password",
+        "translation": "Mot de passe",
+        "engine": "google"
+      },
+      "forgotPassword": {
+        "source": "Forgot your password?",
+        "translation": "Vous avez oublié votre mot de passe ?",
+        "engine": "google"
+      },
+      "resetPassword": {
+        "source": "Reset password",
+        "translation": "Réinitialiser le mot de passe",
+        "engine": "google"
+      },
+      "createAccount": {
+        "source": "Create account",
+        "translation": "Créer un compte",
+        "engine": "google"
+      },
+      "alreadyHaveAccount": {
+        "source": "Already have an account?",
+        "translation": "Vous avez déjà un compte ?",
+        "engine": "google"
+      },
+      "noAccount": {
+        "source": "Don't have an account?",
+        "translation": "Vous n'avez pas de compte ?",
+        "engine": "google"
+      },
+      "continueWithGoogle": {
+        "source": "Continue with Google",
+        "translation": "Continuer avec Google",
+        "engine": "google"
+      },
+      "continueWithApple": {
+        "source": "Continue with Apple",
+        "translation": "Continuer avec Apple",
+        "engine": "google"
+      },
+      "termsAgreement": {
+        "source": "By continuing you agree to our terms",
+        "translation": "En continuant, vous acceptez nos conditions",
+        "engine": "google"
+      },
+      "welcomeBack": {
+        "source": "Welcome back, {name}!",
+        "translation": "Bon retour, {name} !",
+        "engine": "google"
+      },
+      "navHome": {
+        "source": "Home",
+        "translation": "Maison",
+        "engine": "google"
+      },
+      "navCategories": {
+        "source": "Categories",
+        "translation": "Catégories",
+        "engine": "google"
+      },
+      "navCart": {
+        "source": "Cart",
+        "translation": "Panier",
+        "engine": "google"
+      },
+      "navOrders": {
+        "source": "Orders",
+        "translation": "Ordres",
+        "engine": "google"
+      },
+      "navProfile": {
+        "source": "Profile",
+        "translation": "Profil",
+        "engine": "google"
+      },
+      "homeGreeting": {
+        "source": "Good to see you, {name}",
+        "translation": "Content de vous voir, {name}",
+        "engine": "google"
+      },
+      "searchHint": {
+        "source": "Search for products",
+        "translation": "Rechercher des produits",
+        "engine": "google"
+      },
+      "featured": {
+        "source": "Featured",
+        "translation": "En vedette",
+        "engine": "google"
+      },
+      "newArrivals": {
+        "source": "New arrivals",
+        "translation": "Nouveautés",
+        "engine": "google"
+      },
+      "bestSellers": {
+        "source": "Best sellers",
+        "translation": "Meilleures ventes",
+        "engine": "google"
+      },
+      "seeAll": {
+        "source": "See all",
+        "translation": "Voir tout",
+        "engine": "google"
+      },
+      "flashSaleEndsIn": {
+        "source": "Flash sale ends in {hours}h {minutes}m",
+        "translation": "La vente flash se termine dans {hours}h {minutes} min",
+        "engine": "google"
+      },
+      "freeShippingOver": {
+        "source": "Free shipping on orders over {amount}",
+        "translation": "Livraison gratuite pour les commandes supérieures à {amount}",
+        "engine": "google"
+      },
+      "categoryElectronics": {
+        "source": "Electronics",
+        "translation": "Électronique",
+        "engine": "google"
+      },
+      "categoryFashion": {
+        "source": "Fashion",
+        "translation": "Mode",
+        "engine": "google"
+      },
+      "categoryHomeKitchen": {
+        "source": "Home & kitchen",
+        "translation": "Maison et cuisine",
+        "engine": "google"
+      },
+      "categoryBeauty": {
+        "source": "Beauty",
+        "translation": "Beauté",
+        "engine": "google"
+      },
+      "categorySports": {
+        "source": "Sports",
+        "translation": "Sportif",
+        "engine": "google"
+      },
+      "categoryToys": {
+        "source": "Toys",
+        "translation": "Jouets",
+        "engine": "google"
+      },
+      "categoryBooks": {
+        "source": "Books",
+        "translation": "Livres",
+        "engine": "google"
+      },
+      "categoryGrocery": {
+        "source": "Grocery",
+        "translation": "Épicerie",
+        "engine": "google"
+      },
+      "categoryGarden": {
+        "source": "Garden",
+        "translation": "Jardin",
+        "engine": "google"
+      },
+      "categoryAutomotive": {
+        "source": "Automotive",
+        "translation": "Automobile",
+        "engine": "google"
+      },
+      "categoryHealth": {
+        "source": "Health",
+        "translation": "Santé",
+        "engine": "google"
+      },
+      "categoryPets": {
+        "source": "Pets",
+        "translation": "Animaux de compagnie",
+        "engine": "google"
+      },
+      "categoryMusic": {
+        "source": "Music",
+        "translation": "Musique",
+        "engine": "google"
+      },
+      "categoryOfficeSupplies": {
+        "source": "Office supplies",
+        "translation": "Fournitures de bureau",
+        "engine": "google"
+      },
+      "categoryJewelry": {
+        "source": "Jewelry",
+        "translation": "Bijoux",
+        "engine": "google"
+      },
+      "categoryBabyCare": {
+        "source": "Baby care",
+        "translation": "Soins de bébé",
+        "engine": "google"
+      },
+      "addToCart": {
+        "source": "Add to cart",
+        "translation": "Ajouter au panier",
+        "engine": "google"
+      },
+      "buyNow": {
+        "source": "Buy now",
+        "translation": "Acheter maintenant",
+        "engine": "google"
+      },
+      "inStock": {
+        "source": "In stock",
+        "translation": "En stock",
+        "engine": "google"
+      },
+      "outOfStock": {
+        "source": "Out of stock",
+        "translation": "En rupture de stock",
+        "engine": "google"
+      },
+      "onlyLeft": {
+        "source": "{count, plural, =1{Only 1 left in stock} other{Only {count} left in stock}}",
+        "translation": "{count, plural, =1{Il n'en reste que 1 en stock} other{Il ne reste que {count} en stock}}",
+        "engine": "google"
+      },
+      "reviewsCount": {
+        "source": "{count, plural, =0{No reviews yet} =1{1 review} other{{count} reviews}}",
+        "translation": "{count, plural, =0{Aucun avis pour l'instant} =1{1 avis} other{{count} avis}}",
+        "engine": "google"
+      },
+      "ratingOutOfFive": {
+        "source": "Rated {rating} out of 5",
+        "translation": "Noté {rating} sur 5",
+        "engine": "google"
+      },
+      "productDescription": {
+        "source": "Description",
+        "translation": "Description",
+        "engine": "google"
+      },
+      "specifications": {
+        "source": "Specifications",
+        "translation": "Caractéristiques",
+        "engine": "google"
+      },
+      "size": {
+        "source": "Size",
+        "translation": "Taille",
+        "engine": "google"
+      },
+      "color": {
+        "source": "Color",
+        "translation": "Couleur",
+        "engine": "google"
+      },
+      "quantity": {
+        "source": "Quantity",
+        "translation": "Quantité",
+        "engine": "google"
+      },
+      "shareProduct": {
+        "source": "Share this product",
+        "translation": "Partager ce produit",
+        "engine": "google"
+      },
+      "priceWithDiscount": {
+        "source": "{price} instead of {oldPrice}",
+        "translation": "{price} au lieu de {oldPrice}",
+        "engine": "google"
+      },
+      "cartTitle": {
+        "source": "Shopping cart",
+        "translation": "Panier",
+        "engine": "google"
+      },
+      "cartEmpty": {
+        "source": "Your cart is empty",
+        "translation": "Votre panier est vide",
+        "engine": "google"
+      },
+      "cartItems": {
+        "source": "{count, plural, =0{No items} =1{1 item} other{{count} items}}",
+        "translation": "{count, plural, =0{Aucun article} =1{1 article} other{{count} articles}}",
+        "engine": "google"
+      },
+      "subtotal": {
+        "source": "Subtotal",
+        "translation": "Total",
+        "engine": "google"
+      },
+      "shipping": {
+        "source": "Shipping",
+        "translation": "Expédition",
+        "engine": "google"
+      },
+      "tax": {
+        "source": "Tax",
+        "translation": "Impôt",
+        "engine": "google"
+      },
+      "total": {
+        "source": "Total",
+        "translation": "Total",
+        "engine": "google"
+      },
+      "removeItem": {
+        "source": "Remove item",
+        "translation": "Supprimer l'élément",
+        "engine": "google"
+      },
+      "undo": {
+        "source": "Undo",
+        "translation": "Défaire",
+        "engine": "google"
+      },
+      "applyCoupon": {
+        "source": "Apply coupon",
+        "translation": "Appliquer le coupon",
+        "engine": "google"
+      },
+      "couponApplied": {
+        "source": "Coupon {code} applied",
+        "translation": "Coupon {code} appliqué",
+        "engine": "google"
+      },
+      "proceedToCheckout": {
+        "source": "Proceed to checkout",
+        "translation": "Passer à la caisse",
+        "engine": "google"
+      },
+      "checkoutTitle": {
+        "source": "Checkout",
+        "translation": "Vérifier",
+        "engine": "google"
+      },
+      "shippingAddress": {
+        "source": "Shipping address",
+        "translation": "Adresse de livraison",
+        "engine": "google"
+      },
+      "paymentMethod": {
+        "source": "Payment method",
+        "translation": "Mode de paiement",
+        "engine": "google"
+      },
+      "cardNumber": {
+        "source": "Card number",
+        "translation": "Numéro de carte",
+        "engine": "google"
+      },
+      "expiryDate": {
+        "source": "Expiry date",
+        "translation": "Date d'expiration",
+        "engine": "google"
+      },
+      "securityCode": {
+        "source": "Security code",
+        "translation": "Code de sécurité",
+        "engine": "google"
+      },
+      "placeOrder": {
+        "source": "Place order",
+        "translation": "Passer la commande",
+        "engine": "google"
+      },
+      "orderPlaced": {
+        "source": "Your order has been placed",
+        "translation": "Votre commande a été passée",
+        "engine": "google"
+      },
+      "orderNumber": {
+        "source": "Order number {number}",
+        "translation": "Numéro de commande {number}",
+        "engine": "google"
+      },
+      "estimatedDelivery": {
+        "source": "Estimated delivery: {date}",
+        "translation": "Livraison estimée : {date}",
+        "engine": "google"
+      },
+      "cashOnDelivery": {
+        "source": "Cash on delivery",
+        "translation": "Paiement à la livraison",
+        "engine": "google"
+      },
+      "addNewAddress": {
+        "source": "Add a new address",
+        "translation": "Ajouter une nouvelle adresse",
+        "engine": "google"
+      },
+      "deliveryInstructions": {
+        "source": "Delivery instructions",
+        "translation": "Instructions de livraison",
+        "engine": "google"
+      },
+      "paymentFailed": {
+        "source": "Payment failed, please try another card",
+        "translation": "Le paiement a échoué, veuillez essayer avec une autre carte",
+        "engine": "google"
+      },
+      "ordersTitle": {
+        "source": "My orders",
+        "translation": "Mes commandes",
+        "engine": "google"
+      },
+      "noOrders": {
+        "source": "You have no orders yet",
+        "translation": "Vous n'avez pas encore de commandes",
+        "engine": "google"
+      },
+      "orderStatusPending": {
+        "source": "Pending",
+        "translation": "En attente",
+        "engine": "google"
+      },
+      "orderStatusShipped": {
+        "source": "Shipped",
+        "translation": "Expédié",
+        "engine": "google"
+      },
+      "orderStatusDelivered": {
+        "source": "Delivered",
+        "translation": "Livré",
+        "engine": "google"
+      },
+      "orderStatusCancelled": {
+        "source": "Cancelled",
+        "translation": "Annulé",
+        "engine": "google"
+      },
+      "trackOrder": {
+        "source": "Track order",
+        "translation": "Suivre la commande",
+        "engine": "google"
+      },
+      "orderPlacedOn": {
+        "source": "Placed on {date}",
+        "translation": "Placé le {date}",
+        "engine": "google"
+      },
+      "itemsInOrder": {
+        "source": "{count, plural, =1{1 item in this order} other{{count} items in this order}}",
+        "translation": "{count, plural, =1{1 article dans cette commande} other{{count} articles dans cette commande}}",
+        "engine": "google"
+      },
+      "reorder": {
+        "source": "Order again",
+        "translation": "Commandez à nouveau",
+        "engine": "google"
+      },
+      "profileTitle": {
+        "source": "My profile",
+        "translation": "Mon profil",
+        "engine": "google"
+      },
+      "editProfile": {
+        "source": "Edit profile",
+        "translation": "Modifier le profil",
+        "engine": "google"
+      },
+      "fullName": {
+        "source": "Full name",
+        "translation": "Nom et prénom",
+        "engine": "google"
+      },
+      "phoneNumber": {
+        "source": "Phone number",
+        "translation": "Numéro de téléphone",
+        "engine": "google"
+      },
+      "addresses": {
+        "source": "Saved addresses",
+        "translation": "Adresses enregistrées",
+        "engine": "google"
+      },
+      "wishlist": {
+        "source": "Wishlist",
+        "translation": "Liste de souhaits",
+        "engine": "google"
+      },
+      "wishlistCount": {
+        "source": "{count, plural, =0{Your wishlist is empty} =1{1 saved item} other{{count} saved items}}",
+        "translation": "{count, plural, =0{Votre liste de souhaits est vide} =1{1 élément enregistré} other{{count} éléments enregistrés}}",
+        "engine": "google"
+      },
+      "memberSince": {
+        "source": "Member since {year}",
+        "translation": "Membre depuis {year}",
+        "engine": "google"
+      },
+      "inviteFriends": {
+        "source": "Invite friends",
+        "translation": "Inviter des amis",
+        "engine": "google"
+      },
+      "inviteReward": {
+        "source": "Get {amount} for every friend who joins",
+        "translation": "Obtenez {amount} pour chaque ami qui nous rejoint",
+        "engine": "google"
+      },
+      "settingsTitle": {
+        "source": "Settings",
+        "translation": "Paramètres",
+        "engine": "google"
+      },
+      "language": {
+        "source": "Language",
+        "translation": "Langue",
+        "engine": "google"
+      },
+      "darkMode": {
+        "source": "Dark mode",
+        "translation": "Mode sombre",
+        "engine": "google"
+      },
+      "notificationsSetting": {
+        "source": "Notifications",
+        "translation": "Notifications",
+        "engine": "google"
+      },
+      "pushNotifications": {
+        "source": "Push notifications",
+        "translation": "Notifications poussées",
+        "engine": "google"
+      },
+      "emailNotifications": {
+        "source": "Email notifications",
+        "translation": "Notifications par courrier électronique",
+        "engine": "google"
+      },
+      "currency": {
+        "source": "Currency",
+        "translation": "Devise",
+        "engine": "google"
+      },
+      "privacyPolicy": {
+        "source": "Privacy policy",
+        "translation": "Politique de confidentialité",
+        "engine": "google"
+      },
+      "termsOfService": {
+        "source": "Terms of service",
+        "translation": "Conditions d'utilisation",
+        "engine": "google"
+      },
+      "helpCenter": {
+        "source": "Help center",
+        "translation": "Centre d'aide",
+        "engine": "google"
+      },
+      "contactUs": {
+        "source": "Contact us",
+        "translation": "Contactez-nous",
+        "engine": "google"
+      },
+      "rateApp": {
+        "source": "Rate the app",
+        "translation": "Évaluez l'application",
+        "engine": "google"
+      },
+      "appVersion": {
+        "source": "Version {version}",
+        "translation": "Version {version}",
+        "engine": "google"
+      },
+      "deleteAccount": {
+        "source": "Delete my account",
+        "translation": "Supprimer mon compte",
+        "engine": "google"
+      },
+      "notificationsTitle": {
+        "source": "Notifications",
+        "translation": "Notifications",
+        "engine": "google"
+      },
+      "noNotifications": {
+        "source": "No notifications yet",
+        "translation": "Aucune notification pour l'instant",
+        "engine": "google"
+      },
+      "markAllRead": {
+        "source": "Mark all as read",
+        "translation": "Marquer tout comme lu",
+        "engine": "google"
+      },
+      "newMessagesFrom": {
+        "source": "{count, plural, =1{1 new message from {name}} other{{count} new messages from {name}}}",
+        "translation": "{count, plural, =1{1 nouveau message de {name}} other{{count} nouveaux messages de {name}}}",
+        "engine": "google"
+      },
+      "priceDropAlert": {
+        "source": "The price of {product} just dropped",
+        "translation": "Le prix de {product} vient de baisser",
+        "engine": "google"
+      },
+      "orderShippedNotice": {
+        "source": "Order {orderId} is on its way",
+        "translation": "La commande {orderId} est en route",
+        "engine": "google"
+      },
+      "errorGeneric": {
+        "source": "Something went wrong",
+        "translation": "Quelque chose s'est mal passé",
+        "engine": "google"
+      },
+      "errorNetwork": {
+        "source": "No internet connection",
+        "translation": "Pas de connexion Internet",
+        "engine": "google"
+      },
+      "errorTimeout": {
+        "source": "The request timed out",
+        "translation": "La demande a expiré",
+        "engine": "google"
+      },
+      "errorServer": {
+        "source": "Our server is having trouble",
+        "translation": "Notre serveur a des problèmes",
+        "engine": "google"
+      },
+      "errorInvalidEmail": {
+        "source": "Please enter a valid email address",
+        "translation": "S'il vous plaît, mettez une adresse email valide",
+        "engine": "google"
+      },
+      "errorPasswordTooShort": {
+        "source": "Password must be at least {min} characters",
+        "translation": "Le mot de passe doit contenir au moins {min} caractères",
+        "engine": "google"
+      },
+      "errorRequiredField": {
+        "source": "This field is required",
+        "translation": "Ce champ est obligatoire",
+        "engine": "google"
+      },
+      "errorPaymentDeclined": {
+        "source": "Your payment was declined",
+        "translation": "Votre paiement a été refusé",
+        "engine": "google"
+      },
+      "retry": {
+        "source": "Try again",
+        "translation": "Essayer à nouveau",
+        "engine": "google"
+      },
+      "sessionExpired": {
+        "source": "Your session has expired, please sign in again",
+        "translation": "Votre session a expiré, veuillez vous reconnecter",
+        "engine": "google"
+      },
+      "ok": {
+        "source": "OK",
+        "translation": "D'ACCORD",
+        "engine": "google"
+      },
+      "cancel": {
+        "source": "Cancel",
+        "translation": "Annuler",
+        "engine": "google"
+      },
+      "save": {
+        "source": "Save",
+        "translation": "Sauvegarder",
+        "engine": "google"
+      },
+      "delete": {
+        "source": "Delete",
+        "translation": "Supprimer",
+        "engine": "google"
+      },
+      "edit": {
+        "source": "Edit",
+        "translation": "Modifier",
+        "engine": "google"
+      },
+      "close": {
+        "source": "Close",
+        "translation": "Fermer",
+        "engine": "google"
+      },
+      "confirm": {
+        "source": "Confirm",
+        "translation": "Confirmer",
+        "engine": "google"
+      },
+      "yes": {
+        "source": "Yes",
+        "translation": "Oui",
+        "engine": "google"
+      },
+      "no": {
+        "source": "No",
+        "translation": "Non",
+        "engine": "google"
+      },
+      "loading": {
+        "source": "Loading…",
+        "translation": "Chargement…",
+        "engine": "google"
+      },
+      "done": {
+        "source": "Done",
+        "translation": "Fait",
+        "engine": "google"
+      },
+      "back": {
+        "source": "Back",
+        "translation": "Dos",
+        "engine": "google"
+      },
+      "next": {
+        "source": "Next",
+        "translation": "Suivant",
+        "engine": "google"
+      },
+      "skip": {
+        "source": "Skip",
+        "translation": "Sauter",
+        "engine": "google"
+      },
+      "genderGreeting": {
+        "source": "{gender, select, male{Welcome, Mr. {name}} female{Welcome, Ms. {name}} other{Welcome, {name}}}",
+        "translation": "{gender, select, male{Bienvenue, M. {name}} female{Bienvenue, Mme {name}} other{Bienvenue, {name}}}",
+        "engine": "google"
+      },
+      "itemsSelected": {
+        "source": "{count, plural, =0{Nothing selected} =1{1 selected} other{{count} selected}}",
+        "translation": "{count, plural, =0{Rien de sélectionné} =1{1 sélectionné} other{{count} sélectionné}}",
+        "engine": "google"
+      },
+      "daysLeft": {
+        "source": "{count, plural, =1{1 day left} other{{count} days left}}",
+        "translation": "{count, plural, =1{il reste 1 jour} other{Il reste {count} jours}}",
+        "engine": "google"
+      },
+      "minutesAgo": {
+        "source": "{count, plural, =0{Just now} =1{1 minute ago} other{{count} minutes ago}}",
+        "translation": "{count, plural, =0{Tout à l' heure} =1{il y a 1 minute} other{il y a {count} minutes}}",
+        "engine": "google"
+      },
+      "followers": {
+        "source": "{count, plural, =1{1 follower} other{{count} followers}}",
+        "translation": "{count, plural, =1{1 abonné} other{{count} abonnés}}",
+        "engine": "google"
+      },
+      "lastSeen": {
+        "source": "Last seen {time}",
+        "translation": "Vu pour la dernière fois {time}",
+        "engine": "google"
+      },
+      "monday": {
+        "source": "Monday",
+        "translation": "Lundi",
+        "engine": "google"
+      },
+      "tuesday": {
+        "source": "Tuesday",
+        "translation": "Mardi",
+        "engine": "google"
+      },
+      "wednesday": {
+        "source": "Wednesday",
+        "translation": "Mercredi",
+        "engine": "google"
+      },
+      "thursday": {
+        "source": "Thursday",
+        "translation": "Jeudi",
+        "engine": "google"
+      },
+      "friday": {
+        "source": "Friday",
+        "translation": "Vendredi",
+        "engine": "google"
+      },
+      "saturday": {
+        "source": "Saturday",
+        "translation": "Samedi",
+        "engine": "google"
+      },
+      "sunday": {
+        "source": "Sunday",
+        "translation": "Dimanche",
+        "engine": "google"
+      }
+    },
+    "de": {
+      "appTitle": {
+        "source": "Souq Shop",
+        "translation": "Souq-Shop",
+        "engine": "google"
+      },
+      "tagline": {
+        "source": "Everything you need, delivered fast",
+        "translation": "Alles was Sie brauchen, schnell geliefert",
+        "engine": "google"
+      },
+      "onboardingTitle1": {
+        "source": "Discover thousands of products",
+        "translation": "Entdecken Sie Tausende von Produkten",
+        "engine": "google"
+      },
+      "onboardingBody1": {
+        "source": "Browse curated collections from trusted sellers.",
+        "translation": "Durchsuchen Sie kuratierte Sammlungen vertrauenswürdiger Verkäufer.",
+        "engine": "google"
+      },
+      "onboardingTitle2": {
+        "source": "Fast and safe delivery",
+        "translation": "Schnelle und sichere Lieferung",
+        "engine": "google"
+      },
+      "onboardingBody2": {
+        "source": "Track every order from the warehouse to your door.",
+        "translation": "Verfolgen Sie jede Bestellung vom Lager bis zu Ihrer Haustür.",
+        "engine": "google"
+      },
+      "onboardingTitle3": {
+        "source": "Pay the way you like",
+        "translation": "Bezahlen Sie so, wie Sie möchten",
+        "engine": "google"
+      },
+      "onboardingBody3": {
+        "source": "Cards, wallets or cash on delivery.",
+        "translation": "Karten, Geldbörsen oder Nachnahme.",
+        "engine": "google"
+      },
+      "signIn": {
+        "source": "Sign in",
+        "translation": "anmelden",
+        "engine": "google"
+      },
+      "signUp": {
+        "source": "Sign up",
+        "translation": "Melden Sie sich an",
+        "engine": "google"
+      },
+      "signOut": {
+        "source": "Sign out",
+        "translation": "Abmelden",
+        "engine": "google"
+      },
+      "email": {
+        "source": "Email address",
+        "translation": "E-Mail-Adresse",
+        "engine": "google"
+      },
+      "password": {
+        "source": "Password",
+        "translation": "Passwort",
+        "engine": "google"
+      },
+      "forgotPassword": {
+        "source": "Forgot your password?",
+        "translation": "Passwort vergessen?",
+        "engine": "google"
+      },
+      "resetPassword": {
+        "source": "Reset password",
+        "translation": "Passwort zurücksetzen",
+        "engine": "google"
+      },
+      "createAccount": {
+        "source": "Create account",
+        "translation": "Benutzerkonto erstellen",
+        "engine": "google"
+      },
+      "alreadyHaveAccount": {
+        "source": "Already have an account?",
+        "translation": "Sie haben bereits ein Konto?",
+        "engine": "google"
+      },
+      "noAccount": {
+        "source": "Don't have an account?",
+        "translation": "Sie haben noch kein Konto?",
+        "engine": "google"
+      },
+      "continueWithGoogle": {
+        "source": "Continue with Google",
+        "translation": "Weiter mit Google",
+        "engine": "google"
+      },
+      "continueWithApple": {
+        "source": "Continue with Apple",
+        "translation": "Weiter mit Apple",
+        "engine": "google"
+      },
+      "termsAgreement": {
+        "source": "By continuing you agree to our terms",
+        "translation": "Wenn Sie fortfahren, stimmen Sie unseren Bedingungen zu",
+        "engine": "google"
+      },
+      "welcomeBack": {
+        "source": "Welcome back, {name}!",
+        "translation": "Willkommen zurück, {name}!",
+        "engine": "google"
+      },
+      "navHome": {
+        "source": "Home",
+        "translation": "Heim",
+        "engine": "google"
+      },
+      "navCategories": {
+        "source": "Categories",
+        "translation": "Kategorien",
+        "engine": "google"
+      },
+      "navCart": {
+        "source": "Cart",
+        "translation": "Warenkorb",
+        "engine": "google"
+      },
+      "navOrders": {
+        "source": "Orders",
+        "translation": "Bestellungen",
+        "engine": "google"
+      },
+      "navProfile": {
+        "source": "Profile",
+        "translation": "Profil",
+        "engine": "google"
+      },
+      "homeGreeting": {
+        "source": "Good to see you, {name}",
+        "translation": "Schön dich zu sehen, {name}",
+        "engine": "google"
+      },
+      "searchHint": {
+        "source": "Search for products",
+        "translation": "Nach Produkten suchen",
+        "engine": "google"
+      },
+      "featured": {
+        "source": "Featured",
+        "translation": "Hervorgehoben",
+        "engine": "google"
+      },
+      "newArrivals": {
+        "source": "New arrivals",
+        "translation": "Neuzugänge",
+        "engine": "google"
+      },
+      "bestSellers": {
+        "source": "Best sellers",
+        "translation": "Bestseller",
+        "engine": "google"
+      },
+      "seeAll": {
+        "source": "See all",
+        "translation": "Alle anzeigen",
+        "engine": "google"
+      },
+      "flashSaleEndsIn": {
+        "source": "Flash sale ends in {hours}h {minutes}m",
+        "translation": "Der Flash-Sale endet in {hours}h {minutes}m",
+        "engine": "google"
+      },
+      "freeShippingOver": {
+        "source": "Free shipping on orders over {amount}",
+        "translation": "Kostenloser Versand für Bestellungen über {amount}",
+        "engine": "google"
+      },
+      "categoryElectronics": {
+        "source": "Electronics",
+        "translation": "Elektronik",
+        "engine": "google"
+      },
+      "categoryFashion": {
+        "source": "Fashion",
+        "translation": "Mode",
+        "engine": "google"
+      },
+      "categoryHomeKitchen": {
+        "source": "Home & kitchen",
+        "translation": "Haus & Küche",
+        "engine": "google"
+      },
+      "categoryBeauty": {
+        "source": "Beauty",
+        "translation": "Schönheit",
+        "engine": "google"
+      },
+      "categorySports": {
+        "source": "Sports",
+        "translation": "Sport",
+        "engine": "google"
+      },
+      "categoryToys": {
+        "source": "Toys",
+        "translation": "Spielzeug",
+        "engine": "google"
+      },
+      "categoryBooks": {
+        "source": "Books",
+        "translation": "Bücher",
+        "engine": "google"
+      },
+      "categoryGrocery": {
+        "source": "Grocery",
+        "translation": "Lebensmittelgeschäft",
+        "engine": "google"
+      },
+      "categoryGarden": {
+        "source": "Garden",
+        "translation": "Garten",
+        "engine": "google"
+      },
+      "categoryAutomotive": {
+        "source": "Automotive",
+        "translation": "Automobil",
+        "engine": "google"
+      },
+      "categoryHealth": {
+        "source": "Health",
+        "translation": "Gesundheit",
+        "engine": "google"
+      },
+      "categoryPets": {
+        "source": "Pets",
+        "translation": "Haustiere",
+        "engine": "google"
+      },
+      "categoryMusic": {
+        "source": "Music",
+        "translation": "Musik",
+        "engine": "google"
+      },
+      "categoryOfficeSupplies": {
+        "source": "Office supplies",
+        "translation": "Bürobedarf",
+        "engine": "google"
+      },
+      "categoryJewelry": {
+        "source": "Jewelry",
+        "translation": "Schmuck",
+        "engine": "google"
+      },
+      "categoryBabyCare": {
+        "source": "Baby care",
+        "translation": "Babypflege",
+        "engine": "google"
+      },
+      "addToCart": {
+        "source": "Add to cart",
+        "translation": "In den Warenkorb legen",
+        "engine": "google"
+      },
+      "buyNow": {
+        "source": "Buy now",
+        "translation": "Jetzt kaufen",
+        "engine": "google"
+      },
+      "inStock": {
+        "source": "In stock",
+        "translation": "Auf Lager",
+        "engine": "google"
+      },
+      "outOfStock": {
+        "source": "Out of stock",
+        "translation": "Ausverkauft",
+        "engine": "google"
+      },
+      "onlyLeft": {
+        "source": "{count, plural, =1{Only 1 left in stock} other{Only {count} left in stock}}",
+        "translation": "{count, plural, =1{Nur noch 1 auf Lager} other{Nur noch {count} auf Lager}}",
+        "engine": "google"
+      },
+      "reviewsCount": {
+        "source": "{count, plural, =0{No reviews yet} =1{1 review} other{{count} reviews}}",
+        "translation": "{count, plural, =0{Noch keine Bewertungen} =1{1 Rezension} other{{count} Bewertungen}}",
+        "engine": "google"
+      },
+      "ratingOutOfFive": {
+        "source": "Rated {rating} out of 5",
+        "translation": "Mit {rating} von 5 bewertet",
+        "engine": "google"
+      },
+      "productDescription": {
+        "source": "Description",
+        "translation": "Beschreibung",
+        "engine": "google"
+      },
+      "specifications": {
+        "source": "Specifications",
+        "translation": "Spezifikationen",
+        "engine": "google"
+      },
+      "size": {
+        "source": "Size",
+        "translation": "Größe",
+        "engine": "google"
+      },
+      "color": {
+        "source": "Color",
+        "translation": "Farbe",
+        "engine": "google"
+      },
+      "quantity": {
+        "source": "Quantity",
+        "translation": "Menge",
+        "engine": "google"
+      },
+      "shareProduct": {
+        "source": "Share this product",
+        "translation": "Teilen Sie dieses Produkt",
+        "engine": "google"
+      },
+      "priceWithDiscount": {
+        "source": "{price} instead of {oldPrice}",
+        "translation": "{price} statt {oldPrice}",
+        "engine": "google"
+      },
+      "cartTitle": {
+        "source": "Shopping cart",
+        "translation": "Warenkorb",
+        "engine": "google"
+      },
+      "cartEmpty": {
+        "source": "Your cart is empty",
+        "translation": "Ihr Warenkorb ist leer",
+        "engine": "google"
+      },
+      "cartItems": {
+        "source": "{count, plural, =0{No items} =1{1 item} other{{count} items}}",
+        "translation": "{count, plural, =0{Keine Artikel} =1{1 Artikel} other{{count} Artikel}}",
+        "engine": "google"
+      },
+      "subtotal": {
+        "source": "Subtotal",
+        "translation": "Zwischensumme",
+        "engine": "google"
+      },
+      "shipping": {
+        "source": "Shipping",
+        "translation": "Versand",
+        "engine": "google"
+      },
+      "tax": {
+        "source": "Tax",
+        "translation": "Steuer",
+        "engine": "google"
+      },
+      "total": {
+        "source": "Total",
+        "translation": "Gesamt",
+        "engine": "google"
+      },
+      "removeItem": {
+        "source": "Remove item",
+        "translation": "Artikel entfernen",
+        "engine": "google"
+      },
+      "undo": {
+        "source": "Undo",
+        "translation": "Rückgängig machen",
+        "engine": "google"
+      },
+      "applyCoupon": {
+        "source": "Apply coupon",
+        "translation": "Gutschein anwenden",
+        "engine": "google"
+      },
+      "couponApplied": {
+        "source": "Coupon {code} applied",
+        "translation": "Gutschein {code} angewendet",
+        "engine": "google"
+      },
+      "proceedToCheckout": {
+        "source": "Proceed to checkout",
+        "translation": "Gehen Sie zur Kasse",
+        "engine": "google"
+      },
+      "checkoutTitle": {
+        "source": "Checkout",
+        "translation": "Kasse",
+        "engine": "google"
+      },
+      "shippingAddress": {
+        "source": "Shipping address",
+        "translation": "Lieferadresse",
+        "engine": "google"
+      },
+      "paymentMethod": {
+        "source": "Payment method",
+        "translation": "Zahlungsart",
+        "engine": "google"
+      },
+      "cardNumber": {
+        "source": "Card number",
+        "translation": "Kartennummer",
+        "engine": "google"
+      },
+      "expiryDate": {
+        "source": "Expiry date",
+        "translation": "Verfallsdatum",
+        "engine": "google"
+      },
+      "securityCode": {
+        "source": "Security code",
+        "translation": "Sicherheitscode",
+        "engine": "google"
+      },
+      "placeOrder": {
+        "source": "Place order",
+        "translation": "Bestellung aufgeben",
+        "engine": "google"
+      },
+      "orderPlaced": {
+        "source": "Your order has been placed",
+        "translation": "Ihre Bestellung wurde aufgegeben",
+        "engine": "google"
+      },
+      "orderNumber": {
+        "source": "Order number {number}",
+        "translation": "Bestellnummer {number}",
+        "engine": "google"
+      },
+      "estimatedDelivery": {
+        "source": "Estimated delivery: {date}",
+        "translation": "Voraussichtliche Lieferung: {date}",
+        "engine": "google"
+      },
+      "cashOnDelivery": {
+        "source": "Cash on delivery",
+        "translation": "Nachnahme",
+        "engine": "google"
+      },
+      "addNewAddress": {
+        "source": "Add a new address",
+        "translation": "Fügen Sie eine neue Adresse hinzu",
+        "engine": "google"
+      },
+      "deliveryInstructions": {
+        "source": "Delivery instructions",
+        "translation": "Lieferanweisungen",
+        "engine": "google"
+      },
+      "paymentFailed": {
+        "source": "Payment failed, please try another card",
+        "translation": "Die Zahlung ist fehlgeschlagen. Bitte versuchen Sie es mit einer anderen Karte",
+        "engine": "google"
+      },
+      "ordersTitle": {
+        "source": "My orders",
+        "translation": "Meine Bestellungen",
+        "engine": "google"
+      },
+      "noOrders": {
+        "source": "You have no orders yet",
+        "translation": "Sie haben noch keine Bestellungen",
+        "engine": "google"
+      },
+      "orderStatusPending": {
+        "source": "Pending",
+        "translation": "Ausstehend",
+        "engine": "google"
+      },
+      "orderStatusShipped": {
+        "source": "Shipped",
+        "translation": "Ausgeliefert",
+        "engine": "google"
+      },
+      "orderStatusDelivered": {
+        "source": "Delivered",
+        "translation": "Geliefert",
+        "engine": "google"
+      },
+      "orderStatusCancelled": {
+        "source": "Cancelled",
+        "translation": "Abgesagt",
+        "engine": "google"
+      },
+      "trackOrder": {
+        "source": "Track order",
+        "translation": "Bestellung verfolgen",
+        "engine": "google"
+      },
+      "orderPlacedOn": {
+        "source": "Placed on {date}",
+        "translation": "Platziert am {date}",
+        "engine": "google"
+      },
+      "itemsInOrder": {
+        "source": "{count, plural, =1{1 item in this order} other{{count} items in this order}}",
+        "translation": "{count, plural, =1{1 Artikel in dieser Bestellung} other{{count} Artikel in dieser Bestellung}}",
+        "engine": "google"
+      },
+      "reorder": {
+        "source": "Order again",
+        "translation": "Bestellen Sie erneut",
+        "engine": "google"
+      },
+      "profileTitle": {
+        "source": "My profile",
+        "translation": "Mein Profil",
+        "engine": "google"
+      },
+      "editProfile": {
+        "source": "Edit profile",
+        "translation": "Profil bearbeiten",
+        "engine": "google"
+      },
+      "fullName": {
+        "source": "Full name",
+        "translation": "Vollständiger Name",
+        "engine": "google"
+      },
+      "phoneNumber": {
+        "source": "Phone number",
+        "translation": "Telefonnummer",
+        "engine": "google"
+      },
+      "addresses": {
+        "source": "Saved addresses",
+        "translation": "Gespeicherte Adressen",
+        "engine": "google"
+      },
+      "wishlist": {
+        "source": "Wishlist",
+        "translation": "Wunschliste",
+        "engine": "google"
+      },
+      "wishlistCount": {
+        "source": "{count, plural, =0{Your wishlist is empty} =1{1 saved item} other{{count} saved items}}",
+        "translation": "{count, plural, =0{Ihre Wunschliste ist leer} =1{1 gespeicherter Artikel} other{{count} Artikel gespeichert}}",
+        "engine": "google"
+      },
+      "memberSince": {
+        "source": "Member since {year}",
+        "translation": "Mitglied seit {year}",
+        "engine": "google"
+      },
+      "inviteFriends": {
+        "source": "Invite friends",
+        "translation": "Freunde einladen",
+        "engine": "google"
+      },
+      "inviteReward": {
+        "source": "Get {amount} for every friend who joins",
+        "translation": "Erhalten Sie {amount} für jeden Freund, der beitritt",
+        "engine": "google"
+      },
+      "settingsTitle": {
+        "source": "Settings",
+        "translation": "Einstellungen",
+        "engine": "google"
+      },
+      "language": {
+        "source": "Language",
+        "translation": "Sprache",
+        "engine": "google"
+      },
+      "darkMode": {
+        "source": "Dark mode",
+        "translation": "Dunkler Modus",
+        "engine": "google"
+      },
+      "notificationsSetting": {
+        "source": "Notifications",
+        "translation": "Benachrichtigungen",
+        "engine": "google"
+      },
+      "pushNotifications": {
+        "source": "Push notifications",
+        "translation": "Push-Benachrichtigungen",
+        "engine": "google"
+      },
+      "emailNotifications": {
+        "source": "Email notifications",
+        "translation": "E-Mail-Benachrichtigungen",
+        "engine": "google"
+      },
+      "currency": {
+        "source": "Currency",
+        "translation": "Währung",
+        "engine": "google"
+      },
+      "privacyPolicy": {
+        "source": "Privacy policy",
+        "translation": "Datenschutzrichtlinie",
+        "engine": "google"
+      },
+      "termsOfService": {
+        "source": "Terms of service",
+        "translation": "Nutzungsbedingungen",
+        "engine": "google"
+      },
+      "helpCenter": {
+        "source": "Help center",
+        "translation": "Hilfecenter",
+        "engine": "google"
+      },
+      "contactUs": {
+        "source": "Contact us",
+        "translation": "Kontaktieren Sie uns",
+        "engine": "google"
+      },
+      "rateApp": {
+        "source": "Rate the app",
+        "translation": "Bewerten Sie die App",
+        "engine": "google"
+      },
+      "appVersion": {
+        "source": "Version {version}",
+        "translation": "Version {version}",
+        "engine": "google"
+      },
+      "deleteAccount": {
+        "source": "Delete my account",
+        "translation": "Mein Konto löschen",
+        "engine": "google"
+      },
+      "notificationsTitle": {
+        "source": "Notifications",
+        "translation": "Benachrichtigungen",
+        "engine": "google"
+      },
+      "noNotifications": {
+        "source": "No notifications yet",
+        "translation": "Noch keine Benachrichtigungen",
+        "engine": "google"
+      },
+      "markAllRead": {
+        "source": "Mark all as read",
+        "translation": "Alle als gelesen markieren",
+        "engine": "google"
+      },
+      "newMessagesFrom": {
+        "source": "{count, plural, =1{1 new message from {name}} other{{count} new messages from {name}}}",
+        "translation": "{count, plural, =1{1 neue Nachricht von {name}} other{{count} neue Nachrichten von {name}}}",
+        "engine": "google"
+      },
+      "priceDropAlert": {
+        "source": "The price of {product} just dropped",
+        "translation": "Der Preis von {product} ist gerade gesunken",
+        "engine": "google"
+      },
+      "orderShippedNotice": {
+        "source": "Order {orderId} is on its way",
+        "translation": "Bestellung {orderId} ist unterwegs",
+        "engine": "google"
+      },
+      "errorGeneric": {
+        "source": "Something went wrong",
+        "translation": "Etwas ist schief gelaufen",
+        "engine": "google"
+      },
+      "errorNetwork": {
+        "source": "No internet connection",
+        "translation": "Keine Internetverbindung",
+        "engine": "google"
+      },
+      "errorTimeout": {
+        "source": "The request timed out",
+        "translation": "Bei der Anfrage ist eine Zeitüberschreitung aufgetreten",
+        "engine": "google"
+      },
+      "errorServer": {
+        "source": "Our server is having trouble",
+        "translation": "Unser Server hat Probleme",
+        "engine": "google"
+      },
+      "errorInvalidEmail": {
+        "source": "Please enter a valid email address",
+        "translation": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+        "engine": "google"
+      },
+      "errorPasswordTooShort": {
+        "source": "Password must be at least {min} characters",
+        "translation": "Das Passwort muss mindestens {min} Zeichen lang sein",
+        "engine": "google"
+      },
+      "errorRequiredField": {
+        "source": "This field is required",
+        "translation": "Dieses Feld ist erforderlich",
+        "engine": "google"
+      },
+      "errorPaymentDeclined": {
+        "source": "Your payment was declined",
+        "translation": "Ihre Zahlung wurde abgelehnt",
+        "engine": "google"
+      },
+      "retry": {
+        "source": "Try again",
+        "translation": "Versuchen Sie es erneut",
+        "engine": "google"
+      },
+      "sessionExpired": {
+        "source": "Your session has expired, please sign in again",
+        "translation": "Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an",
+        "engine": "google"
+      },
+      "ok": {
+        "source": "OK",
+        "translation": "OK",
+        "engine": "google"
+      },
+      "cancel": {
+        "source": "Cancel",
+        "translation": "Stornieren",
+        "engine": "google"
+      },
+      "save": {
+        "source": "Save",
+        "translation": "Speichern",
+        "engine": "google"
+      },
+      "delete": {
+        "source": "Delete",
+        "translation": "Löschen",
+        "engine": "google"
+      },
+      "edit": {
+        "source": "Edit",
+        "translation": "Bearbeiten",
+        "engine": "google"
+      },
+      "close": {
+        "source": "Close",
+        "translation": "Schließen",
+        "engine": "google"
+      },
+      "confirm": {
+        "source": "Confirm",
+        "translation": "Bestätigen",
+        "engine": "google"
+      },
+      "yes": {
+        "source": "Yes",
+        "translation": "Ja",
+        "engine": "google"
+      },
+      "no": {
+        "source": "No",
+        "translation": "NEIN",
+        "engine": "google"
+      },
+      "loading": {
+        "source": "Loading…",
+        "translation": "Laden…",
+        "engine": "google"
+      },
+      "done": {
+        "source": "Done",
+        "translation": "Erledigt",
+        "engine": "google"
+      },
+      "back": {
+        "source": "Back",
+        "translation": "Zurück",
+        "engine": "google"
+      },
+      "next": {
+        "source": "Next",
+        "translation": "Nächste",
+        "engine": "google"
+      },
+      "skip": {
+        "source": "Skip",
+        "translation": "Überspringen",
+        "engine": "google"
+      },
+      "genderGreeting": {
+        "source": "{gender, select, male{Welcome, Mr. {name}} female{Welcome, Ms. {name}} other{Welcome, {name}}}",
+        "translation": "{gender, select, male{Willkommen, Herr {name}} female{Willkommen, Frau {name}} other{Willkommen, {name}}}",
+        "engine": "google"
+      },
+      "itemsSelected": {
+        "source": "{count, plural, =0{Nothing selected} =1{1 selected} other{{count} selected}}",
+        "translation": "{count, plural, =0{Nichts ausgewählt} =1{1 ausgewählt} other{{count} ausgewählt}}",
+        "engine": "google"
+      },
+      "daysLeft": {
+        "source": "{count, plural, =1{1 day left} other{{count} days left}}",
+        "translation": "{count, plural, =1{Noch 1 Tag übrig} other{Noch {count} Tage übrig}}",
+        "engine": "google"
+      },
+      "minutesAgo": {
+        "source": "{count, plural, =0{Just now} =1{1 minute ago} other{{count} minutes ago}}",
+        "translation": "{count, plural, =0{Soeben} =1{Vor 1 Minute} other{Vor {count} Minuten}}",
+        "engine": "google"
+      },
+      "followers": {
+        "source": "{count, plural, =1{1 follower} other{{count} followers}}",
+        "translation": "{count, plural, =1{1 Follower} other{{count} Follower}}",
+        "engine": "google"
+      },
+      "lastSeen": {
+        "source": "Last seen {time}",
+        "translation": "Zuletzt gesehen {time}",
+        "engine": "google"
+      },
+      "monday": {
+        "source": "Monday",
+        "translation": "Montag",
+        "engine": "google"
+      },
+      "tuesday": {
+        "source": "Tuesday",
+        "translation": "Dienstag",
+        "engine": "google"
+      },
+      "wednesday": {
+        "source": "Wednesday",
+        "translation": "Mittwoch",
+        "engine": "google"
+      },
+      "thursday": {
+        "source": "Thursday",
+        "translation": "Donnerstag",
+        "engine": "google"
+      },
+      "friday": {
+        "source": "Friday",
+        "translation": "Freitag",
+        "engine": "google"
+      },
+      "saturday": {
+        "source": "Saturday",
+        "translation": "Samstag",
+        "engine": "google"
+      },
+      "sunday": {
+        "source": "Sunday",
+        "translation": "Sonntag",
+        "engine": "google"
+      }
+    },
+    "es": {
+      "appTitle": {
+        "source": "Souq Shop",
+        "translation": "Tienda Zoco",
+        "engine": "google"
+      },
+      "tagline": {
+        "source": "Everything you need, delivered fast",
+        "translation": "Todo lo que necesitas, entregado rápidamente",
+        "engine": "google"
+      },
+      "onboardingTitle1": {
+        "source": "Discover thousands of products",
+        "translation": "Descubre miles de productos",
+        "engine": "google"
+      },
+      "onboardingBody1": {
+        "source": "Browse curated collections from trusted sellers.",
+        "translation": "Explore colecciones seleccionadas de vendedores confiables.",
+        "engine": "google"
+      },
+      "onboardingTitle2": {
+        "source": "Fast and safe delivery",
+        "translation": "Entrega rápida y segura",
+        "engine": "google"
+      },
+      "onboardingBody2": {
+        "source": "Track every order from the warehouse to your door.",
+        "translation": "Realice un seguimiento de cada pedido desde el almacén hasta su puerta.",
+        "engine": "google"
+      },
+      "onboardingTitle3": {
+        "source": "Pay the way you like",
+        "translation": "Paga como quieras",
+        "engine": "google"
+      },
+      "onboardingBody3": {
+        "source": "Cards, wallets or cash on delivery.",
+        "translation": "Tarjetas, carteras o contra reembolso.",
+        "engine": "google"
+      },
+      "signIn": {
+        "source": "Sign in",
+        "translation": "Iniciar sesión",
+        "engine": "google"
+      },
+      "signUp": {
+        "source": "Sign up",
+        "translation": "Inscribirse",
+        "engine": "google"
+      },
+      "signOut": {
+        "source": "Sign out",
+        "translation": "desconectar",
+        "engine": "google"
+      },
+      "email": {
+        "source": "Email address",
+        "translation": "Dirección de correo electrónico",
+        "engine": "google"
+      },
+      "password": {
+        "source": "Password",
+        "translation": "Contraseña",
+        "engine": "google"
+      },
+      "forgotPassword": {
+        "source": "Forgot your password?",
+        "translation": "¿Olvidaste tu contraseña?",
+        "engine": "google"
+      },
+      "resetPassword": {
+        "source": "Reset password",
+        "translation": "Restablecer contraseña",
+        "engine": "google"
+      },
+      "createAccount": {
+        "source": "Create account",
+        "translation": "Crear una cuenta",
+        "engine": "google"
+      },
+      "alreadyHaveAccount": {
+        "source": "Already have an account?",
+        "translation": "¿Ya tienes una cuenta?",
+        "engine": "google"
+      },
+      "noAccount": {
+        "source": "Don't have an account?",
+        "translation": "¿No tienes una cuenta?",
+        "engine": "google"
+      },
+      "continueWithGoogle": {
+        "source": "Continue with Google",
+        "translation": "Continuar con Google",
+        "engine": "google"
+      },
+      "continueWithApple": {
+        "source": "Continue with Apple",
+        "translation": "Continuar con Apple",
+        "engine": "google"
+      },
+      "termsAgreement": {
+        "source": "By continuing you agree to our terms",
+        "translation": "Al continuar aceptas nuestros términos",
+        "engine": "google"
+      },
+      "welcomeBack": {
+        "source": "Welcome back, {name}!",
+        "translation": "¡Bienvenido de nuevo, {name}!",
+        "engine": "google"
+      },
+      "navHome": {
+        "source": "Home",
+        "translation": "Hogar",
+        "engine": "google"
+      },
+      "navCategories": {
+        "source": "Categories",
+        "translation": "Categorías",
+        "engine": "google"
+      },
+      "navCart": {
+        "source": "Cart",
+        "translation": "Carro",
+        "engine": "google"
+      },
+      "navOrders": {
+        "source": "Orders",
+        "translation": "Órdenes",
+        "engine": "google"
+      },
+      "navProfile": {
+        "source": "Profile",
+        "translation": "Perfil",
+        "engine": "google"
+      },
+      "homeGreeting": {
+        "source": "Good to see you, {name}",
+        "translation": "Qué bueno verte, {name}",
+        "engine": "google"
+      },
+      "searchHint": {
+        "source": "Search for products",
+        "translation": "Buscar productos",
+        "engine": "google"
+      },
+      "featured": {
+        "source": "Featured",
+        "translation": "Presentado",
+        "engine": "google"
+      },
+      "newArrivals": {
+        "source": "New arrivals",
+        "translation": "Recién llegados",
+        "engine": "google"
+      },
+      "bestSellers": {
+        "source": "Best sellers",
+        "translation": "Los más vendidos",
+        "engine": "google"
+      },
+      "seeAll": {
+        "source": "See all",
+        "translation": "Ver todo",
+        "engine": "google"
+      },
+      "flashSaleEndsIn": {
+        "source": "Flash sale ends in {hours}h {minutes}m",
+        "translation": "La venta flash finaliza en {hours}h {minutes}m",
+        "engine": "google"
+      },
+      "freeShippingOver": {
+        "source": "Free shipping on orders over {amount}",
+        "translation": "Envío gratuito en pedidos superiores a {amount}",
+        "engine": "google"
+      },
+      "categoryElectronics": {
+        "source": "Electronics",
+        "translation": "Electrónica",
+        "engine": "google"
+      },
+      "categoryFashion": {
+        "source": "Fashion",
+        "translation": "Moda",
+        "engine": "google"
+      },
+      "categoryHomeKitchen": {
+        "source": "Home & kitchen",
+        "translation": "Hogar y cocina",
+        "engine": "google"
+      },
+      "categoryBeauty": {
+        "source": "Beauty",
+        "translation": "Belleza",
+        "engine": "google"
+      },
+      "categorySports": {
+        "source": "Sports",
+        "translation": "Deportes",
+        "engine": "google"
+      },
+      "categoryToys": {
+        "source": "Toys",
+        "translation": "juguetes",
+        "engine": "google"
+      },
+      "categoryBooks": {
+        "source": "Books",
+        "translation": "Libros",
+        "engine": "google"
+      },
+      "categoryGrocery": {
+        "source": "Grocery",
+        "translation": "Tienda de comestibles",
+        "engine": "google"
+      },
+      "categoryGarden": {
+        "source": "Garden",
+        "translation": "Jardín",
+        "engine": "google"
+      },
+      "categoryAutomotive": {
+        "source": "Automotive",
+        "translation": "Automotor",
+        "engine": "google"
+      },
+      "categoryHealth": {
+        "source": "Health",
+        "translation": "Salud",
+        "engine": "google"
+      },
+      "categoryPets": {
+        "source": "Pets",
+        "translation": "Mascotas",
+        "engine": "google"
+      },
+      "categoryMusic": {
+        "source": "Music",
+        "translation": "Música",
+        "engine": "google"
+      },
+      "categoryOfficeSupplies": {
+        "source": "Office supplies",
+        "translation": "Material de oficina",
+        "engine": "google"
+      },
+      "categoryJewelry": {
+        "source": "Jewelry",
+        "translation": "Joyas",
+        "engine": "google"
+      },
+      "categoryBabyCare": {
+        "source": "Baby care",
+        "translation": "cuidado del bebe",
+        "engine": "google"
+      },
+      "addToCart": {
+        "source": "Add to cart",
+        "translation": "Añadir a la cesta",
+        "engine": "google"
+      },
+      "buyNow": {
+        "source": "Buy now",
+        "translation": "Comprar ahora",
+        "engine": "google"
+      },
+      "inStock": {
+        "source": "In stock",
+        "translation": "En stock",
+        "engine": "google"
+      },
+      "outOfStock": {
+        "source": "Out of stock",
+        "translation": "Agotado",
+        "engine": "google"
+      },
+      "onlyLeft": {
+        "source": "{count, plural, =1{Only 1 left in stock} other{Only {count} left in stock}}",
+        "translation": "{count, plural, =1{Solo queda 1 en stock} other{Solo queda {count} en stock}}",
+        "engine": "google"
+      },
+      "reviewsCount": {
+        "source": "{count, plural, =0{No reviews yet} =1{1 review} other{{count} reviews}}",
+        "translation": "{count, plural, =0{Aún no hay reseñas} =1{1 reseña} other{{count} reseñas}}",
+        "engine": "google"
+      },
+      "ratingOutOfFive": {
+        "source": "Rated {rating} out of 5",
+        "translation": "Calificación {rating} de 5",
+        "engine": "google"
+      },
+      "productDescription": {
+        "source": "Description",
+        "translation": "Descripción",
+        "engine": "google"
+      },
+      "specifications": {
+        "source": "Specifications",
+        "translation": "Presupuesto",
+        "engine": "google"
+      },
+      "size": {
+        "source": "Size",
+        "translation": "Tamaño",
+        "engine": "google"
+      },
+      "color": {
+        "source": "Color",
+        "translation": "Color",
+        "engine": "google"
+      },
+      "quantity": {
+        "source": "Quantity",
+        "translation": "Cantidad",
+        "engine": "google"
+      },
+      "shareProduct": {
+        "source": "Share this product",
+        "translation": "Comparte este producto",
+        "engine": "google"
+      },
+      "priceWithDiscount": {
+        "source": "{price} instead of {oldPrice}",
+        "translation": "{price} en lugar de {oldPrice}",
+        "engine": "google"
+      },
+      "cartTitle": {
+        "source": "Shopping cart",
+        "translation": "Carro de la compra",
+        "engine": "google"
+      },
+      "cartEmpty": {
+        "source": "Your cart is empty",
+        "translation": "Tu carrito está vacío",
+        "engine": "google"
+      },
+      "cartItems": {
+        "source": "{count, plural, =0{No items} =1{1 item} other{{count} items}}",
+        "translation": "{count, plural, =0{Sin artículos} =1{1 artículo} other{{count} artículos}}",
+        "engine": "google"
+      },
+      "subtotal": {
+        "source": "Subtotal",
+        "translation": "Total parcial",
+        "engine": "google"
+      },
+      "shipping": {
+        "source": "Shipping",
+        "translation": "Envío",
+        "engine": "google"
+      },
+      "tax": {
+        "source": "Tax",
+        "translation": "Impuesto",
+        "engine": "google"
+      },
+      "total": {
+        "source": "Total",
+        "translation": "Total",
+        "engine": "google"
+      },
+      "removeItem": {
+        "source": "Remove item",
+        "translation": "Quitar elemento",
+        "engine": "google"
+      },
+      "undo": {
+        "source": "Undo",
+        "translation": "Deshacer",
+        "engine": "google"
+      },
+      "applyCoupon": {
+        "source": "Apply coupon",
+        "translation": "Aplicar cupón",
+        "engine": "google"
+      },
+      "couponApplied": {
+        "source": "Coupon {code} applied",
+        "translation": "Cupón {code} aplicado",
+        "engine": "google"
+      },
+      "proceedToCheckout": {
+        "source": "Proceed to checkout",
+        "translation": "Pasar por la caja",
+        "engine": "google"
+      },
+      "checkoutTitle": {
+        "source": "Checkout",
+        "translation": "Verificar",
+        "engine": "google"
+      },
+      "shippingAddress": {
+        "source": "Shipping address",
+        "translation": "Dirección de envío",
+        "engine": "google"
+      },
+      "paymentMethod": {
+        "source": "Payment method",
+        "translation": "Método de pago",
+        "engine": "google"
+      },
+      "cardNumber": {
+        "source": "Card number",
+        "translation": "Número de tarjeta",
+        "engine": "google"
+      },
+      "expiryDate": {
+        "source": "Expiry date",
+        "translation": "Fecha de caducidad",
+        "engine": "google"
+      },
+      "securityCode": {
+        "source": "Security code",
+        "translation": "código de seguridad",
+        "engine": "google"
+      },
+      "placeOrder": {
+        "source": "Place order",
+        "translation": "Realizar pedido",
+        "engine": "google"
+      },
+      "orderPlaced": {
+        "source": "Your order has been placed",
+        "translation": "Tu pedido ha sido realizado",
+        "engine": "google"
+      },
+      "orderNumber": {
+        "source": "Order number {number}",
+        "translation": "Número de pedido {number}",
+        "engine": "google"
+      },
+      "estimatedDelivery": {
+        "source": "Estimated delivery: {date}",
+        "translation": "Entrega estimada: {date}",
+        "engine": "google"
+      },
+      "cashOnDelivery": {
+        "source": "Cash on delivery",
+        "translation": "Contra reembolso",
+        "engine": "google"
+      },
+      "addNewAddress": {
+        "source": "Add a new address",
+        "translation": "Agregar una nueva dirección",
+        "engine": "google"
+      },
+      "deliveryInstructions": {
+        "source": "Delivery instructions",
+        "translation": "Instrucciones de entrega",
+        "engine": "google"
+      },
+      "paymentFailed": {
+        "source": "Payment failed, please try another card",
+        "translation": "Error en el pago, intente con otra tarjeta",
+        "engine": "google"
+      },
+      "ordersTitle": {
+        "source": "My orders",
+        "translation": "mis pedidos",
+        "engine": "google"
+      },
+      "noOrders": {
+        "source": "You have no orders yet",
+        "translation": "Aún no tienes pedidos",
+        "engine": "google"
+      },
+      "orderStatusPending": {
+        "source": "Pending",
+        "translation": "Pendiente",
+        "engine": "google"
+      },
+      "orderStatusShipped": {
+        "source": "Shipped",
+        "translation": "Enviado",
+        "engine": "google"
+      },
+      "orderStatusDelivered": {
+        "source": "Delivered",
+        "translation": "Entregado",
+        "engine": "google"
+      },
+      "orderStatusCancelled": {
+        "source": "Cancelled",
+        "translation": "Cancelado",
+        "engine": "google"
+      },
+      "trackOrder": {
+        "source": "Track order",
+        "translation": "Seguimiento del pedido",
+        "engine": "google"
+      },
+      "orderPlacedOn": {
+        "source": "Placed on {date}",
+        "translation": "Colocado en {date}",
+        "engine": "google"
+      },
+      "itemsInOrder": {
+        "source": "{count, plural, =1{1 item in this order} other{{count} items in this order}}",
+        "translation": "{count, plural, =1{1 artículo en este orden} other{{count} artículos en este orden}}",
+        "engine": "google"
+      },
+      "reorder": {
+        "source": "Order again",
+        "translation": "Ordene nuevamente",
+        "engine": "google"
+      },
+      "profileTitle": {
+        "source": "My profile",
+        "translation": "mi perfil",
+        "engine": "google"
+      },
+      "editProfile": {
+        "source": "Edit profile",
+        "translation": "Editar perfil",
+        "engine": "google"
+      },
+      "fullName": {
+        "source": "Full name",
+        "translation": "nombre completo",
+        "engine": "google"
+      },
+      "phoneNumber": {
+        "source": "Phone number",
+        "translation": "Número de teléfono",
+        "engine": "google"
+      },
+      "addresses": {
+        "source": "Saved addresses",
+        "translation": "Direcciones guardadas",
+        "engine": "google"
+      },
+      "wishlist": {
+        "source": "Wishlist",
+        "translation": "Lista de deseos",
+        "engine": "google"
+      },
+      "wishlistCount": {
+        "source": "{count, plural, =0{Your wishlist is empty} =1{1 saved item} other{{count} saved items}}",
+        "translation": "{count, plural, =0{Tu lista de deseos está vacía} =1{1 artículo guardado} other{{count} elementos guardados}}",
+        "engine": "google"
+      },
+      "memberSince": {
+        "source": "Member since {year}",
+        "translation": "Miembro desde {year}",
+        "engine": "google"
+      },
+      "inviteFriends": {
+        "source": "Invite friends",
+        "translation": "invitar amigos",
+        "engine": "google"
+      },
+      "inviteReward": {
+        "source": "Get {amount} for every friend who joins",
+        "translation": "Obtén {amount} por cada amigo que se una",
+        "engine": "google"
+      },
+      "settingsTitle": {
+        "source": "Settings",
+        "translation": "Ajustes",
+        "engine": "google"
+      },
+      "language": {
+        "source": "Language",
+        "translation": "Idioma",
+        "engine": "google"
+      },
+      "darkMode": {
+        "source": "Dark mode",
+        "translation": "modo oscuro",
+        "engine": "google"
+      },
+      "notificationsSetting": {
+        "source": "Notifications",
+        "translation": "Notificaciones",
+        "engine": "google"
+      },
+      "pushNotifications": {
+        "source": "Push notifications",
+        "translation": "Notificaciones push",
+        "engine": "google"
+      },
+      "emailNotifications": {
+        "source": "Email notifications",
+        "translation": "Notificaciones por correo electrónico",
+        "engine": "google"
+      },
+      "currency": {
+        "source": "Currency",
+        "translation": "Divisa",
+        "engine": "google"
+      },
+      "privacyPolicy": {
+        "source": "Privacy policy",
+        "translation": "Política de privacidad",
+        "engine": "google"
+      },
+      "termsOfService": {
+        "source": "Terms of service",
+        "translation": "Términos de servicio",
+        "engine": "google"
+      },
+      "helpCenter": {
+        "source": "Help center",
+        "translation": "Centro de ayuda",
+        "engine": "google"
+      },
+      "contactUs": {
+        "source": "Contact us",
+        "translation": "Contáctenos",
+        "engine": "google"
+      },
+      "rateApp": {
+        "source": "Rate the app",
+        "translation": "Califica la aplicación",
+        "engine": "google"
+      },
+      "appVersion": {
+        "source": "Version {version}",
+        "translation": "Versión {version}",
+        "engine": "google"
+      },
+      "deleteAccount": {
+        "source": "Delete my account",
+        "translation": "eliminar mi cuenta",
+        "engine": "google"
+      },
+      "notificationsTitle": {
+        "source": "Notifications",
+        "translation": "Notificaciones",
+        "engine": "google"
+      },
+      "noNotifications": {
+        "source": "No notifications yet",
+        "translation": "Aún no hay notificaciones",
+        "engine": "google"
+      },
+      "markAllRead": {
+        "source": "Mark all as read",
+        "translation": "Marcar todo como leído",
+        "engine": "google"
+      },
+      "newMessagesFrom": {
+        "source": "{count, plural, =1{1 new message from {name}} other{{count} new messages from {name}}}",
+        "translation": "{count, plural, =1{1 mensaje nuevo de {name}} other{{count} mensajes nuevos de {name}}}",
+        "engine": "google"
+      },
+      "priceDropAlert": {
+        "source": "The price of {product} just dropped",
+        "translation": "El precio de {product} acaba de bajar",
+        "engine": "google"
+      },
+      "orderShippedNotice": {
+        "source": "Order {orderId} is on its way",
+        "translation": "El pedido {orderId} está en camino",
+        "engine": "google"
+      },
+      "errorGeneric": {
+        "source": "Something went wrong",
+        "translation": "algo salió mal",
+        "engine": "google"
+      },
+      "errorNetwork": {
+        "source": "No internet connection",
+        "translation": "Sin conexión a internet",
+        "engine": "google"
+      },
+      "errorTimeout": {
+        "source": "The request timed out",
+        "translation": "La solicitud expiró",
+        "engine": "google"
+      },
+      "errorServer": {
+        "source": "Our server is having trouble",
+        "translation": "Nuestro servidor está teniendo problemas",
+        "engine": "google"
+      },
+      "errorInvalidEmail": {
+        "source": "Please enter a valid email address",
+        "translation": "Por favor, introduce una dirección de correo electrónico válida",
+        "engine": "google"
+      },
+      "errorPasswordTooShort": {
+        "source": "Password must be at least {min} characters",
+        "translation": "La contraseña debe tener al menos {min} caracteres",
+        "engine": "google"
+      },
+      "errorRequiredField": {
+        "source": "This field is required",
+        "translation": "Este campo es obligatorio",
+        "engine": "google"
+      },
+      "errorPaymentDeclined": {
+        "source": "Your payment was declined",
+        "translation": "Su pago fue rechazado",
+        "engine": "google"
+      },
+      "retry": {
+        "source": "Try again",
+        "translation": "Intentar otra vez",
+        "engine": "google"
+      },
+      "sessionExpired": {
+        "source": "Your session has expired, please sign in again",
+        "translation": "Su sesión ha caducado, inicie sesión nuevamente",
+        "engine": "google"
+      },
+      "ok": {
+        "source": "OK",
+        "translation": "DE ACUERDO",
+        "engine": "google"
+      },
+      "cancel": {
+        "source": "Cancel",
+        "translation": "Cancelar",
+        "engine": "google"
+      },
+      "save": {
+        "source": "Save",
+        "translation": "Ahorrar",
+        "engine": "google"
+      },
+      "delete": {
+        "source": "Delete",
+        "translation": "Borrar",
+        "engine": "google"
+      },
+      "edit": {
+        "source": "Edit",
+        "translation": "Editar",
+        "engine": "google"
+      },
+      "close": {
+        "source": "Close",
+        "translation": "Cerca",
+        "engine": "google"
+      },
+      "confirm": {
+        "source": "Confirm",
+        "translation": "Confirmar",
+        "engine": "google"
+      },
+      "yes": {
+        "source": "Yes",
+        "translation": "Sí",
+        "engine": "google"
+      },
+      "no": {
+        "source": "No",
+        "translation": "No",
+        "engine": "google"
+      },
+      "loading": {
+        "source": "Loading…",
+        "translation": "Cargando…",
+        "engine": "google"
+      },
+      "done": {
+        "source": "Done",
+        "translation": "Hecho",
+        "engine": "google"
+      },
+      "back": {
+        "source": "Back",
+        "translation": "Atrás",
+        "engine": "google"
+      },
+      "next": {
+        "source": "Next",
+        "translation": "Próximo",
+        "engine": "google"
+      },
+      "skip": {
+        "source": "Skip",
+        "translation": "Saltar",
+        "engine": "google"
+      },
+      "genderGreeting": {
+        "source": "{gender, select, male{Welcome, Mr. {name}} female{Welcome, Ms. {name}} other{Welcome, {name}}}",
+        "translation": "{gender, select, male{Bienvenido, Sr. {name}} female{Bienvenida, Sra. {name}} other{Bienvenido, {name}}}",
+        "engine": "google"
+      },
+      "itemsSelected": {
+        "source": "{count, plural, =0{Nothing selected} =1{1 selected} other{{count} selected}}",
+        "translation": "{count, plural, =0{Nada seleccionado} =1{1 seleccionado} other{{count} seleccionado}}",
+        "engine": "google"
+      },
+      "daysLeft": {
+        "source": "{count, plural, =1{1 day left} other{{count} days left}}",
+        "translation": "{count, plural, =1{1 día restante} other{Quedan {count} días}}",
+        "engine": "google"
+      },
+      "minutesAgo": {
+        "source": "{count, plural, =0{Just now} =1{1 minute ago} other{{count} minutes ago}}",
+        "translation": "{count, plural, =0{En este momento} =1{Hace 1 minuto} other{Hace {count} minutos}}",
+        "engine": "google"
+      },
+      "followers": {
+        "source": "{count, plural, =1{1 follower} other{{count} followers}}",
+        "translation": "{count, plural, =1{1 seguidor} other{{count} seguidores}}",
+        "engine": "google"
+      },
+      "lastSeen": {
+        "source": "Last seen {time}",
+        "translation": "Visto por última vez {time}",
+        "engine": "google"
+      },
+      "monday": {
+        "source": "Monday",
+        "translation": "Lunes",
+        "engine": "google"
+      },
+      "tuesday": {
+        "source": "Tuesday",
+        "translation": "Martes",
+        "engine": "google"
+      },
+      "wednesday": {
+        "source": "Wednesday",
+        "translation": "Miércoles",
+        "engine": "google"
+      },
+      "thursday": {
+        "source": "Thursday",
+        "translation": "Jueves",
+        "engine": "google"
+      },
+      "friday": {
+        "source": "Friday",
+        "translation": "Viernes",
+        "engine": "google"
+      },
+      "saturday": {
+        "source": "Saturday",
+        "translation": "Sábado",
+        "engine": "google"
+      },
+      "sunday": {
+        "source": "Sunday",
+        "translation": "Domingo",
+        "engine": "google"
+      }
+    }
+  }
+}
