@@ -588,11 +588,11 @@ class _TranslateCommand extends _Base {
       });
       if (!json) {
         if (dry) {
-          final rows = [
-            for (final e in tr.translated.entries.take(limit))
-              [ansi.bold(e.key), ansi.gray(_clip(messages[e.key]!)), '→', _clip(e.value)],
-          ];
-          out.writeln(table(rows));
+          for (final e in tr.translated.entries.take(limit)) {
+            out.writeln('  ${ansi.bold(e.key)}');
+            out.writeln('    ${ansi.gray(pad(pr.base.locale, 5))} ${ansi.gray(_clip(messages[e.key]!, 110))}');
+            out.writeln('    ${ansi.green(pad(locale, 5))} ${_clip(e.value, 110)}');
+          }
           if (tr.translated.length > limit) {
             out.writeln(ansi.gray('  … and ${tr.translated.length - limit} more (use --all)'));
           }

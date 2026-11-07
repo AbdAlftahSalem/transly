@@ -183,7 +183,7 @@ void main() {
   group('unifiedDiff', () {
     test('shows added lines with context', () {
       final d = unifiedDiff('a\nb\nc\n', 'a\nb\nx\nc\n');
-      expect(d, ['--- before', '+++ after', '@@ -1 +1 @@', ' a', ' b', '+x', ' c']);
+      expect(d, ['--- before', '+++ after', '@@ -1,3 +1,4 @@', ' a', ' b', '+x', ' c']);
     });
 
     test('no changes, no diff', () {

@@ -110,7 +110,7 @@ String localeTable(List<LocaleReport> reports, Ansi a) {
   for (final r in reports) {
     final keys = r.file.entries.length;
     rows.add([
-      r.isBase ? '${a.bold(r.locale)} ${a.cyan('★ base')}' : a.bold(r.locale),
+      r.isBase ? '${a.bold(r.locale)} ${a.cyan('(base)')}' : a.bold(r.locale),
       a.gray(r.file.fileName),
       '$keys',
       n(r.count(IssueKind.missingKey), a.red),

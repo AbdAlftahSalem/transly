@@ -304,7 +304,9 @@ List<String> unifiedDiff(String before, String after,
     final end = (to + context + 1).clamp(0, all.length);
     final lineA = all.sublist(0, from).where((o) => o.key != '+').length + 1;
     final lineB = all.sublist(0, from).where((o) => o.key != '-').length + 1;
-    out.add('@@ -$lineA +$lineB @@');
+    final hunk = all.sublist(from, end);
+    out.add(
+        '@@ -$lineA,${hunk.where((o) => o.key != '+').length} +$lineB,${hunk.where((o) => o.key != '-').length} @@');
     for (var x = from; x < end; x++) {
       out.add('${all[x].key}${all[x].value}');
     }
